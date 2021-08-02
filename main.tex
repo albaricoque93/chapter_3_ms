@@ -189,7 +189,7 @@ For example, a population growth rate $r$ of a population $i$ can be function of
 Where $\mathcal{E}^0$ is defined as the null growth rate when the abiotic and biotic variables are set to their averages. Terms with superscripts represent marginal effects of letting all superscripted variables vary while fixing all the other variables at their average values. For example, the term $\mathcal{E}^X$ expresses the contribution of the variable $X$ to a growth rate when $Y$ is at its average, without the contribution when both variables are set to their averages :
 
 \begin{equation}
-  \mathcal{E}^{X} = r(X,\overline{Y}) - \mathcal{E}^{0}
+  \mathcal{E}^{X} = r_{i}(X,\overline{Y}) - \mathcal{E}^{0}
 \end{equation}
 
 
@@ -286,7 +286,7 @@ This normalization bounded $\Delta$ values from $-1$ to $1$.
 \vspace{5mm}
 \noindent\textbf{The parameter space of sexually antagonist selection}
 
-To evaluate if fluctuations in fitness values and population sizes allow sexually antagonistic alleles to coexist when their fitness values would typically not allow them to, we applied the approach presented so far to the whole parameter space of selection  ($ 0 < S_{m}, S_{f} < 1$). To do so, we partinioned the parameter space in 2500 parts, each one a combination of different $w_{jm}$ and $w_{kf}$ values. For each parameter combination, we  separetly calculated each allele's mean invasion growth rate when invading through males and females, as well as its functional decomposition. Then, we determined coexistence outcomes using the mutual invasibility criterion. Finally, we calculated the proportion of the parameter space that allowed alleles to coexist, for each allele invading via a different pathway.
+To evaluate if fluctuations in fitness values and population sizes allow sexually antagonistic alleles to coexist when their fitness values would typically not allow them to, we applied the approach presented so far to the whole parameter space of selection  ($ 0 < S_{m}, S_{f} < 1$). To do so, we partinioned the parameter space in 2500 parts, each one a combination of different $w_{jm}$ and $w_{kf}$ values. For each parameter combination, we  separetly calculated each allele's mean invasion growth rate when invading through males and females, as well as its functional decomposition. Then, we determined coexistence outcomes using the mutual invasibility criterion. Finally, we calculated the proportion of the parameter space that allowed alleles to coexist, for each allele invading via a different sex.
 
 We explored all of  the combinations of low, intermediate and high fluctuations in fitness values and population sizes (Table ). For each one of the factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$, we applied our approach across the parameter space of selection. We did three replicates per parameter combination, which resulted in $n$ simulations.
 
@@ -298,34 +298,52 @@ We explored all of  the combinations of low, intermediate and high fluctuations 
 
 
 
-\begin{table}
-\fontsize{12}{10}\selectfont % the spacing on this is rough
+\begin{table}[h]
+\fontsize{7}{12}\selectfont % the spacing on this is rough
     \centering
   \resizebox{\textwidth}{!} {\begin{tabular}{c|c|c}
+  \toprule
         Term & Formula & Meaning \\
         \hline
-         $\mathcal{E}^{0}_{j}$ & $r_{j}(\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}})$ & Population growth rate at mean population size and fitness levels. \\
-         $\overline{\mathcal{E}}^{N_{m}}_{j}$ & $\frac{1}{m} \sum_{k=1}  r_{j}(N_{m}(t_{k}), \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j} $ & Main effect of variation in male population \\
-         $\overline{\mathcal{E}}^{N_{f}}_{j}$ & $\frac{1}{m} \sum_{k=1}  r_{j}(N_{f}(t_{k}), \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$ & Main effect of variation in female population \\
-         $\overline{\mathcal{E}}^{w_{jm}}_{j}$ & $\frac{1}{m} \sum_{k=1}  r_{j}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}(t_{k}), \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$& Main effect of variation in fitness of j allele in males\\ %decided to keep fitnesses we used in recreating Connellon
-         $\overline{\mathcal{E}}^{w_{kf}}_{j}$& $\frac{1}{m} \sum_{k=1}  r_{j}(\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, w_{kf}(t_{k}))- \mathcal{E}^{0}_{j}$ & Main effect of variation in fitness of k allele in females\\
-         % pairwise terms
-         $\overline{\mathcal{E}}^{N_{m}N_{f}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), N_{f}(t_k), \overline{w_{jm}}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_j+\overline{\mathcal{E}}^{N_{f}}_{j}]$ & Interaction of variation in $N_m$ and $N_f$\\
-         $\overline{\mathcal{E}}^{N_{m}w_{kf}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), \overline{N_{f}}, \overline{w_{jm}}, w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of variation in $N_m$ and $w_{kf}$\\
-         $\overline{\mathcal{E}}^{N_{m}w_{jm}}_{j}$ & $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), \overline{N_{f}}, w_{jm}(t_k), \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$  & Interaction of variation in $N_m$ and $w_{jm}$\\
-         $\overline{\mathcal{E}}^{N_{f}w_{fk}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(\overline{N_{m}}, N_{f}(t_k), \overline{w_{jm}}, w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of variation in $N_f$ and $w_{kf}$ \\
-         $\overline{\mathcal{E}}^{N_{f}w_{jm}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(\overline{N_{m}}, N_{f}(t_k), w_{jm}(t_k), \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$ & Interaction of variation in $N_f$ and $w_{jm}$ \\
-         $\overline{\mathcal{E}}^{w_{jm}w_{fk}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}(t_k), w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{w_{kf}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$ & Interaction of variation in $w_{kf}$ and $w_{jm}$ \\
-         %triplicate terms
-         $\overline{\mathcal{E}}^{N_{f}w_{jm}w_{fk}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(\overline{N_{m}}, N_{f}(t_k), w_{jm}(t_k), w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{kf}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$ & Interaction of variation in $N_f$, $w_{kf}$, and $w_{jm}$ \\
-         $\overline{\mathcal{E}}^{N_{m}w_{jm}w_{fk}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), \overline{N_{f}}, w_{jm}(t_k), w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{kf}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$  & Interaction of variation in $N_m$, $w_{kf}$, and $w_{jm}$ \\
-         $\overline{\mathcal{E}}^{N_{f}N_{m}w_{fk}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), N_{f}(t_k), \overline{w_{jm}}, w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{kf}}_j]$ & Interaction of variation in $N_f$, $N_m$, and $w_{kf}$ \\
-         $\overline{\mathcal{E}}^{N_{f}N_{m}w_{jm}}_{j}$& $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), N_{f}(t_k), w_{jm}(t_k), \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j]$ & Interaction of variation in $N_f$, $N_m$, and $w_{jm}$ \\
-         % quad
-         $\overline{\mathcal{E}}^{N_{f}N_{m}w_{jm}w_{fk}}_{j}$&  $\frac{1}{m} \sum_{k=1}^m  r_{j}(N_{m}(t_k), N_{f}(t_k), w_{jm}(t_k), w_{kf}(t_k))- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_j$] & Interaction of variation in $N_f$, $N_m$, $w_{jm}$, and $w_{kf}$ \\
+         $\mathcal{E}^{0}_{j}$ & $\overline{r_{j}} (\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}})$ & Growth rate at mean population size and fitness values. \\
+
+
+         $\overline{\mathcal{E}}^{Nm}_{j}$ & $\overline{r}_{j}(N_{m} \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j} $ & Main effect of fluctuations the male population\\
+
+         $\overline{\mathcal{E}}^{Nf}_{j}$ & $ \overline{r_{j}}( \overline{N_{m}}, N_{f},\overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$ & Main effect of fluctuations in the female population \\
+
+        $\overline{\mathcal{E}}^{wjm}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$& Main effect of fluctuations in fitness of allele $j$ in males\\
+
+        $\overline{\mathcal{E}}^{wkf}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, w_{kf})- \mathcal{E}^{0}_{j}$ & Main effect of fluctuations in fitness of allele $k$ in females\\
+
+
+
+        $\overline{\mathcal{E}}^{Nm,Nf}_{j}$ & $ \overline{r_{j}}(N_{m}, N_{f}, \overline{w_{jm}}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{Nm}_{j}+\overline{\mathcal{E}}^{Nf}_{j}]$ & Interaction of variation in $N_{m}$ and $N_{f}$\\
+
+
+        $\overline{\mathcal{E}}^{wjm,wkf}_{j}$ & \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{wkf}_{j}+\overline{\mathcal{E}}^{wjm}_{j}]$ & Interaction of variation in $w_{kf}$ and $w_{jm}$ \\
+
+         \bottomrule
     \end{tabular}}
     \caption{Functional decomposition of the growth rate of allele $j$. Need to get rid of the sums and $m$ because we are only presenting $j$. As well to add an overbar over rj. }
     \label{tab:EllnerRs}
+\end{table}
+
+
+
+\begin{table}[h]
+\fontsize{10}{18}\selectfont
+\centering
+\begin{tabular}{@{}llll@{}}
+\toprule
+Parameter                    & Values                    & Description                                   &  \\ \midrule
+$\sigma_{w}$ & 0.001, 0.1, 0.3, 0.7, 0.9 & Effect size of fluctuations in fitness values &  \\
+$\sigma_{g}$ & 0.001, 1, 10, 20, 30  & Effect size of fluctuations in population sizes                                              &  \\
+$\rho_{w}$  &  -0.75, 0, 0.75                         &   Correlation between fluctuations in fitness values                                            &  \\
+$\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between fluctuation in population sizes                                             &  \\ \bottomrule
+\end{tabular}
+\caption{This is a caption}
+\label{tab:fluctuations}
 \end{table}
 
 
