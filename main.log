@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.7)  30 JUL 2021 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.4.7)  2 AUG 2021 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -833,9 +833,9 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 ) [3
 
 ] [4] [5]
-[6] [7] [8] [9] [10
+[6] [7] [8] [9] [10] [11
 
-] (./main.bbl [11
+] (./main.bbl [12
 
 ])
 
@@ -845,13 +845,13 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: There were undefined citations.
 
-[12] (./main.aux) ) 
+[13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17783 strings out of 483107
- 354775 string characters out of 5964631
- 587686 words of memory out of 5000000
- 32440 multiletter control sequences out of 15000+600000
- 568560 words of font info for 114 fonts, out of 8000000 for 9000
+ 17804 strings out of 483107
+ 355012 string characters out of 5964631
+ 587722 words of memory out of 5000000
+ 32455 multiletter control sequences out of 15000+600000
+ 573727 words of font info for 128 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  60i,12n,75p,1598b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<
@@ -859,14 +859,15 @@ Here is how much of TeX's memory you used:
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
-plr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (14 pages, 126695 bytes).
+dist/fonts/type1/public/mathpazo/fplmb.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
+/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (15 pages, 135017 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
