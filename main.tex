@@ -88,12 +88,12 @@ We used an extended version of MCT to quantify the contribution of fluctuations 
 \label{selection}
  \end{equation}
 
-\citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}. These inequalities can be used to calculate the proportion of parameter space (within the range $ 0 < S_{m}, S_{f} < 1$) that leads to polymorphism of sexually antagonistic alleles: in $\approx 0.31$ of the parameter space allele $j$ will be fixed, in another $\approx 0.31$ of the parameter space allele $k$ will be fixed, and in $\approx 0.38$ of the parameter space polymorphism or coexistence of alleles can be maintained. However, most of the models used to explore the evolutionary dynamics of sexual antagonism assume constant population sizes and homogeneous environments \citep{kidwell1977regions,pamilo1979genic}. In constant environments, the maintenance of polymorphism (or coexistence) of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. If fluctuations in population sizes or fitness values can promote the coexistence of sexually antagonistic alleles, it would be reflected in an expansion of the parameter space where polymorphism is maintained.
+\citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}. These inequalities can be used to calculate the proportion of parameter space (within the range $ 0 < S_{m}, S_{f} < 1$) that leads to polymorphism of sexually antagonistic alleles: in $\approx 0.31$ of the parameter space allele $j$ will be fixed, in another $\approx 0.31$ of the parameter space allele $k$ will be fixed, and in $\approx 0.38$ of the parameter space polymorphism or coexistence of alleles can be maintained. However, most of the models used to explore the evolutionary dynamics of sexual antagonism assume constant population sizes and homogeneous environments \citep{kidwell1977regions,pamilo1979genic}. In constant environments, the maintenance of polymorphism of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. If fluctuations in population sizes or fitness values can promote the coexistence of sexually antagonistic alleles, it would be reflected in an increase of the proportion of the parameter space where polymorphism is maintained.
 
 
 \subsection*{Population dynamics of sexually antagonistic alleles}
 
-Although the evolutionary dynamics of sexually antagonistc selection are often explred though changes in alleles' frequencies, MCT requires population dynamics to be expressed as growth rates. Consider a population that has discrete generations, and that is subject to the previously described sexual antagonism between allele $j$ and $k$. The proportion of each allele in each sex at the beginning of a life-cycle is given by:
+Although the evolutionary dynamics of sexually antagonistc selection are often explored though changes in alleles' frequencies, MCT requires population dynamics to be expressed as growth rates. Consider a population that has discrete generations, and that is subject to the previously described sexual antagonism between allele $j$ and $k$. The proportion of each allele in each sex at the beginning of a life-cycle is given by:
 \begin{equation}
     p_{jm}= \frac{n_{jm}}{N_{m}}
     \label{first_pop}
@@ -210,8 +210,7 @@ The functional decomposition approach further requires the \textit{comparison} o
    \label{functional_decomp_3}
 \end{equation}
 
-Where each $\Delta$ term denotes the difference between the invader and resident terms. For example $\Delta^{0}$  is the difference in population growth rates at mean values of $X$ and $Y$, $\Delta^{X}$ is the difference in the main effects of variability in $X$ between invader and resi
-To understand the relative contribution of fluctuations in population sizes and fitness values, we applied thedent, and so on. This comparison allows decomposing each species' growth rate when rare into its mechanistic contributions. Mechanisms may have minimal effects, a destabilizing effect (a negative contribution to a species' growth rate when rare), or a stabilizing effect (a positive contribution to a species' growth rate when rare) \citep{shoemaker2020}.
+Where each $\Delta$ term denotes the difference between the invader and resident terms. For example $\Delta^{0}$  is the difference in population growth rates at mean values of $X$ and $Y$, $\Delta^{X}$ is the difference in the main effects of variability in $X$ between invader and resident, and so on. This comparison allows decomposing each species' growth rate when rare into its mechanistic contributions. Mechanisms may have minimal effects, a destabilizing effect (a negative contribution to a species' growth rate when rare), or a stabilizing effect (a positive contribution to a species' growth rate when rare) \citep{shoemaker2020}.
 
 In the case of antagonistic alleles, each term in Table \ref{tab:EllnerRs} can be compared to an analogue one of the other allele as a resident. For example, if allele $j$ is the invader and allele $k$ is the resident, the difference in invader and resident growth rates when the male population varies is given by:
 
@@ -230,7 +229,7 @@ Our simulations consisted of performing  invasion simulations of both alleles in
 \vspace{5mm}
 \noindent\textbf{Timeseries}
 
-For a determined value of $w_{jm}$ and $w_{kf}$, we first created a timeseries which projected our population model (Eqns.~\ref{first_pop} to \ref{full}) 500 timesteps. To generate the initial population, we used initial values of $N_{m}$ and $N_{f}$  of 200 individuals each, and equal frequencies of allele $j$ and allele $k$ in each sex. Throughout each timestep, we controlled how much populations sizes ($\sigma_{g}$), and fitness values ($\sigma_{w}$) varied, as well their correlations ($\rho_{g}$ and $\rho_{w}$). We show the full range of parameter values we used to introduce fluctuations in Table .
+For a determined value of $w_{jm}$ and $w_{kf}$, we first created a timeseries which projected our population model (Eqns.~\ref{first_pop} to \ref{full}) 500 timesteps. To generate the initial population, we used initial values of $N_{m}$ and $N_{f}$  of 200 individuals each, and equal frequencies of allele $j$ and allele $k$ in each sex. Throughout each timestep, we controlled how much populations sizes ($\sigma_{g}$), and fitness values ($\sigma_{w}$) varied, as well their correlations ($\rho_{g}$ and $\rho_{w}$). We show the full range of parameter values we used to introduce fluctuations in Table \ref{tab:fluctuations}.
 
 To introduce fluctuations in fitness values, following the appoach of  \citet{shoemaker2020}, we first generated a matrix of uncorrelated random viables using a normal distribution with a mean of zero and a standard deviation of one, for both of the fluctuating fitness values. Each matrix had two rows, and the same number of columns as number of timesteps in our simulations. Following this, we used the Cholesky factorisation of the variance-covariance matrix:
 
@@ -278,7 +277,7 @@ Having done the decomposition of invader and resident growth rates, we continued
 
 \begin{equation}
   \Delta^{Nm*}_{j}= \frac{\Delta^{Nm}_{j}}{\sqrt{
-    \sum\limits_{i=1}^{16} (\boldsymbol{\Delta})^{2} }}
+    \sum\limits_{i=1}^{16} (\boldsymbol{\Delta_{i}})^{2} }}
 \end{equation}
 
 This normalization bounded $\Delta$ values from $-1$ to $1$.
@@ -288,7 +287,11 @@ This normalization bounded $\Delta$ values from $-1$ to $1$.
 
 To evaluate if fluctuations in fitness values and population sizes allow sexually antagonistic alleles to coexist when their fitness values would typically not allow them to, we applied the approach presented so far to the whole parameter space of selection  ($ 0 < S_{m}, S_{f} < 1$). To do so, we partinioned the parameter space in 2500 parts, each one a combination of different $w_{jm}$ and $w_{kf}$ values. For each parameter combination, we  separetly calculated each allele's mean invasion growth rate when invading through males and females, as well as its functional decomposition. Then, we determined coexistence outcomes using the mutual invasibility criterion. Finally, we calculated the proportion of the parameter space that allowed alleles to coexist, for each allele invading via a different sex.
 
-We explored all of  the combinations of low, intermediate and high fluctuations in fitness values and population sizes (Table ). For each one of the factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$, we applied our approach across the parameter space of selection. We did three replicates per parameter combination, which resulted in $n$ simulations.
+We explored all of  the combinations of low ($\sigma_{w} = 0.1$ and $\sigma_{g}=1$), intermediate (($\sigma_{w} =  0.3$ and $\sigma_{g}=10$)) and high fluctuations ($\sigma_{w} = 0.7$ and $\sigma_{g}=30$) in fitness values and population sizes, with different extents of correlations between fluctuations (Table \ref{tab:fluctuations}).  As a control simulation, we set $\sigma_{w}= 0.001$ and  $\sigma_{g}=0.001$, with no correlation between fluctuations. For each one of the factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$ (Table \ref{tab:fluctuations}), we performed invasion simulations across the parameter space of selection. We did three replicates per parameter combination, which resulted in 432 simulations.
+
+
+\clearpage
+\subsection*{Results}
 
 
 
@@ -301,31 +304,55 @@ We explored all of  the combinations of low, intermediate and high fluctuations 
 \begin{table}[h]
 \fontsize{7}{12}\selectfont % the spacing on this is rough
     \centering
-  \resizebox{\textwidth}{!} {\begin{tabular}{c|c|c}
+      \caption{Functional decomposition of the growth rate of allele $j$. Need to get rid of the sums and $m$ because we are only presenting $j$. As well to add an overbar over rj. }
+  \resizebox{\textwidth}{!} {\begin{tabular}{l|l|l}
   \toprule
         Term & Formula & Meaning \\
         \hline
          $\mathcal{E}^{0}_{j}$ & $\overline{r_{j}} (\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}})$ & Growth rate at mean population size and fitness values. \\
 
 
-         $\overline{\mathcal{E}}^{Nm}_{j}$ & $\overline{r}_{j}(N_{m} \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j} $ & Main effect of fluctuations the male population\\
+         $\overline{\mathcal{E}}^{N_{m}}_{j}$ & $\overline{r}_{j}(N_{m} \overline{N_{f}}, \overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j} $ & Main effect of fluctuations in $N_{m}$\\
 
-         $\overline{\mathcal{E}}^{Nf}_{j}$ & $ \overline{r_{j}}( \overline{N_{m}}, N_{f},\overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$ & Main effect of fluctuations in the female population \\
+         $\overline{\mathcal{E}}^{N_{f}}_{j}$ & $ \overline{r_{j}}( \overline{N_{m}}, N_{f},\overline{w_{jm}}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$ & Main effect of fluctuations in $N_{f}$ \\
 
-        $\overline{\mathcal{E}}^{wjm}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$& Main effect of fluctuations in fitness of allele $j$ in males\\
+        $\overline{\mathcal{E}}^{w_{jm}}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}, \overline{w_{kf}}) - \mathcal{E}^{0}_{j}$& Main effect of fluctuations in $w_{jm}$\\
 
-        $\overline{\mathcal{E}}^{wkf}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, w_{kf})- \mathcal{E}^{0}_{j}$ & Main effect of fluctuations in fitness of allele $k$ in females\\
+        $\overline{\mathcal{E}}^{w_{kf}}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, \overline{w_{jm}}, w_{kf})- \mathcal{E}^{0}_{j}$ & Main effect of fluctuations in $w_{kf}$\\
+
+        $\overline{\mathcal{E}}^{N_{m},N_{f}}_{j}$ & $ \overline{r_{j}}(N_{m}, N_{f}, \overline{w_{jm}}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}]$ & Interaction of fluctuations in $N_{m}$ and $N_{f}$\\
+
+        $\overline{\mathcal{E}}^{w_{jm},w_{kf}}_{j}$ & $ \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of fluctuations in $w_{jm}$ and $w_{kf}$ \\
+
+        $\overline{\mathcal{E}}^{N_{m}w_{jm}}_{j}$ & $\overline{r_{j}}(N_{m}, \overline{N_{f}}, w_{jm}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$  & Interaction of fluctuations in $N_{m}$ and $w_{jm}$ \\
+
+
+        $\overline{\mathcal{E}}^{N_{m}w_{kf}}_{j}$& $ \overline{r_{j}}(N_{m}, \overline{N_{f}}, \overline{w_{jm}}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of fluctuations in $N_{m}$ and $w_{kf}$\\
+
+
+        $\overline{\mathcal{E}}^{N_{f}w_{jm}}_{j}$& $\overline{r_{j}}(\overline{N_{m}}, N_{f}, w_{jm}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_j+\overline{\mathcal{E}}^{w_{jm}}_{j}]$ & Interaction of variation in $N_{f}$ and $w_{jm}$ \\
+
+        $\overline{\mathcal{E}}^{N_{f}w_{fk}}_{j}$& $ \overline{r_{j}}(\overline{N_{m}}, N_{f}, \overline{w_{jm}}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of fluctuations $N_{f}$ and $w_{kf}$ \\
+
+ %%%%%%%%%triplicate terms
+
+        $\overline{\mathcal{E}}^{N_{m}w_{jm}w_{fk}}_{j}$& $ \overline{r_{j}}(N_{m}, \overline{N_{f}}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$  & Interaction of fluctuations in $N_{m}$, $w_{jm}$, and $w_{kf}$ \\
+
+      $\overline{\mathcal{E}}^{N_{f}w_{jm}w_{fk}}_{j}$& $ \overline{r_{j}}(\overline{N_{m}}, N_{f}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of fluctuations in $N_{f}$, $w_{jm}$, and $w_{kf}$ \\
+
+      $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}}_{j}$& $ \overline{r_{j}}(N_{m}, N_{f}, w_{jm}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j]$ & Interaction of variation in $N_{m}$, $N_{f}$, and $w_{jm}$ \\
 
 
 
-        $\overline{\mathcal{E}}^{Nm,Nf}_{j}$ & $ \overline{r_{j}}(N_{m}, N_{f}, \overline{w_{jm}}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{Nm}_{j}+\overline{\mathcal{E}}^{Nf}_{j}]$ & Interaction of variation in $N_{m}$ and $N_{f}$\\
+      $\overline{\mathcal{E}}^{N_{m}N_{f}w_{fk}}_{j}$& $ \overline{r_{j}}(N_{m}, N_{f}, \overline{w_{jm}}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{kf}}_j]$ & Interaction of fluctuations in $N_{m}$, $N_{f}$, and $w_{kf}$ \\
+
+%%%%%%%last part
+$\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}, N_{f}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_j$] & Interaction of variation in $N_f$, $N_m$, $w_{jm}$, and $w_{kf}$ \\
 
 
-        $\overline{\mathcal{E}}^{wjm,wkf}_{j}$ & \overline{r_{j}}(\overline{N_{m}}, \overline{N_{f}}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{wkf}_{j}+\overline{\mathcal{E}}^{wjm}_{j}]$ & Interaction of variation in $w_{kf}$ and $w_{jm}$ \\
 
          \bottomrule
     \end{tabular}}
-    \caption{Functional decomposition of the growth rate of allele $j$. Need to get rid of the sums and $m$ because we are only presenting $j$. As well to add an overbar over rj. }
     \label{tab:EllnerRs}
 \end{table}
 
@@ -334,18 +361,25 @@ We explored all of  the combinations of low, intermediate and high fluctuations 
 \begin{table}[h]
 \fontsize{10}{18}\selectfont
 \centering
+\caption{This is a caption}
 \begin{tabular}{@{}llll@{}}
 \toprule
 Parameter                    & Values                    & Description                                   &  \\ \midrule
-$\sigma_{w}$ & 0.001, 0.1, 0.3, 0.7, 0.9 & Effect size of fluctuations in fitness values &  \\
-$\sigma_{g}$ & 0.001, 1, 10, 20, 30  & Effect size of fluctuations in population sizes                                              &  \\
+$\sigma_{w}$ & 0.001, 0.1, 0.3, 0.5, 0.7, 0.9 & Effect size of fluctuations in fitness values &  \\
+$\sigma_{g}$ & 0.001, 1, 10, 20, 30, 50 & Effect size of fluctuations in population sizes                                              &  \\
 $\rho_{w}$  &  -0.75, 0, 0.75                         &   Correlation between fluctuations in fitness values                                            &  \\
 $\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between fluctuation in population sizes                                             &  \\ \bottomrule
 \end{tabular}
-\caption{This is a caption}
 \label{tab:fluctuations}
 \end{table}
 
+
+
+\begin{figure}[h]
+  \centerline{\includegraphics[width=1\textwidth]{fluctuations.pdf}}
+  \caption{ }
+    \label{fig:fitness_deltas}
+\end{figure}
 
 
 
