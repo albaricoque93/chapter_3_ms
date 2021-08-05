@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1627964414 "main.aux" "main.bbl" "main" 1627965096
+["bibtex main"] 1627965747 "main.aux" "main.bbl" "main" 1628049009
   "./ecology_letters.bst" 1607332170 31217 3ef79fc581785a9c2307ecf5276f883a ""
   "coexistence.bib" 1627599862 30892 67497a5b1d3f04d600cc99f8bf85086d ""
-  "main.aux" 1627965096 4780 4319e75f2f4a2c944d0e77d47f25fc69 "pdflatex"
+  "main.aux" 1628049009 4929 94c96b94f4cb5f66509954c1a74fb6c9 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1627965095 "main.tex" "main.pdf" "main" 1627965096
+  "main.blg"
+["pdflatex"] 1628049009 "main.tex" "main.pdf" "main" 1628049009
   "/etc/texmf/web2c/texmf.cnf" 1607377747 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -181,11 +181,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1611283868 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1617767055 4878474 89d1e474f7404b98580f82490d5ae588 ""
   "fluctuations.pdf" 1627965082 15011 eadffb9894d7a2edfeda881c5e02e612 ""
-  "main.aux" 1627965096 4780 4319e75f2f4a2c944d0e77d47f25fc69 "pdflatex"
-  "main.bbl" 1627964414 6783 ca76be1433a3950d9d6d513f198255e5 "bibtex main"
-  "main.tex" 1627965095 36862 9f455ed5dc26235e18f9f982803a5f29 ""
+  "fluctuations_two.pdf" 1628048961 20798 9d4bfd0189e69c382700085f28630b92 ""
+  "main.aux" 1628049009 4929 94c96b94f4cb5f66509954c1a74fb6c9 "pdflatex"
+  "main.bbl" 1627965747 6783 ca76be1433a3950d9d6d513f198255e5 "bibtex main"
+  "main.tex" 1628049009 37013 c1a1639dad500672c2da079a069c9dbb ""
   "sections/0_titlepage.tex" 1627426923 594 8eda51dcd68adb6982b31c9614f91893 ""
   (generated)
+  "main.aux"
   "main.log"
   "main.pdf"
-  "main.aux"

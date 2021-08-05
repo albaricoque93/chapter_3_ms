@@ -322,6 +322,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
 INPUT fluctuations.pdf
 INPUT ./fluctuations.pdf
 INPUT ./fluctuations.pdf
+INPUT fluctuations_two.pdf
+INPUT ./fluctuations_two.pdf
+INPUT ./fluctuations_two.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
