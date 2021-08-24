@@ -1,6 +1,5 @@
-%-------------------------------------------------------------------------
 \RequirePackage[]{lineno}
-\documentclass[]{article}
+\documentclass[12pt]{article}
 \usepackage{caption}
 \usepackage{times}
 \usepackage{setspace}
@@ -17,11 +16,8 @@
 \usepackage{tcolorbox}
 \usepackage{multicol}
 \usepackage{tabularx}
-\usepackage{subfiles}
 \usepackage{rotating}
-\usepackage{lscape}
-%\usepackage[hmargin=2.25cm, vmargin=2cm, headheight=15.5pt]{geometry}
-
+\usepackage{pdflscape}
 \captionsetup[figure]{font=small}
 \captionsetup[table]{font=small}
 
@@ -37,31 +33,111 @@
 \usepackage[]{natbib}
 \bibpunct[; ]{(}{)}{;}{a}{,}{;}
 
+% to avoid things being lost to overleaf comment bubbles
+\long\def\authornote#1{%
+    \leavevmode\unskip\raisebox{-3.5pt}{\rlap{$\scriptstyle\dagger$}}%
+    \marginpar{\raggedright\hbadness=10000
+        \def\baselinestretch{0.8}\tiny
+        \it #1\par}}
+\newcommand{\DBS}[1]{\authornote{DBS: #1}}
+\newcommand{\ACL}[1]{\authornote{ACL: #1}}
+
+\usepackage{authblk}
+\renewcommand\Affilfont{\small}
+
+\newenvironment{abox}[1]{
+  \begin{tcolorbox}[float,title=#1, colback=blue!4]
+  \fontsize{9}{10}\selectfont
+  \begin{multicols}{2}
+}{
+  \end{multicols}
+  \end{tcolorbox}
+}
 
 
+\newenvironment{ecolettcover}{\maketitle}{\clearpage}
+\newenvironment{ecolettabstract}{\clearpage\section*{Abstract}}{\clearpage}
+\tikzset{
+	%Define standard arrow tip
+	>=stealth',
+	%Define style for different line styles
+	help lines/.style={dashed, thick},
+	axis/.style={<->},
+	important line/.style={thick},
+	connection/.style={thick, dotted},
+}
+
+%\title{The structural sensitivity of competition models: how model formulation changes our predictions of species coexistence}
+\title{Coexistence of alleles: insights of Modern Coexistence Theory into the maintenance of genetic diversity}
+\author[1]{Alba Cervantes-Loreto}
+\author[1]{Michelle L.\ Maraffini}
+\author[1]{Daniel B.\ Stouffer}
+\author[1]{Sarah P.\ Flanagan}
+
+
+\affil[1]{Centre for Integrative Ecology, School of Biological Sciences\\ University of Canterbury, Christchurch 8140, New Zealand}
+
+
+
+% Include the date command, but leave its argument blank.
+\date{}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%
+\let\oldequation\equation
+\let\oldendequation\endequation
+
+\renewenvironment{equation}
+  {\linenomathNonumbers\oldequation}
+  {\oldendequation\endlinenomath}
+
+% \pagestyle{empty}
 
 \begin{document}
+\linenumbers
+% Double-space the manuscript.
+\baselineskip30pt
+\maketitle
 
+\begin{ecolettcover}
 
-\subfile{sections/0_titlepage}
-%\subfile{sections/1_introduction}
+%\centerline{{\sc Running Title:} The structural sensitivity of competition models}
+\begin{center}
+\begin{tabular}{ll}
+\hline \\
+
+\bf{Words in abstract}         & to be determined \\
+\bf{Words in manuscript}       & to be determined\\
+\bf{Number of references}      & to be determined  \\
+\bf{Number of figures}			& to be determined \\
+\bf{Number of tables} 			& 2 \\
+\bf{Number of text boxes}		& 0 \\
+\bf{Corresponding author}      & Alba Cervantes-Loreto \\
+\bf{Phone}                     & +64~369~2880 \\
+
+\bf{Email}                     & alba.cervantesloreto@pg.canterbury.ac.nz \\
+                                                                        \\
+\hline
+\end{tabular}
+\end{center}
+
+\maketitle
+
+\end{ecolettcover}
+%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 
-The question of how genetic variation is maintained, despite the effects of selection and drift, continues to be central to the study of evolutionary biology \citep{walsh_evolution_2018}. Classical explanations include overdominance (heterozygote advantage) or frequency-dependent selection, but in the modern era of genomic data all patterns of elevated variation than expected under neutrality tends to be categorized broadly as balancing selection, regardless of the evolutionary mechanism \citep{mitchell-olds_which_2007}.  One of the evolutionary mechanisms coined under balancing selection is sexually antagonistc selection  which ouccrs when the direction of natural selection on traits or loci differs between the sexes \citep{connallon2018environmental}.
+The question of how genetic variation is maintained, despite the effects of selection and drift, continues to be central to the study of evolutionary biology \citep{walsh_evolution_2018}. Classical explanations include overdominance (heterozygote advantage) or frequency-dependent selection, but in the modern era of genomic data all patterns of elevated variation than expected under neutrality tends to be categorized broadly as balancing selection, regardless of the evolutionary mechanism \citep{mitchell-olds_which_2007}.  One of the evolutionary mechanisms coined under balancing selection is sexually antagonistc selection, which ouccrs when the direction of natural selection on traits or loci differs between the sexes \citep{connallon2018environmental}.
 
-\textit{Paragraph about SAS theory and its limitations}
+Sexually antagonist selection has been identified as a powerful engine of speciation, as well as a mechanism that can mantain polymorphisms of otherwise dis-advantageous alleles in a population  \citep{gavrilets2014sexual}. However, the effect of sexually antagonistic selection has been generally studied under strong simplifying assumptions such as  constant population sizes and homogeneous environments \citep{kidwell1977regions, pamilo1979genic}. Few studies have explored the effect of sexually antagonistic selection on the maintenance of polymorphism with more realistic assumptions, such as \citet{connallon_evolutionary_2018} that found that classical predictions break down when fluctuations in the environments combined with life-history traits allow local adaptations and promote the maintenance of genetic diversity. The effect of environmental fluctuations without local adaptation, however, has not been studied in the context of sexually antagonistic selection.
 
-Sexually antagonist selection has been identified as a powerful engine of speciation, and more recently, as a mechanism that can mantain polymorphisms of otherwise dis-advantageous alleles in a population  \citep{connallon_evolutionary_2018, gavrilets2014sexual}. However, the effect of sexually antagonistic selection has been generally studied under strong assumptions such as homogeneous environments and stationary populations \citep{}. Few studies have explored the effect of sexually antagonistic selection on the maintenance of polymorphism with more realistic assumptions, such as \citet{connallon_evolutionary_2018} : description of their findings. However, the effect of environmental fluctuations without local adaptation have not been explored in the context of sexual conflict.
 
-\textit{MCT as a way to study the effect of fluctuations in diversity maintenance}
+The contribution of environmental fluctuations to genetic variability remains a debated issue. Classic theoretical models predict that temporal fluctuations in environmental conditions are unlikely to maintain a genetic polymorphism \citep{hedrick1974genetic,hedrick1986genetic}. However, other studies have found that fluctuating selection can mantain genetic variance on sex--linked traits \citep{reinhold2000maintenance}, or when they are large enough and generations overlap \citep{ellner1994role, ellner1996patterns}. Similarly, temporal changes in population sizes have been shown to mitigate the effect of genetic drift in  small populations \citep{pemberton1996maintenance}, or populations with a seed bank \citep{nunney2002effective}. Thus, both fluctuations in selection and population sizes could dramatically change the effect of sexual antagonistic selection in the maintance of genetic diversity.
 
-Modern coexistence theory provides a useful conceptual framework that allows for quantifying the contribution of processes that shape ecological communities \citep{Chesson2000, mayfield2010opposing,hillerislambers2012rethinking,, Adleretal2018, petry2018competition}. At its core, modern coexistence theory is built on models of pairwise interactions among competitors, and the coexistence of these competitors depend on the relative importance of stabilizing mechanisms and fitness differences \citep{Chesson2000, chesson2000general, chesson2003quantifying, letten_linking_2017, Adleretal2018, barabas_chessons_2018}. Stabilizing mechanisms cause a species to buffer its own growth when at high density more than it buffers growth of a competitor, and fitness differences describe differences in competitive abilities or growth rates among species \citep{Chesson2000,chesson2003quantifying, levine2009importance}. Many mechanisms can lead to stabilizing mechanisms such as complimentary resource use \citep{tilman1994competition}, differential responses to spatial and temporal environmental variation \citep{chesson1981environmental, angert2009functional}, and species-specific effects of natural enemies \citep{Paine1966, Paine1969, Connell1972,janzen1970herbivores}. Fitness differences reflect differences in resource use and can establish competitive hierarchies among species \citep{godwin2020empiricist}. When stabilizing mechanisms become sufficiently strong to overcome fitness differences, long-term coexistence is possible \citep{Chesson2000}.
 
-\textit{Paragraph that links MCT and evolution}
+Importantly, progress requires more than just identifying if fluctuations increase or decrease genetic diversity, but to quantify their relative contributions \citep{ellner2016quantify}.Modern coexistence theory is an useful conceptual framework to do so \citep{Chesson2000, mayfield2010opposing,hillerislambers2012rethinking, Adleretal2018, petry2018competition}. Although its core ideas were formalised in an ecological context \citep{chesson1994multispecies,chesson2000general}, this framework provides useful tools to examine the relative contributions of fluctuations to diversity maintenance  in evolutionary contexts as well \citep{ellner1996patterns,reinhold2000maintenance}. From an ecological perspective, polymorphism of alleles is equivalent to coexistence of species, and the fixation
 
-In this paragrph we introduce the idea that polymorphism is equal to coexistence from a MCT theory perspective. We also introduce fluctuations in population sizes and fitness values as mechanisms that could enhance the role of SAS and how MCT could help distinguish their effect with the partition of growth rates (Ellner)
 
-% directly from slack
+
 \textit{Paragraph about what we do in this paper}
 
 

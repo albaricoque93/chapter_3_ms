@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{29}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Adler \emph{et~al.}(2018)Adler, Falk, Friedler, Nix, Rybeck,
@@ -13,6 +13,11 @@ Adler, P., Falk, C., Friedler, S.A., Nix, T., Rybeck, G., Scheidegger, C.,
 Barabás, G., D'Andrea, R. \& Stump, S.M. (2018).
 \newblock Chesson's coexistence theory.
 \newblock \emph{Ecological Monographs}, 88, 277--303.
+
+\bibitem[{Chesson(1994)}]{chesson1994multispecies}
+Chesson, P. (1994).
+\newblock Multispecies competition in variable environments.
+\newblock \emph{Theoretical population biology}, 45, 227--276.
 
 \bibitem[{Chesson(2000{\natexlab{a}})}]{chesson2000general}
 Chesson, P. (2000{\natexlab{a}}).
@@ -49,6 +54,18 @@ Connallon, T., Sharma, S. \& Olito, C. (2018).
   {Evolutionary} {Outcomes}.
 \newblock \emph{The American Naturalist}, 193, 93--105.
 
+\bibitem[{Ellner \& Hairston~Jr(1994)}]{ellner1994role}
+Ellner, S. \& Hairston~Jr, N.G. (1994).
+\newblock Role of overlapping generations in maintaining genetic variation in a
+  fluctuating environment.
+\newblock \emph{The American Naturalist}, 143, 403--417.
+
+\bibitem[{Ellner \& Sasaki(1996)}]{ellner1996patterns}
+Ellner, S. \& Sasaki, A. (1996).
+\newblock Patterns of genetic polymorphism maintained by fluctuating selection
+  with overlapping generations.
+\newblock \emph{theoretical population biology}, 50, 31--65.
+
 \bibitem[{Ellner \emph{et~al.}(2016)Ellner, Snyder \&
   Adler}]{ellner2016quantify}
 Ellner, S.P., Snyder, R.E. \& Adler, P.B. (2016).
@@ -66,6 +83,17 @@ Ellner, S.P., Snyder, R.E., Adler, P.B. \& Hooker, G. (2019).
 Gavrilets, S. (2014).
 \newblock Is sexual conflict an “engine of speciation”?
 \newblock \emph{Cold Spring Harbor perspectives in biology}, 6, a017723.
+
+\bibitem[{Hedrick(1974)}]{hedrick1974genetic}
+Hedrick, P.W. (1974).
+\newblock Genetic variation in a heterogeneous environment. i. temporal
+  heterogeneity and the absolute dominance model.
+\newblock \emph{Genetics}, 78, 757--770.
+
+\bibitem[{Hedrick(1986)}]{hedrick1986genetic}
+Hedrick, P.W. (1986).
+\newblock Genetic polymorphism in heterogeneous environments: a decade later.
+\newblock \emph{Annual review of ecology and systematics}, 17, 535--566.
 
 \bibitem[{HilleRisLambers \emph{et~al.}(2012)HilleRisLambers, Adler, Harpole,
   Levine \& Mayfield}]{hillerislambers2012rethinking}
@@ -89,16 +117,6 @@ Kidwell, J., Clegg, M., Stewart, F. \& Prout, T. (1977).
   the two sexes under random mating.
 \newblock \emph{Genetics}, 85, 171--183.
 
-\bibitem[{Letten \emph{et~al.}(2017)Letten, Ke \& Fukami}]{letten_linking_2017}
-Letten, A.D., Ke, P.J. \& Fukami, T. (2017).
-\newblock Linking modern coexistence theory and contemporary niche theory.
-\newblock \emph{Ecological Monographs}, 87, 161--177.
-
-\bibitem[{Levine \& HilleRisLambers(2009)}]{levine2009importance}
-Levine, J.M. \& HilleRisLambers, J. (2009).
-\newblock The importance of niches for the maintenance of species diversity.
-\newblock \emph{Nature}, 461, 254--257.
-
 \bibitem[{Mayfield \& Levine(2010)}]{mayfield2010opposing}
 Mayfield, M.M. \& Levine, J.M. (2010).
 \newblock Opposing effects of competitive exclusion on the phylogenetic
@@ -112,21 +130,26 @@ Mitchell-Olds, T., Willis, J.H. \& Goldstein, D.B. (2007).
   phenotypic traits?
 \newblock \emph{Nature Reviews Genetics}, 8, 845--856.
 
-\bibitem[{Paine(1966)}]{Paine1966}
-Paine, R.T. (1966).
-\newblock Food web complexity and species diversity.
-\newblock \emph{The American Naturalist}, 100, 65--75.
-
-\bibitem[{Paine(1969)}]{Paine1969}
-Paine, R.T. (1969).
-\newblock A note on trophic complexity and community stability.
-\newblock \emph{The American Naturalist}, 103, 91--93.
+\bibitem[{Nunney(2002)}]{nunney2002effective}
+Nunney, L. (2002).
+\newblock The effective size of annual plant populations: the interaction of a
+  seed bank with fluctuating population size in maintaining genetic variation.
+\newblock \emph{The American Naturalist}, 160, 195--204.
 
 \bibitem[{Pamilo(1979)}]{pamilo1979genic}
 Pamilo, P. (1979).
 \newblock Genic variation at sex-linked loci: Quantification of regular
   selection models.
 \newblock \emph{Hereditas}, 91, 129--133.
+
+\bibitem[{Pemberton \emph{et~al.}(1996)Pemberton, Smith, Coulson, Marshall,
+  Slate, Paterson, Albon, Clutton-Brock \& Sneath}]{pemberton1996maintenance}
+Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
+  S., Albon, S., Clutton-Brock, T.H. \& Sneath, P.H.A. (1996).
+\newblock The maintenance of genetic polymorphism in small island populations:
+  large mammals in the hebrides.
+\newblock \emph{Philosophical Transactions of the Royal Society of London.
+  Series B: Biological Sciences}, 351, 745--752.
 
 \bibitem[{Petry \emph{et~al.}(2018)Petry, Kandlikar, Kraft, Godoy \&
   Levine}]{petry2018competition}
@@ -135,17 +158,18 @@ Petry, W.K., Kandlikar, G.S., Kraft, N.J., Godoy, O. \& Levine, J.M. (2018).
   coexistence in an annual plant community.
 \newblock \emph{Journal of Ecology}, 106, 1806--1818.
 
+\bibitem[{Reinhold(2000)}]{reinhold2000maintenance}
+Reinhold, K. (2000).
+\newblock Maintenance of a genetic polymorphism by fluctuating selection on
+  sex-limited traits.
+\newblock \emph{Journal of Evolutionary Biology}, 13, 1009--1014.
+
 \bibitem[{Shoemaker \emph{et~al.}(2020)Shoemaker, Barner, Bittleston \&
   Teufel}]{shoemaker2020}
 Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 \newblock Quantifying the relative importance of variation in predation and the
   environment for species coexistence.
 \newblock \emph{Ecology letters}, 23, 939--950.
-
-\bibitem[{Tilman(1994)}]{tilman1994competition}
-Tilman, D. (1994).
-\newblock Competition and biodiversity in spatially structured habitats.
-\newblock \emph{Ecology}, 75, 2--16.
 
 \bibitem[{Walsh \& Lynch(2018)}]{walsh_evolution_2018}
 Walsh, B. \& Lynch, M. (2018).

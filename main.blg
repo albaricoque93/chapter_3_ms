@@ -1,53 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ecology_letters.bst
 Database file #1: coexistence.bib
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "chesson1981environmental"
-Warning--I didn't find a database entry for "angert2009functional"
-Warning--I didn't find a database entry for "Connell1972"
-Warning--I didn't find a database entry for "janzen1970herbivores"
-Warning--I didn't find a database entry for "godwin2020empiricist"
-You've used 26 entries,
+You've used 29 entries,
             2997 wiz_defined-function locations,
-            813 strings with 9070 characters,
-and the built_in function-call counts, 14543 in all, are:
-= -- 1230
-> -- 580
-< -- 15
-+ -- 235
-- -- 198
-* -- 1096
-:= -- 2392
-add.period$ -- 78
-call.type$ -- 26
-change.case$ -- 195
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 1004
-empty$ -- 1041
-format.name$ -- 264
-if$ -- 2770
+            819 strings with 9924 characters,
+and the built_in function-call counts, 16415 in all, are:
+= -- 1385
+> -- 666
+< -- 18
++ -- 268
+- -- 228
+* -- 1238
+:= -- 2699
+add.period$ -- 87
+call.type$ -- 29
+change.case$ -- 220
+chr.to.int$ -- 28
+cite$ -- 29
+duplicate$ -- 1122
+empty$ -- 1172
+format.name$ -- 301
+if$ -- 3128
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 219
-newline$ -- 134
-num.names$ -- 104
-pop$ -- 351
+missing$ -- 247
+newline$ -- 149
+num.names$ -- 116
+pop$ -- 394
 preamble$ -- 1
-purify$ -- 170
+purify$ -- 192
 quote$ -- 0
-skip$ -- 303
+skip$ -- 338
 stack$ -- 0
-substring$ -- 850
-swap$ -- 535
+substring$ -- 979
+swap$ -- 599
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 231
+type$ -- 258
 warning$ -- 0
-while$ -- 126
+while$ -- 141
 width$ -- 0
-write$ -- 340
-(There were 6 warnings)
+write$ -- 379
