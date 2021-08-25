@@ -1,0 +1,133 @@
+
+\subsection*{Population dynamics of sexually antagonistic alleles}
+
+%Although the evolutionary dynamics of sexually antagonistc selection are often explored though changes in alleles' frequencies, MCT requires population dynamics to be expressed as growth rates of the competing species, or in our case, alleles.
+
+ Our population model consisted of a population that has discrete generations, and that is subject to the previously described sexual antagonism between allele $j$ and $k$. The frequency each allele in each sex at the beginning of a life-cycle is given by:
+\begin{equation}
+    p_{jm}= \frac{n_{jm}}{N_{m}}
+    \label{first_pop}
+\end{equation}
+\begin{equation}
+    p_{jf}= \frac{n_{jf}}{N_{f}}
+\end{equation}
+\begin{equation}
+    p_{km}= \frac{N_{m}-n_{jm}}{N_{m}}
+\end{equation}
+\begin{equation}
+    p_{kf}= \frac{N_{f}-n_{jf}}{N_{f}}
+\end{equation}
+where $N_m$ and $N_f$ are the numbers of males and females in a population, $n_{jf}$ is the number of females $f$ with allele $j$, and $n_{jm}$ is the number of males $m$ with allele $j$.
+
+If the individuals in the population mate at random before selection occurs, the proportion of offspring with allele $j$ after mating can be expressed as:
+%Convert frequencies to counts (abundances) to move to coexistence framework. The explicit calculation of $p'_{j}$ prime from random mating what selection acts on yields
+\begin{equation}
+   p'_{j}= \frac{n_{jf}}{N_{f}} \frac{n_{jm}}{N_{m}} + \frac{1}{2} \frac{n_{jf}}{N_{f}} \frac{(N_{m}-n_{jm})}{N_{m}} +\frac{1}{2}
+   \frac{(N_{f}-n_{jf})}{N_{f}} \frac{n_jm}{N_{m}} \,,
+\end{equation}
+which upon rearranging and simplifying can be written as:
+\begin{equation}
+   p'_{j}= \frac{(N_{m}n_{jf}+ N_{f}n_{jm})}{2 N_{f}N_{m}} \,.
+   \label{pprime}
+\end{equation}
+
+Selection acts upon these offspring in order to determine the allelic frequencies in females and males in the next generation. As an example, if $w_{jf}$ is the fitness of allele $j$ in females $f$, then the proportion of females with allele $j$ after selection is:
+\begin{equation}
+   p^{\prime}_{jf}= \frac{n'_{jf}}{N'_{f}} = \frac{p'_{j}w_{jf}}{p'_{j}w_{jf}+ (1-p'_{j})w_{kf}}
+\end{equation}
+
+The logarithmic growth rate of $j$ in females, is given by the number of females with allele $j$ after selection, divided by the original number of females carrying allele $j$:
+
+
+
+\begin{equation}
+    r_{jf} = \ln \left( \frac{n'_{jf}}{n_{jf}} \right)
+    \label{canonical}
+\end{equation}
+%Which after substitution can be expressed as:
+
+%\begin{equation}
+%  r_{jf} = \ln \left[ \frac{N'_{f}}{n_{jf}} \left( \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jf}}{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jf} + (2N_{m}N_{f}-N_{m}n_{jf}-N_{f}n_{jm})w_{kf}} \right) \right] \,.
+%\label{usefulequation}
+%\end{equation}
+
+An equivalent expression for the per capita growth rate of allele $j$ in males $m$ can be obtained by exchange $f$ for $m$ across the various subscripts in this expression.
+
+When placed in the canonical form, the growth rate of allele $j$ in females $f$ is given by Eqn~\ref{canonical}. However, allelic coexistence in a sexual population is ultimately influenced by growth and establishment of an allele across both sexes. Therefore, the full growth rate of allele $j$ across the entire population of females \emph{and} males is given by
+\begin{equation}
+    r_{j} = \ln \left(  \frac{n_{jf}e^{r_{jf}}}{n_{jf} + n_{jm}}   +  \frac{n_{jm}e^{r_{{jm}}}}{n_{jf} + n_{jm}}  \right) \,.
+    \label{full}
+\end{equation}
+
+%We can substitute using Eq.~\ref{usefulequation} and the corresponding expression for the growth rate of allele $j$ in males $m$ to obtain:
+%\begin{eqnarray}
+%        r_{j} =  \ln \left(  \frac{n_{jf}}{n_{jf}+ n_{jm} } \left[ \frac{N'_{f}}{n_{jf}} \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jf}}{(N_{m}n_{jf}+  N_{f}n_{jm})w_{jf} + (2N_{m}N_{f}-N_{m}n_{jf}-N_{f}n_{jm})w_{kf}} \right] \right. \nonumber \\
+%        + \left. \frac{n_{jm}}{n_{jf} + n_{jm}} \left[\frac{N'_{m}}{n_{jm}}
+%    \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jm}}{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jm} + (2N_{m}N_{f}-N_{m}n_{jf}-N_{f}n_{jm})w_{km}}  \right] \right)
+%\end{eqnarray}
+% for some reason this last parenthesis has decided not to be big
+% you cannot have autosized parentheses the span across lines. you need to add a dummy sizing element \left. to trick it to behave
+
+
+%Which simplifies to:
+
+%\begin{eqnarray}
+%    r_{j} = \ln \left( \frac{N'_{f}}{n_{jf}+ n_{jm}} \left[ \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jf}}{ (N_{m}n_{jf}+ N_{f}n_{jm})w_{jf} + (2N_{m}N_{f} - N_{m}n_{jf}- N_{f}n_{jm})w_{kf}  } \right] \right)\\
+%    + \ln \left(1 + \frac{N'_{m}}{N'_{f}} \frac{w_{jm}}{w_{jf}} \left[ \frac{ (N_{m}n_{jf} + N_{f}n_{jm})w_{jf} + (2 N_{m}N_{f}- N_{m}n_{jf}- N_{f}n_{jm} )w_{kf}}{(N_{m}n_{jf} + N_{f}n_{jm})w_{jm} + (2N_{m}N_{f}- N_{m}n_{jf}- N_{f}n_{jm})w_{km} } \right] \right)
+%    \label{rj}
+%\end{eqnarray}
+
+We show the full substitution of Eqns.\ref{canonical} and \ref{full} in the Supporting Information. Equivalently, there exists an expression for $r_{k}$. This re-formulation of changes in alleles frequencies to growth rates does not change the results of selection given by Eqn.~\ref{selection}. The fitness values, and consequently the values of the selection coefficients, will determine whether or not an allele is fixed in the population, which would would be reflected in positive growth rates.
+
+\subsection*{Growth rate decomposition using MCT}
+
+Modern coexistence theory has shown that coexistence is stabilized by mechanisms that give species a population growth rate advantage over other species when they become rare \citep{chesson_stabilizing_1982, chesson2003quantifying, barabas_chessons_2018}. Typically, the other species are at their \textit{resident} state, or remain at steady-state abundances, while the rare species is called the \textit{invader}. In the context of alleles in a population, an allele is an \textit{invader} when a mutation occurs that introduces that allele into the population (e.g., if in a population with only $k$ alleles, a random mutation made one individual carry the $j$ allele). Given sexually antagonistic selection, each allele has two pathways of invasion, depending on where the mutation occurs: females or males. If an alleles' \textit{invasion growth rate} (or the average instantaneous population growth rate when rare) is positive, it buffers it against extinction, maintaining its persistence in the population.  Coexistence, or polymorphism, occurs when all of the alleles in a population have positive invasion growth rates.
+
+MCT provides an analytical framework to decompose each species' , or in our case allele's, invasion growth rates into a sum of terms for the effects of different factors, such as abiotic and biotic fluctuations, and then compare invader and residents term by term \citep{ellner_expanded_2019}. Mechanisms that stabilize coexistence can help whichever allele is rare, or it can hurt whichever allele is common. Therefore, to understand the role of each mechanism, it is necessary to compare how it affects invader \textit{and} resident growth rates. MCT uses Taylor series expansion to do this decomposition and comparison (a detailed review can be found in \citet{barabas_chessons_2018}). We present an analytical approach, using classic MCT, to understand the relative contributions of fluctuation in population sizes and fitness values to each alleles' growth rate as an invader in the Supporting Information.
+
+Our general solution using Taylor series expansion, however, is not easily interpreted and soon becomes mathematically untraceable (Supporting Information). Therefore, we turned towards an extension of MCT \citep{ellner_expanded_2019} that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition}. This approach applies to any collection of two or more processes, mechanisms, or species differences affecting population growth rate \citep{ ellner2016quantify, ellner_expanded_2019}, and has been used to show the relative contribution of variable temperature and silicate to the coexistence of algal species \citep{ellner2016quantify} and to quantify the relative importance of environmental fluctuations and variation in predator abundances to the coexistence of intertidal species \citep{shoemaker2020}.
+
+The functional decomposition approach focuses on any biotic or abiotic variables affecting a population growth rate. It consists of breaking up the average growth rate of each species into a null growth rate in the absences of all selected variables, a set of main effect terms that represent the effect of adding only one variable, and a set of two--way interaction terms representing the effect of adding each possible pair of features \citep{ellner_expanded_2019}.
+
+For example, a population growth rate $r$ of a population $i$ can be function of abiotic fluctuations $X$, and biotic fluctuations $Y$:
+
+\begin{equation}
+   r_{i}(X,Y) = \mathcal{E}^{0} + \mathcal{E}^{X}+ \mathcal{E}^{Y}+ \mathcal{E}^{XY}
+   \label{functional_decomp}
+\end{equation}
+
+Where $\mathcal{E}^0$ is defined as the null growth rate when the abiotic and biotic variables are set to their averages. Terms with superscripts represent marginal effects of letting all superscripted variables vary while fixing all the other variables at their average values. For example, the term $\mathcal{E}^X$ expresses the contribution of the variable $X$ to a growth rate when $Y$ is at its average, without the contribution when both variables are set to their averages :
+
+\begin{equation}
+  \mathcal{E}^{X} = r_{i}(X,\overline{Y}) - \mathcal{E}^{0}
+\end{equation}
+
+
+Averaging both sides of ~\ref{functional_decomp} gives a partition of the average population growth rate of invading into the variance--free growth rate, the main effects of variability in $X$, the main effects of variability in $Y$, and the interaction between variability in $X$ and $Y$
+
+\begin{equation}
+    \overline{r}_{i}= \mathcal{E}^{0} + \overline{\mathcal{E}}^{X}+ \overline{\mathcal{E}}^{Y}+ \overline{\mathcal{E}}^{XY}
+   \label{functional_decomp_2}
+\end{equation}
+
+In the case of antagonistic alleles we previously introduced, the functional decomposition of both alleles' growth rates is a function of four variables: the number of males in the population ($N_{m}$), the number of females in the population ($N_{f}$), the fitness of allele $j$ in males ($w_{jm}$), and the fitness of allele $k$ in females ($w_{kf}$).The implementation and interpretation of the functional decomposition of the growth rates of each allele are identical to each other. For simplicity,  we present the full functional decomposition of the growth rate of allele $j$ in Table \ref{tab:EllnerRs}, as well as a brief description of the meaning of each term.
+
+The functional decomposition approach further requires the \textit{comparison} of each term, to understand if how it affects invader and residents. Suppose Eqn.~\ref{functional_decomp_2} represents the functional  decomposition of an invader $i$. An analogue decomposition of a resident $r$ growth rate would be given by $\overline{r}_{r}$, which being at steady state means $\overline{r}_{r}=0$. We therefore can express:
+
+
+\begin{equation}
+    \overline{r}_{i}= \overline{r}_{i} - \overline{r}_{r} = \Delta^{0} + \Delta^{X}+  \Delta^{Y}+ \Delta^{XY}
+   \label{functional_decomp_3}
+\end{equation}
+
+Where each $\Delta$ term denotes the difference between the invader and resident terms. For example $\Delta^{0}$  is the difference in population growth rates at mean values of $X$ and $Y$, $\Delta^{X}$ is the difference in the main effects of variability in $X$ between invader and resident, and so on. This comparison allows decomposing each species' growth rate when rare into its mechanistic contributions. Mechanisms may have minimal effects, a destabilizing effect (a negative contribution to a species' growth rate when rare), or a stabilizing effect (a positive contribution to a species' growth rate when rare) \citep{shoemaker2020}.
+
+In the case of antagonistic alleles, each term in Table \ref{tab:EllnerRs} can be compared to an analogue one of the other allele as a resident. For example, if allele $j$ is the invader and allele $k$ is the resident, the difference in invader and resident growth rates when the male population varies is given by:
+
+
+\begin{equation}
+\Delta^{Nm}_{j}= \overline{\mathcal{E}}^{Nm}_{j} - \overline{\mathcal{E}}^{Nm}_{k}
+\label{delta}
+\end{equation}
+
+If $\Delta^{Nm}_{j}$ is positive, then fluctuations in the male population benefit allele $j$ when it is rare more than what they benefit $k$ as a resident. If $\Delta^{Nm}_{j}$ is negative, then fluctuations benefit $k$ as a resident more than $j$ as an invader, and if it is minimal, then fluctuations have an equal effect in $j$ and $k$. However, coexistence occurs when both alleles, when rare, can invade a population, so for fluctuations in males to have a stabilizing effect, they should be positive for $\Delta^{Nm}_{j}$ and $\Delta^{Nm}_{k}$

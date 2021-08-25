@@ -125,89 +125,78 @@
 \end{ecolettcover}
 %%%%%%%%%%%%%%%%%%%
 \section{Introduction}
+The question of how genetic variation is maintained, despite the effects of selection and drift, continues to be central to the study of evolutionary biology \citep{walsh_evolution_2018}. Classical explanations include overdominance (heterozygote advantage) or frequency-dependent selection, but in the modern era of genomic data, all patterns of elevated variation than expected under neutrality tend to be categorized broadly as balancing selection, regardless of the evolutionary mechanism \citep{mitchell-olds_which_2007}.  One of the evolutionary mechanisms coined under balancing selection is sexually antagonistic selection, which occurs when the direction of natural selection on traits or loci differs between the sexes \citep{connallon2018environmental}.
 
-The question of how genetic variation is maintained, despite the effects of selection and drift, continues to be central to the study of evolutionary biology \citep{walsh_evolution_2018}. Classical explanations include overdominance (heterozygote advantage) or frequency-dependent selection, but in the modern era of genomic data all patterns of elevated variation than expected under neutrality tends to be categorized broadly as balancing selection, regardless of the evolutionary mechanism \citep{mitchell-olds_which_2007}.  One of the evolutionary mechanisms coined under balancing selection is sexually antagonistc selection, which ouccrs when the direction of natural selection on traits or loci differs between the sexes \citep{connallon2018environmental}.
-
-Sexually antagonist selection has been identified as a powerful engine of speciation, as well as a mechanism that can mantain polymorphisms of otherwise dis-advantageous alleles in a population  \citep{gavrilets2014sexual}. However, the effect of sexually antagonistic selection has been generally studied under strong simplifying assumptions such as  constant population sizes and homogeneous environments \citep{kidwell1977regions, pamilo1979genic}. Few studies have explored the effect of sexually antagonistic selection on the maintenance of polymorphism with more realistic assumptions, such as \citet{connallon_evolutionary_2018} that found that classical predictions break down when fluctuations in the environments combined with life-history traits allow local adaptations and promote the maintenance of genetic diversity. The effect of environmental fluctuations without local adaptation, however, has not been studied in the context of sexually antagonistic selection.
-
-
-The contribution of environmental fluctuations to genetic variability remains a debated issue. Classic theoretical models predict that temporal fluctuations in environmental conditions are unlikely to maintain a genetic polymorphism \citep{hedrick1974genetic,hedrick1986genetic}. However, other studies have found that fluctuating selection can mantain genetic variance on sex--linked traits \citep{reinhold2000maintenance}, or when they are large enough and generations overlap \citep{ellner1994role, ellner1996patterns}. Similarly, temporal changes in population sizes have been shown to mitigate the effect of genetic drift in  small populations \citep{pemberton1996maintenance}, or populations with a seed bank \citep{nunney2002effective}. Thus, both fluctuations in selection and population sizes could dramatically change the effect of sexual antagonistic selection in the maintance of genetic diversity.
+Sexually antagonistic selection has been identified as a powerful engine of speciation that generally prevents more than one allele to be fixed in a population \citep{gavrilets2014sexual}. The effect of sexually antagonistic selection, however, has been generally studied under strong simplifying assumptions such as constant population sizes and homogeneous environments \citep{kidwell1977regions, pamilo1979genic}. Few studies have explored the effect of sexually antagonistic selection on the maintenance of polymorphism with more realistic assumptions, such as \citet{connallon_evolutionary_2018} that found that classical predictions break down when fluctuations in the environment combined with life-history traits allow local adaptations and promote the maintenance of genetic diversity. The effect of environmental fluctuations without local adaptation, however, has not been studied in the context of sexually antagonistic selection.
 
 
-Importantly, progress requires more than just identifying if fluctuations increase or decrease genetic diversity, but to quantify their relative contributions \citep{ellner2016quantify}.Modern coexistence theory is an useful conceptual framework to do so \citep{Chesson2000, mayfield2010opposing,hillerislambers2012rethinking, Adleretal2018, petry2018competition}. Although its core ideas were formalised in an ecological context \citep{chesson1994multispecies,chesson2000general}, this framework provides useful tools to examine the relative contributions of fluctuations to diversity maintenance  in evolutionary contexts as well \citep{ellner1996patterns,reinhold2000maintenance}. From an ecological perspective, polymorphism of alleles is equivalent to coexistence of species, and the fixation
+The contribution of environmental fluctuations to genetic variability remains a debated issue. Classic theoretical models predict that temporal fluctuations in environmental conditions are unlikely to maintain a genetic polymorphism \citep{hedrick1974genetic,hedrick1986genetic}. However, other studies have found that fluctuating selection can maintain genetic variance on sex--linked traits \citep{reinhold2000maintenance}, or in populations where generations overlap \citep{ellner1994role, ellner1996patterns}. Similarly, temporal changes in population sizes have been shown to mitigate the effect of genetic drift in small populations \citep{pemberton1996maintenance}, or populations with a seed bank \citep{nunney2002effective}. Thus, both fluctuations in selection and population sizes could dramatically change the effect of sexually antagonistic selection in the maintenance of genetic diversity.
+
+
+Importantly, progress requires more than just identifying if fluctuations increase or decrease genetic diversity, but to quantify how exactly they contribute to its' maintenance \citep{ellner2016quantify}. Modern coexistence theory (MCT) provides a powerful conceptual framework to do so \citep{Chesson2000,chesson1994multispecies, barabas_chessons_2018}. Although its core ideas were formalized in an ecological context \citep{chesson1994multispecies,chesson2000general}, this framework provides the necessary tools to examine the relative contributions of fluctuations to diversity maintenance, which can also be applied to evolutionary contexts  \citep{ellner1996patterns,reinhold2000maintenance}. From an ecological perspective, polymorphism is equivalent to the coexistence of species, and the fixation of either one of the alleles is equivalent to competitive exclusion. The coexistence of alleles, thus, can be examined through the same lens as the coexistence of competing species.
+
+Here, we seek to explicitly apply recent theoretical and analytical advances in MCT to the question of how
+genetic variation is maintained under sexually antagonistic selection. Specifically, we aim to quantify the relative importance of different types of fluctuations to overall stable coexistence, or to exclusion of sexually antagonistic alleles. We extended a conceptualization of MCT \citep{ellner2016quantify,ellner_expanded_2019} to examine how fluctuations in selection values, fluctuations in population sizes, and their interactions can stabilize or hinder the coexistence of alleles. In particular, we examined i) Can fluctuations in population sizes and selection values allow sexually antagonistic alleles to coexist when differences in their fitness would typically not allow them to? and ii) What is the relative contribution of different types of fluctuations that allow two sexually antagonistic alleles to be maintained in a population? Our study provides the tools to analyze evolutionary dynamics from an ecological perspective and contributes to answering long-lasting questions regarding the effect of non-constant environments on genetic diversity.
 
 
 
-\textit{Paragraph about what we do in this paper}
-
-
-Here we seek to explicitly apply recent theoretical and analytical advances in coexistence theory to the question of how genetic variation is maintained. We aim to quantify the relative importance of different types of fluctuations to overall stable coexistence, or to exclusion of alleles. We extended a conceptualisation of MCT \citep{ellner2016quantify,ellner_expanded_2019} to examine how fluctuations in fitness differences, fluctuations in population sizes, and their interactions can stabilize or hinder coexistence. In particular we examined :
-
-\begin{itemize}
-	\item Can fluctuations in population sizes and fitness differences allow sexually antagonistic allleles to coexist when differences in their fitness would typically not allow them to?
-	%\item What is the effect of different types of fluctuations in the proportion of parameter space that allows alleles to coexist?
-	\item What is the relative contribution of different types of fluctuations that allow each allele to invade ?
-\end{itemize}
-
-\clearpage
 \section{Methods}
+We first present the evolutionary consequences of sexually antagonistic selection in constant environments. We then present a model that describes the evolutionary dynamics of sexually antagonistc alleles, and show how changes in  in allele's frequencies can be exrpessed in terms of growth rates, a necessary condition for analyses done using MCT. We continue by  simulating different scenarios of alleles invading a population, where we allowed population sizes, selection values, both, or neither to vary. Finally, we examine the results of our simulations through a MCT lense by  calculating the contribution of each of these fluctuations in the coexistence of alleles across the parameter space of sexually antagonist selection.
 
-We used an extended version of MCT to quantify the contribution of fluctuations in population sizes and fitness values in the coexistence of sexually antagonistic alleles. As a baseline, we first present the evolutionary consequences of sexually antagonistic selection in constant environments. Then, we present how the dynamics that describe the changes in alleles' frequencies after one generation can be expressed in terms of growth rates, a necessary condition to analyses done using MCT. We continue by giving a brief explanation of how MCT decomposes and compares population growth rates to understand the relative contribution of abiotic and biotic variables to coexistence and show how the growth rates of antagonistic alleles can be examined through this lens. Finally, we apply our framework by simulating different scenarios where we allowed population sizes, fitness values, both, or neither to vary, to calculate the contribution of each of these fluctuations in the coexistence of alleles across the parameter space of sexually antagonist selection.
 
+\subsection*{Sexually antagonistic selection}
 
-\subsection*{Evolutionary dynamics of sexually antagonistic alleles}
-
- Most population genetic models of sex-dependent selection consider evolution at single, biallelic  loci with frequency and density independent effeccts on the relative fitness of females and males \citep{wright1942statistical,kidwell1977regions, immler2012ploidally}. Consider a locus with two alleles, $j$ and $k$, that affect fitness in the haploid state.  Assume allele $j$ always has a high fitness in females ($w_{jf} = 1$), but has variable fitness in males ($w_{jm}$), and allele $k$ always has a high fitness in males ($w_{km} = 1$), but has variable fitness in females ($w_{kf}$). The selection against males is therefore $S_{m}= 1 - w_{jm}$, and the selection against females is $S_{f}= 1 - w_{kf}$ . Selection mantains both alleles in the population under the condition that:
+ Most population genetic models of sex-dependent selection consider evolution at single, biallelic  loci with frequency and density independent effects on the relative fitness of females and males \citep{wright1942statistical,kidwell1977regions, immler2012ploidally}. Consider a locus with two alleles, $j$ and $k$, that affect fitness in the haploid state.  Assume allele $j$ always has a high fitness in females ($w_{jf} = 1$), but has variable fitness in males ($w_{jm} < 1$); and allele $k$ always has a high fitness in males ($w_{km} = 1$), but has variable fitness in females ($w_{kf} < 1 $). The selection against allele $j$ in males is therefore $S_{m}= 1 - w_{jm}$, and the selection against allele $k$ in females is $S_{f}= 1 - w_{kf}$ . Selection mantains both alleles in the population under the condition that:
 
  \begin{equation}
 \frac{S_{m}}{1+S_{m}} < S_{f} < \frac{S_{m}}{1-S_{m}}
 \label{selection}
  \end{equation}
+\citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}. These inequalities can be used to calculate the proportion of the selection parameter space (within the range $ 0 < S_{m}, S_{f} < 1$) that leads to polymorphism of sexually antagonistic alleles: in $\approx 0.31$ of the parameter space allele $j$ will be fixed, in another $\approx 0.31$ of the parameter space allele $k$ will be fixed, and in $\approx 0.38$ of the parameter space polymorphism or coexistence of alleles can be maintained.
 
-\citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}. These inequalities can be used to calculate the proportion of parameter space (within the range $ 0 < S_{m}, S_{f} < 1$) that leads to polymorphism of sexually antagonistic alleles: in $\approx 0.31$ of the parameter space allele $j$ will be fixed, in another $\approx 0.31$ of the parameter space allele $k$ will be fixed, and in $\approx 0.38$ of the parameter space polymorphism or coexistence of alleles can be maintained. However, most of the models used to explore the evolutionary dynamics of sexual antagonism assume constant population sizes and homogeneous environments \citep{kidwell1977regions,pamilo1979genic}. In constant environments, the maintenance of polymorphism of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. If fluctuations in population sizes or fitness values can promote the coexistence of sexually antagonistic alleles, it would be reflected in an increase of the proportion of the parameter space where polymorphism is maintained.
+Most of the models used to explore the evolutionary dynamics of sexual antagonism assume constant population sizes and homogeneous environments \citep{kidwell1977regions,pamilo1979genic, immler2012ploidally}. In constant environments, the maintenance of polymorphism of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. If fluctuations in population sizes or selection values have an effect on the coexistence of sexually antagonistic alleles, it would be reflected in increases or decreases of the proportion of the parameter space of selection where polymorphism is maintained. Furthermore
 
 
 \subsection*{Population dynamics of sexually antagonistic alleles}
-
-Although the evolutionary dynamics of sexually antagonistc selection are often explored though changes in alleles' frequencies, MCT requires population dynamics to be expressed as growth rates. Consider a population that has discrete generations, and that is subject to the previously described sexual antagonism between allele $j$ and $k$. The proportion of each allele in each sex at the beginning of a life-cycle is given by:
+As a baseline, we used a model that captures the effects of sexually antagonistic selection. Our model consisted of a population that has discrete generations, and that is subject to the previously described sexual antagonism between allele $j$ and $k$. The frequency each allele in each sex at the beginning of a life-cycle at time $t$ given by:
 \begin{equation}
-    p_{jm}= \frac{n_{jm}}{N_{m}}
+    p_{jm,t}= \frac{n_{jm,t}}{N_{m,t}}
     \label{first_pop}
 \end{equation}
 \begin{equation}
-    p_{jf}= \frac{n_{jf}}{N_{f}}
+    p_{jf,t}= \frac{n_{jf,t}}{N_{f,t}}
 \end{equation}
 \begin{equation}
-    p_{km}= \frac{N_{m}-n_{jm}}{N_{m}}
+    p_{km,t}= \frac{N_{m,t}-n_{jm,t}}{N_{m,t}}
 \end{equation}
 \begin{equation}
-    p_{kf}= \frac{N_{f}-n_{jf}}{N_{f}}
+    p_{kf,t}= \frac{N_{f,t}-n_{jf,t}}{N_{f,t}}
 \end{equation}
-where $N_m$ and $N_f$ are the numbers of males and females in a population, $n_{jf}$ is the number of females $f$ with allele $j$, and $n_{jm}$ is the number of males $m$ with allele $j$.
+where $N_{m,t}$ and $N_{t,t}$ are the numbers of males and females in a population at time $t$, $n_{jf,t}$ is the number of females $f$ with allele $j$, and $n_{jm,t}$ is the number of males $m$ with allele $j$ at time $t$, respectively.
 
-If the individuals in the population mate at random before selection occurs, the proportion of offspring with allele $j$ after mating can be expressed as:
+The individuals in the population mate at random before selection occurs, and therefore the frequency of offspring with allele $j$ after mating, $p'_{j,t}$ can be expressed as:
 %Convert frequencies to counts (abundances) to move to coexistence framework. The explicit calculation of $p'_{j}$ prime from random mating what selection acts on yields
 \begin{equation}
-   p'_{j}= \frac{n_{jf}}{N_{f}} \frac{n_{jm}}{N_{m}} + \frac{1}{2} \frac{n_{jf}}{N_{f}} \frac{(N_{m}-n_{jm})}{N_{m}} +\frac{1}{2}
-   \frac{(N_{f}-n_{jf})}{N_{f}} \frac{n_jm}{N_{m}} \,,
+   p'_{j}= \frac{n_{jf,t}}{N_{f,t}} \frac{n_{jm,t}}{N_{m,t}} + \frac{1}{2} \frac{n_{jf,t}}{N_{f,t}} \frac{(N_{m,t}-n_{jm,t})}{N_{m,t}} +\frac{1}{2}
+   \frac{(N_{f,t}-n_{jf,t})}{N_{f,t}} \frac{n_jm,t}{N_{m,t}} \,,
 \end{equation}
 which upon rearranging and simplifying can be written as:
 \begin{equation}
-   p'_{j}= \frac{(N_{m}n_{jf}+ N_{f}n_{jm})}{2 N_{f}N_{m}} \,.
+   p'_{j,t}= \frac{(N_{m,t}n_{jf,t}+ N_{f,t}n_{jm,t})}{2 N_{f}N_{m}} \,.
    \label{pprime}
 \end{equation}
 
-Selection acts upon these offspring in order to determine the allelic frequencies in females and males in the next generation. As an example, if $w_{jf}$ is the fitness of allele $j$ in females $f$, then the proportion of females with allele $j$ after selection is:
+Selection acts upon these offspring in order to determine the allelic frequencies in females and males in the next generation, $t+1$. As an example the frequency  of females with allele $j$ after selection is given by:
 \begin{equation}
-   p^{\prime}_{jf}= \frac{n'_{jf}}{N'_{f}} = \frac{p'_{j}w_{jf}}{p'_{j}w_{jf}+ (1-p'_{j})w_{kf}}
+   p^{\prime}_{jf, t+1}= \frac{n_{jf, t+1}}{N'_{f,t+1}} = \frac{p'_{j}w_{jf}}{p'_{j}w_{jf}+ (1-p'_{j})w_{kf}}
 \end{equation}
 
-The logarithmic growth rate of $j$ in females, is given by the number of females with allele $j$ after selection, divided by the original number of females carrying allele $j$:
+The logarithmic growth rate of $j$ in females, is therefore given by the number of females with allele $j$ after selection, divided by the original number of females carrying allele $j$:
 
 
 
 \begin{equation}
-    r_{jf} = \ln \left( \frac{n'_{jf}}{n_{jf}} \right)
+    r_{jf,t} = \ln \left( \frac{n'_{jf, t+1}}{n_{jf,t}} \right)
     \label{canonical}
 \end{equation}
 %Which after substitution can be expressed as:
@@ -217,98 +206,26 @@ The logarithmic growth rate of $j$ in females, is given by the number of females
 %\label{usefulequation}
 %\end{equation}
 
-An equivalent expression for the per capita growth rate of allele $j$ in males $m$ can be obtained by exchange $f$ for $m$ across the various subscripts in this expression.
+An equivalent expression for the per capita growth rate of allele $j$ in males $m$ can be obtained by exchanging $f$ for $m$ across the various subscripts in this expression.
 
-When placed in the canonical form, the growth rate of allele $j$ in females $f$ is given by Eqn~\ref{canonical}. However, allelic coexistence in a sexual population is ultimately influenced by growth and establishment of an allele across both sexes. Therefore, the full growth rate of allele $j$ across the entire population of females \emph{and} males is given by
+Allelic coexistence in a sexual population, however, is ultimately influenced by growth and establishment of an allele across both sexes. Therefore, the full growth rate of allele $j$ across the entire population of females \emph{and} males is given by
 \begin{equation}
-    r_{j} = \ln \left(  \frac{n_{jf}e^{r_{jf}}}{n_{jf} + n_{jm}}   +  \frac{n_{jm}e^{r_{{jm}}}}{n_{jf} + n_{jm}}  \right) \,.
+    r_{j} = \ln \left( \frac{n'_{jf, t+1} + n'_{jm, t+1} }{n_{jf,t} + n_{jf,t} }  \right) \,.
     \label{full}
 \end{equation}
 
-%We can substitute using Eq.~\ref{usefulequation} and the corresponding expression for the growth rate of allele $j$ in males $m$ to obtain:
-%\begin{eqnarray}
-%        r_{j} =  \ln \left(  \frac{n_{jf}}{n_{jf}+ n_{jm} } \left[ \frac{N'_{f}}{n_{jf}} \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jf}}{(N_{m}n_{jf}+  N_{f}n_{jm})w_{jf} + (2N_{m}N_{f}-N_{m}n_{jf}-N_{f}n_{jm})w_{kf}} \right] \right. \nonumber \\
-%        + \left. \frac{n_{jm}}{n_{jf} + n_{jm}} \left[\frac{N'_{m}}{n_{jm}}
-%    \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jm}}{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jm} + (2N_{m}N_{f}-N_{m}n_{jf}-N_{f}n_{jm})w_{km}}  \right] \right)
-%\end{eqnarray}
-% for some reason this last parenthesis has decided not to be big
-% you cannot have autosized parentheses the span across lines. you need to add a dummy sizing element \left. to trick it to behave
-
-
-%Which simplifies to:
-
-%\begin{eqnarray}
-%    r_{j} = \ln \left( \frac{N'_{f}}{n_{jf}+ n_{jm}} \left[ \frac{(N_{m}n_{jf}+ N_{f}n_{jm})w_{jf}}{ (N_{m}n_{jf}+ N_{f}n_{jm})w_{jf} + (2N_{m}N_{f} - N_{m}n_{jf}- N_{f}n_{jm})w_{kf}  } \right] \right)\\
-%    + \ln \left(1 + \frac{N'_{m}}{N'_{f}} \frac{w_{jm}}{w_{jf}} \left[ \frac{ (N_{m}n_{jf} + N_{f}n_{jm})w_{jf} + (2 N_{m}N_{f}- N_{m}n_{jf}- N_{f}n_{jm} )w_{kf}}{(N_{m}n_{jf} + N_{f}n_{jm})w_{jm} + (2N_{m}N_{f}- N_{m}n_{jf}- N_{f}n_{jm})w_{km} } \right] \right)
-%    \label{rj}
-%\end{eqnarray}
-
-We show the full substitution of Eqns.\ref{canonical} and \ref{full} in the Supporting Information. Equivalently, there exists an expression for $r_{k}$. This re-formulation of changes in alleles frequencies to growth rates does not change the results of selection given by Eqn.~\ref{selection}. The fitness values, and consequently the values of the selection coefficients, will determine whether or not an allele is fixed in the population, which would would be reflected in positive growth rates.
-
-\subsection*{Growth rate decomposition using MCT}
-
-Modern coexistence theory has shown that coexistence is stabilized by mechanisms that give species a population growth rate advantage over other species when they become rare \citep{chesson_stabilizing_1982, chesson2003quantifying, barabas_chessons_2018}. Typically, the other species are at their \textit{resident} state, or remain at steady-state abundances, while the rare species is called the \textit{invader}. In the context of alleles in a population, an allele is an \textit{invader} when a mutation occurs that introduces that allele into the population (e.g., if in a population with only $k$ alleles, a random mutation made one individual carry the $j$ allele). Given sexually antagonistic selection, each allele has two pathways of invasion, depending on where the mutation occurs: females or males. If an alleles' \textit{invasion growth rate} (or the average instantaneous population growth rate when rare) is positive, it buffers it against extinction, maintaining its persistence in the population.  Coexistence, or polymorphism, occurs when all of the alleles in a population have positive invasion growth rates.
-
-MCT provides an analytical framework to decompose each species' , or in our case allele's, invasion growth rates into a sum of terms for the effects of different factors, such as abiotic and biotic fluctuations, and then compare invader and residents term by term \citep{ellner_expanded_2019}. Mechanisms that stabilize coexistence can help whichever allele is rare, or it can hurt whichever allele is common. Therefore, to understand the role of each mechanism, it is necessary to compare how it affects invader \textit{and} resident growth rates. MCT uses Taylor series expansion to do this decomposition and comparison (a detailed review can be found in \citet{barabas_chessons_2018}). We present an analytical approach, using classic MCT, to understand the relative contributions of fluctuation in population sizes and fitness values to each alleles' growth rate as an invader in the Supporting Information.
-
-Our general solution using Taylor series expansion, however, is not easily interpreted and soon becomes mathematically untraceable (Supporting Information). Therefore, we turned towards an extension of MCT \citep{ellner_expanded_2019} that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition}. This approach applies to any collection of two or more processes, mechanisms, or species differences affecting population growth rate \citep{ ellner2016quantify, ellner_expanded_2019}, and has been used to show the relative contribution of variable temperature and silicate to the coexistence of algal species \citep{ellner2016quantify} and to quantify the relative importance of environmental fluctuations and variation in predator abundances to the coexistence of intertidal species \citep{shoemaker2020}.
-
-The functional decomposition approach focuses on any biotic or abiotic variables affecting a population growth rate. It consists of breaking up the average growth rate of each species into a null growth rate in the absences of all selected variables, a set of main effect terms that represent the effect of adding only one variable, and a set of two--way interaction terms representing the effect of adding each possible pair of features \citep{ellner_expanded_2019}.
-
-For example, a population growth rate $r$ of a population $i$ can be function of abiotic fluctuations $X$, and biotic fluctuations $Y$:
-
-\begin{equation}
-   r_{i}(X,Y) = \mathcal{E}^{0} + \mathcal{E}^{X}+ \mathcal{E}^{Y}+ \mathcal{E}^{XY}
-   \label{functional_decomp}
-\end{equation}
-
-Where $\mathcal{E}^0$ is defined as the null growth rate when the abiotic and biotic variables are set to their averages. Terms with superscripts represent marginal effects of letting all superscripted variables vary while fixing all the other variables at their average values. For example, the term $\mathcal{E}^X$ expresses the contribution of the variable $X$ to a growth rate when $Y$ is at its average, without the contribution when both variables are set to their averages :
-
-\begin{equation}
-  \mathcal{E}^{X} = r_{i}(X,\overline{Y}) - \mathcal{E}^{0}
-\end{equation}
-
-
-Averaging both sides of ~\ref{functional_decomp} gives a partition of the average population growth rate of invading into the variance--free growth rate, the main effects of variability in $X$, the main effects of variability in $Y$, and the interaction between variability in $X$ and $Y$
-
-\begin{equation}
-    \overline{r}_{i}= \mathcal{E}^{0} + \overline{\mathcal{E}}^{X}+ \overline{\mathcal{E}}^{Y}+ \overline{\mathcal{E}}^{XY}
-   \label{functional_decomp_2}
-\end{equation}
-
-In the case of antagonistic alleles we previously introduced, the functional decomposition of both alleles' growth rates is a function of four variables: the number of males in the population ($N_{m}$), the number of females in the population ($N_{f}$), the fitness of allele $j$ in males ($w_{jm}$), and the fitness of allele $k$ in females ($w_{kf}$).The implementation and interpretation of the functional decomposition of the growth rates of each allele are identical to each other. For simplicity,  we present the full functional decomposition of the growth rate of allele $j$ in Table \ref{tab:EllnerRs}, as well as a brief description of the meaning of each term.
-
-The functional decomposition approach further requires the \textit{comparison} of each term, to understand if how it affects invader and residents. Suppose Eqn.~\ref{functional_decomp_2} represents the functional  decomposition of an invader $i$. An analogue decomposition of a resident $r$ growth rate would be given by $\overline{r}_{r}$, which being at steady state means $\overline{r}_{r}=0$. We therefore can express:
-
-
-\begin{equation}
-    \overline{r}_{i}= \overline{r}_{i} - \overline{r}_{r} = \Delta^{0} + \Delta^{X}+  \Delta^{Y}+ \Delta^{XY}
-   \label{functional_decomp_3}
-\end{equation}
-
-Where each $\Delta$ term denotes the difference between the invader and resident terms. For example $\Delta^{0}$  is the difference in population growth rates at mean values of $X$ and $Y$, $\Delta^{X}$ is the difference in the main effects of variability in $X$ between invader and resident, and so on. This comparison allows decomposing each species' growth rate when rare into its mechanistic contributions. Mechanisms may have minimal effects, a destabilizing effect (a negative contribution to a species' growth rate when rare), or a stabilizing effect (a positive contribution to a species' growth rate when rare) \citep{shoemaker2020}.
-
-In the case of antagonistic alleles, each term in Table \ref{tab:EllnerRs} can be compared to an analogue one of the other allele as a resident. For example, if allele $j$ is the invader and allele $k$ is the resident, the difference in invader and resident growth rates when the male population varies is given by:
-
-
-\begin{equation}
-\Delta^{Nm}_{j}= \overline{\mathcal{E}}^{Nm}_{j} - \overline{\mathcal{E}}^{Nm}_{k}
-\label{delta}
-\end{equation}
-
-If $\Delta^{Nm}_{j}$ is positive, then fluctuations in the male population benefit allele $j$ when it is rare more than what they benefit $k$ as a resident. If $\Delta^{Nm}_{j}$ is negative, then fluctuations benefit $k$ as a resident more than $j$ as an invader, and if it is minimal, then fluctuations have an equal effect in $j$ and $k$. However, coexistence occurs when both alleles, when rare, can invade a population, so for fluctuations in males to have a stabilizing effect, they should be positive for $\Delta^{Nm}_{j}$ and $\Delta^{Nm}_{k}$
+ Equivalently, there exists an expression for $r_{k}$. If the values of selection are within the bounds of Eqn.\ref{selection}, both alleles will have positive growth rates, and therefore be able to coexist. If one allele has a positive growth rate, while the other does not, then only one allele will be fixated into the population.  We used this model as a baseline to perform simulations that allowed us to examine how different types of fluctuation change the expected effect of sexually antagonistic selection.
 
 \subsection*{Simulations}
 
-Our simulations consisted of performing  invasion simulations of both alleles invading separetly, allowing population sizes and fitness values to fluctuate, across the parameter space of sexually antagonistic selection. Then, we used the functional decomposition approach to decompose and compare the relative contribution of fluctuations to the coexistence of sexually antagonistic alleles. For simplicity, we first present our approach focusing on a fixed point in the parameter space.
+Although the evolutionary dynamics of sexually antagonistc selection is often explored though changes in alleles' frequencies, MCT requires population dynamics to be expressed as growth rates of the competin alleles, as we show in Eqn.\ref{full}. This is because MCT provides a framework to quantify what gives an allele a population growth rate advantage over the other allele when it becomes rare (i.e., when it is an invader) \citep{chesson_stabilizing_1982, chesson2003quantifying, barabas_chessons_2018}. Our simulations, thus, consisted of performing  invasion simulations of both alleles invading separetly, allowing population sizes and fitness values to fluctuate, across the selection parameter space of sexually antagonistic selection. For simplicity, we first present our approach focusing on a fixed point in the selection parameter space.
 
-\vspace{5mm}
-\noindent\textbf{Timeseries}
+%Then, we used MCT to analyze the relative contributions of fluctuations in selection values and population sizes to the coexistence of sexually antagonistic alleles.
 
-For a determined value of $w_{jm}$ and $w_{kf}$, we first created a timeseries which projected our population model (Eqns.~\ref{first_pop} to \ref{full}) 500 timesteps. To generate the initial population, we used initial values of $N_{m}$ and $N_{f}$  of 200 individuals each, and equal frequencies of allele $j$ and allele $k$ in each sex. Throughout each timestep, we controlled how much populations sizes ($\sigma_{g}$), and fitness values ($\sigma_{w}$) varied, as well their correlations ($\rho_{g}$ and $\rho_{w}$). We show the full range of parameter values we used to introduce fluctuations in Table \ref{tab:fluctuations}.
+\subsubsection*{Timeseries}
 
-To introduce fluctuations in fitness values, following the appoach of  \citet{shoemaker2020}, we first generated a matrix of uncorrelated random viables using a normal distribution with a mean of zero and a standard deviation of one, for both of the fluctuating fitness values. Each matrix had two rows, and the same number of columns as number of timesteps in our simulations. Following this, we used the Cholesky factorisation of the variance-covariance matrix:
-
+%For given values of $w_{jm}$ and $w_{kf}$, we simulated our model (Eqns.~\ref{first_pop} to \ref{full}) 500 timesteps, therefore creating an allele dynamic timeseries. We started each simulation with  initial values of $N_{m}$ and $N_{f}$  of 200 individuals each, and equal frequencies of allele $j$ and allele $k$ in each sex.
+We first incorporated the effects of fluctuations into our populatin dynamics model. To do so, we  generated independent timeseries of fluctuations in fitness values and population sizes. In the case of fluctuations in selection values, for a given value of $w_{jm}$ and $w_{kf}$ (i.e., a fixed point in the selection parameter space), we generated a timeseries of 500 timesteps made up of correlated fluctuations of $w_{jm}$ and $w_{kf}$. Following the approach of  \citet{shoemaker2020} we controlled the effect size of  fluctuations in fitness values ($\sigma_{w}$) and its´ correlation ($\rho_{w}$) by  using the Cholesky factorisation of the variance-covariance matrix:
 
 \begin{equation}
 C_{w} = \begin{bmatrix}
@@ -318,14 +235,16 @@ C_{w} = \begin{bmatrix}
 \label{covmat}
 \end{equation}
 
-to create random normally distributed  rates of change for each fitness value, by multiplying Eqn.~\ref{covmat} by the corresponding matrix of uncorrelated random variables. Finally, we calculated the value of $w_{jm}$ and $w_{kf}$ to be used in each timestep, by elevating their fixed value to the corresponding rate of change. We imposed an upper bound to the values $w_{jm}$ and $w_{kf}$ at one since the parameter space of selection ranges from zero to one.
+We multiplyed Eqn.~\ref{covmat} by a ($2 \times 500$) matrix of random numbers from a normal distribution with mean 0 and unit variance, which yielded $\gamma_{j}$ and $\gamma_{k}$. Then, we calculated the value of $w_{jm}$ at time $t+1$ as $w_{jm,t+1} = w_{jm}^{\gamma_{j,t}}$. We calculated the value of $w_{kf,t+1}$  analogously.
 
-We introduced fluctuations in population sizes similar to fluctuations in fitness values: we created a matrix of uncorrelated random variables and performed a Cholesky factorisation of the corresponding variance-covariance matrix. Then, we calculated a new population size of males and females by adding to the mean value of $N_{m}$ and $N_{f}$, the corresponding value of the product of the variance-covariance matrix and the correspoing matrix of uncorrelated random variables. We bounded how much population sizes could fluctuate so there were no negative population sizes since that would not be biologically plausible. Following this, we calculated the rate of change for $N_{m}$ and $N_{f}$ for each timestep. Finally, we calculated the values of $N_{m}$ and $N_{f}$ to be used at each timestep of our simulation by elevating their mean value to the corresponding rate of change.
+Similarly, we generated a timeseries of 500 timesteps made up of correlated fluctuations in population sizes. We chose values of $N_{m}$ and $N_{f}$ of 200 individuals each as the initial value of population sizes througout our simulations. We performed a Cholesky factorisation of the variance-covariance matrix, controlling the effect size of fluctuations in population sizes with $\sigma_{g}$ and their correlation with $\rho_{g}$. We multiplied this factorisation by a random matrix of uncorrelated random variables, which yielded $\gamma_{m}$ and $\gamma_{f}$. Finally, we calculated the number of males in the population at time $t+1$ as $N_{m,t+1} = N_{m,t} + \gamma_{m,t}$. We calculated the value of $N_{f,t+1}$  analogously.
+
+Finally, we performed simulations that allowed our population dynamics model (Eqns.~\ref{first_pop} to \ref{full}) to iterate for 500 timesteps. We started each simulation with the inital values of $N_{m}$ and $N_{f}$ described before and equal frequencies of allele $j$ and allele $k$ in each sex. For each timestep $t$ in our simulations, the values of $w_{jm}$ $w_{kf}$, $N_{m}$ and $N_{f}$ used to calculate allele´s frequencies in the next generation corresponded to the values calculated as described previously. This approach yielded a final timeseries that captured the dynamics of sexually antagonistic alleles, with flucting values of selection and population sizes.
 
 \vspace{5mm}
 \noindent\textbf{Invasion simulations}
 
-We used the timeseries described previously to perform invasion simulations of both alleles. Each allele could invade via two different pathways: males and females. We explored all of the combinations of each allele invading through a different pathway (e.g., allele $j$ invading through males, and allele $k$ invading through females, and so on). Therefore, for every point in the parameter space of sexually antagonistic selection, we explored four different types of invasion.
+We used the timeseriesdescribed previously to perform invasion simulations of both alleles. Each allele could invade via two different pathways: males and females. We explored all of the combinations of each allele invading through a different pathway (e.g., allele $j$ invading through males, and allele $k$ invading through females, and so on). Therefore, for every point in the parameter space of sexually antagonistic selection, we explored four different types of invasion.
 
 For each timestep in the timeseries, we performed simulations of the two alleles invading separetly via their respective pathway. To simulate invasion, we set the initial values of the invading allele to one individual, while the resident allele was set to the correspoing value of the timeseries, and we projected forward one generation. For example, if allele $j$ was invading via males, then we would set $n_{jm} = 1$ and $n_{jf}= 0$, while the allele $k$ would be the resident. The abundance of the resident was determined by the timestep $t$ of the timeseries. After one generation, we calculated the logarithmic growth rate of \textit{j} allele invading as:
 
@@ -360,6 +279,8 @@ This normalization bounded $\Delta$ values from $-1$ to $1$.
 
 \vspace{5mm}
 \noindent\textbf{The parameter space of sexually antagonist selection}
+
+
 
 To evaluate if fluctuations in fitness values and population sizes allow sexually antagonistic alleles to coexist when their fitness values would typically not allow them to, we applied the approach presented so far to the whole parameter space of selection  ($ 0 < S_{m}, S_{f} < 1$). To do so, we partinioned the parameter space in 2500 parts, each one a combination of different $w_{jm}$ and $w_{kf}$ values. For each parameter combination, we  separetly calculated each allele's mean invasion growth rate when invading through males and females, as well as its functional decomposition. Then, we determined coexistence outcomes using the mutual invasibility criterion. Finally, we calculated the proportion of the parameter space that allowed alleles to coexist, for each allele invading via a different sex.
 

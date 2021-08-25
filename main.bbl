@@ -1,12 +1,5 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{Adler \emph{et~al.}(2018)Adler, Falk, Friedler, Nix, Rybeck,
-  Scheidegger, Smith \& Venkatasubramanian}]{Adleretal2018}
-Adler, P., Falk, C., Friedler, S.A., Nix, T., Rybeck, G., Scheidegger, C.,
-  Smith, B. \& Venkatasubramanian, S. (2018).
-\newblock Auditing black-box models for indirect influence.
-\newblock \emph{Knowledge and Information Systems}, 54, 95--122.
 
 \bibitem[{Barabás \emph{et~al.}(2018)Barabás, D'Andrea \&
   Stump}]{barabas_chessons_2018}
@@ -95,13 +88,6 @@ Hedrick, P.W. (1986).
 \newblock Genetic polymorphism in heterogeneous environments: a decade later.
 \newblock \emph{Annual review of ecology and systematics}, 17, 535--566.
 
-\bibitem[{HilleRisLambers \emph{et~al.}(2012)HilleRisLambers, Adler, Harpole,
-  Levine \& Mayfield}]{hillerislambers2012rethinking}
-HilleRisLambers, J., Adler, P.B., Harpole, W., Levine, J.M. \& Mayfield, M.M.
-  (2012).
-\newblock Rethinking community assembly through the lens of coexistence theory.
-\newblock \emph{Annual Review of Ecology, Evolution, and Systematics}, 43.
-
 \bibitem[{Immler \emph{et~al.}(2012)Immler, Arnqvist \&
   Otto}]{immler2012ploidally}
 Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
@@ -116,12 +102,6 @@ Kidwell, J., Clegg, M., Stewart, F. \& Prout, T. (1977).
 \newblock Regions of stable equilibria for models of differential selection in
   the two sexes under random mating.
 \newblock \emph{Genetics}, 85, 171--183.
-
-\bibitem[{Mayfield \& Levine(2010)}]{mayfield2010opposing}
-Mayfield, M.M. \& Levine, J.M. (2010).
-\newblock Opposing effects of competitive exclusion on the phylogenetic
-  structure of communities.
-\newblock \emph{Ecology Letters}, 13, 1085--1093.
 
 \bibitem[{Mitchell-Olds \emph{et~al.}(2007)Mitchell-Olds, Willis \&
   Goldstein}]{mitchell-olds_which_2007}
@@ -150,13 +130,6 @@ Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
   large mammals in the hebrides.
 \newblock \emph{Philosophical Transactions of the Royal Society of London.
   Series B: Biological Sciences}, 351, 745--752.
-
-\bibitem[{Petry \emph{et~al.}(2018)Petry, Kandlikar, Kraft, Godoy \&
-  Levine}]{petry2018competition}
-Petry, W.K., Kandlikar, G.S., Kraft, N.J., Godoy, O. \& Levine, J.M. (2018).
-\newblock A competition--defence trade-off both promotes and weakens
-  coexistence in an annual plant community.
-\newblock \emph{Journal of Ecology}, 106, 1806--1818.
 
 \bibitem[{Reinhold(2000)}]{reinhold2000maintenance}
 Reinhold, K. (2000).

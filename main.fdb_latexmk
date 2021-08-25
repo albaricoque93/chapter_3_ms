@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1629778148 "main.aux" "main.bbl" "main" 1629778289
+["bibtex main"] 1629869036 "main.aux" "main.bbl" "main" 1629870354
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
   "coexistence.bib" 1629776848 33977 9de9cac8ece008365203e22139d6c3d4 ""
-  "main.aux" 1629778288 5148 685f0418112d250c772d0e374ccb494c "pdflatex"
+  "main.aux" 1629870353 4255 4779a5f7b52dabf76ebb923e92dd31a9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1629778287 "main.tex" "main.pdf" "main" 1629778289
+["pdflatex"] 1629870352 "main.tex" "main.pdf" "main" 1629870354
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm" 1136768653 4712 9ef4d7d106579d4b136e1529e1a4533c ""
@@ -15,10 +16,10 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplbi8r.tfm" 1136768653 2788 e071e05f6ae1a90dbbbc13a193c3a135 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm" 1136768653 1804 7b5f73028f6509167f47ace9d69509ed ""
-  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8c.tfm" 1136768653 1348 0e8eb69b4437626c0f6c9bed4a4e373c ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm" 1136768653 2796 d37c29814a6717720ee1a7c9a0b2c3b8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplri7t.tfm" 1136768653 1732 3671a0e54806deb8b706eb5e53aba0a5 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm" 1136768653 2720 70000d5e623e601132eab3cded5b819b ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -41,6 +42,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb" 1136849748 7720 c5a051dbf26cf0c346944343a103d9a8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb" 1136849748 9356 a3851bc942e9b6995883193472ba1847 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb" 1136849748 15213 d999bbe8bd9c8f231f3f66a737c76478 ""
@@ -52,7 +54,6 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvr7t.vf" 1136768653 1372 dc841a9f00a1a11b1443367ae6c5588e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplb7t.vf" 1136768653 1380 798ef26de8f0a21f37c9b1147f4fe5d8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf" 1136768653 1380 037725697594405988999f61172f52de ""
-  "/usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf" 1136768653 3504 f65f653e1ad318a9d01b4af15300683a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/vf/adobe/palatino/pplri7t.vf" 1136768653 1376 a5f9301e24d8e27c2286a3b415778d2d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmb7m.vf" 1136768653 1812 dc1cd2f63ee5ab82b4396ae8c2c61a30 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/vf/public/mathpazo/zplmb7t.vf" 1136768653 1536 3dec627b3e888153b2e5313c6f6fcdad ""
@@ -171,7 +172,6 @@
   "/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ppl.fd" 1137110629 961 06b773644d960aac68add40fcb596208 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd" 1137110629 436 5e7baa1a259bab50a2bdffad6426f38c ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/times.sty" 1156702453 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
-  "/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ppl.fd" 1137110629 619 35f1cf70bf09b6e2d22ee0902cfb1a8b ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/setspace/setspace.sty" 1324344192 22913 a27d7908fc6f0385466454a966a316eb ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty" 1573854158 85328 ceb41649f3dfe798c9d3c0402e87f6f1 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty" 1580683321 12560 ce3f59ceae9d9a27bfe037d6bf1d903c ""
@@ -187,10 +187,10 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "fluctuations.pdf" 1629326454 15011 eadffb9894d7a2edfeda881c5e02e612 ""
   "fluctuations_two.pdf" 1629326454 20798 9d4bfd0189e69c382700085f28630b92 ""
-  "main.aux" 1629778288 5148 685f0418112d250c772d0e374ccb494c "pdflatex"
-  "main.bbl" 1629778149 8004 82ac944bd082e9deb8f53a5475107938 "bibtex main"
-  "main.tex" 1629778287 39161 7bb0e1f08ca09cf1f536b333220b26c4 ""
+  "main.aux" 1629870353 4255 4779a5f7b52dabf76ebb923e92dd31a9 "pdflatex"
+  "main.bbl" 1629869036 6654 f25d777deba299da47a475eaa4684b6e "bibtex main"
+  "main.tex" 1629870352 30828 a8a355f897f96a3f9cbeb162b1f9d2e2 ""
   (generated)
   "main.log"
-  "main.aux"
   "main.pdf"
+  "main.aux"
