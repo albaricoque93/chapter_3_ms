@@ -201,23 +201,26 @@ Selection mantains both alleles in the population under the condition that:
 \frac{S_{m}}{1+S_{m}} < S_{f} < \frac{S_{m}}{1-S_{m}}
 \label{selection}
 \end{equation}
-Thus,the maintenance of polymorphism of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. Note that in our model, the values $S_{m}$ and $S_{f}$ can take are bounded from $0$ to $1$. Therefore the parameter space of sexually antagonistic selection is within the range $ 0< S_{m}, S_{f} < 1$. Classic theoretical models predict that in constant environments, only in $\approx 0.38$ of the selection parameter space alleles can coexist \citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}.If fluctuations in population sizes or selection values have an effect on the coexistence of sexually antagonistic alleles, it would be reflected in increases or decreases of the proportion of the parameter space of selection where polymorphism is maintained.
+Thus,the maintenance of polymorphism of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. Note that in our model, the values $S_{m}$ and $S_{f}$ can take are bounded from $0$ to $1$. Therefore the parameter space of sexually antagonistic selection is within the range $ 0< S_{m}, S_{f} < 1$. Classic theoretical models predict that in constant environments, only in $\approx 0.38$ of the selection parameter space alleles can coexist \citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}.  If fluctuations in population sizes or selection values have an effect on the coexistence of sexually antagonistic alleles, it would be reflected in increases or decreases of the proportion of the parameter space of selection where polymorphism is maintained.
 
 
 
 \subsection*{Simulations}
 
 %Although the evolutionary dynamics of sexually antagonistic selection is often explored through changes in alleles' frequencies, MCT requires population dynamics to be expressed as growth rates of the competing alleles, as we show in Eqn.\ref{full}.
+Typically, MCT would require decomposing alleles' growth rates (e.g., Eqn.~\ref{full}) analytically to examine the relative contributions of different types of fluctuations to their coexistence \citep{barabas_chessons_2018}. Although we present an analytical approach in the Supporting Information, our general solution is not easily interpretable and soon becomes mathematically intractable (S1 Supporting Information). Thus, we opted for an extension of MCT that provides the flexibility to examine the contributions of different processes to coexistence using simulations \citep{ellner_expanded_2019, shoemaker2020}.
 
-Our simulation approach first consisted of incorporating fluctuations in selection and population sizes into our population dynamics model of sexually antagonistic selection. For reasons that will hopefully become clear later, we then performed simulations of each allele invading a population that experiences the aforementioned fluctuations. Finally, we looked at the relative contributions of each type of fluctuation that allowed each allele to establish in a population. We performed simulations across the selection parameter space of sexually antagonistic selection ($0 < S_{m}, S_{f} < 1$). For simplicity, we initially present our approach focusing on a fixed point in the selection parameter space.
+%Our approach first consisted, following \citep{shoemaker2020}, of incorporating fluctuations in selection and population sizes into our population dynamics model. Then, we performed simulations of each allele invading a population that experiences the aforementioned fluctuations. Finally, we looked at the relative contributions of each type of fluctuation that allowed each allele to establish in a population.
 
 
-%Then, we used MCT to analyze the relative contributions of fluctuations in selection values and population sizes to the coexistence of sexually antagonistic alleles.
+For each simulation, we examined coexistence outcomes across the selection parameter space of sexually antagonistic selection ($0 < S_{m}, S_{f} < 1$). To do so, we partitioned the parameter space into a grid of $50 \times 50$, which yielded 2500 pairwise combinations of different $w_{jm}$ and $w_{kf}$ values. For each pairwise combination of $w_{jm}$ and $w_{kf}$, as we detail in the next sections, we iterated our model while controlling the effect size of  fluctuations in fitness values ($\sigma_{w}$), fluctuations in population sizes ($\sigma_{g}$) and their correlations ($\rho_{w}$ and $\rho_{g}$ respectively). Then, we performed simulations of each allele invading a population, determined coexistence outcomes, and the relative contribution of each type of fluctuation. Finally, we calculated for each simulation, the proportion of the parameter space that allowed alleles to coexist.
+
+We explored all of  the combinations of low , intermediate  and high fluctuations  in fitness values and population sizes, with different extents of correlations between fluctuations (Table \ref{tab:fluctuations}).  As a control simulation, we set $\sigma_{w}= 0.001$ and  $\sigma_{g}=0.001$, with no correlation between fluctuations. For each one of the factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$ (Table \ref{tab:fluctuations}), we performed invasion simulations across the parameter space of selection. We ran ten replicates per parameter combination, which resulted in 3780 simulations.
 
 \subsubsection*{Timeseries}
 
-%For given values of $w_{jm}$ and $w_{kf}$, we simulated our model (Eqns.~\ref{first_pop} to \ref{full}) 500 timesteps, therefore creating an allele dynamic timeseries. We started each simulation with  initial values of $N_{m}$ and $N_{f}$  of 200 individuals each, and equal frequencies of allele $j$ and allele $k$ in each sex.
-We first incorporated the effects of fluctuations into our population dynamics model. To do so, we generated independent timeseries of fluctuations in fitness values and population sizes. In the case of fluctuations in selection values, for a given value of $w_{jm}$ and $w_{kf}$ (i.e., a fixed point in the selection parameter space), we generated a timeseries of 500 timesteps made up of correlated fluctuations of $w_{jm}$ and $w_{kf}$. Following the approach of  \citet{shoemaker2020} we controlled the effect size of  fluctuations in fitness values ($\sigma_{w}$) and its´ correlation ($\rho_{w}$) by  using the Cholesky factorization of the variance-covariance matrix:
+
+To incorporate the effects of fluctuations into our population dynamics model we generated independent timeseries of fluctuations in fitness values and population sizes. In the case of fluctuations in selection values, for a given value of $w_{jm}$ and $w_{kf}$ (i.e., a fixed point in the selection parameter space), we generated a timeseries of 500 timesteps made up of correlated fluctuations of $w_{jm}$ and $w_{kf}$. We controlled the effect size of  fluctuations in fitness values ($\sigma_{w}$) and its correlation ($\rho_{w}$) by  using the Cholesky factorization of the variance-covariance matrix:
 
 \begin{equation}
 C_{w} = \begin{bmatrix}
@@ -229,18 +232,18 @@ C_{w} = \begin{bmatrix}
 
 We multiplyed Eqn.~\ref{covmat} by a ($2 \times 500$) matrix of random numbers from a normal distribution with mean 0 and unit variance, which yielded $\gamma_{j}$ and $\gamma_{k}$. Then, we calculated the value of $w_{jm}$ at time $t+1$ as $w_{jm,t+1} = w_{jm}^{\gamma_{j,t}}$. We calculated the value of $w_{kf,t+1}$  analogously.
 
-Similarly, we generated a timeseries of 500 timesteps made up of correlated fluctuations in population sizes. We chose values of $N_{m}$ and $N_{f}$ of 200 individuals each as the initial value of population sizes throughout our simulations. We performed a Cholesky factorization of the variance-covariance matrix, controlling the effect size of fluctuations in population sizes with $\sigma_{g}$ and their correlation with $\rho_{g}$. Similar to our previous approach, we multiplied this factorization by a random matrix of uncorrelated random variables, which yielded $\gamma_{m}$ and $\gamma_{f}$. Finally, we calculated the number of males in the population at time $t+1$ as $N_{m,t+1} = N_{m} + \gamma_{m,t}$. We calculated the value of $N_{f,t+1}$  analogously.
+Similarly, we generated a timeseries of 500 timesteps made up of correlated fluctuations in population sizes. We chose values of $N_{m}$ and $N_{f}$ of 200 individuals each as the initial value of population sizes throughout our simulations. We performed a Cholesky factorization of the variance-covariance matrix, controlling the effect size of fluctuations in population sizes with $\sigma_{g}$ and their correlation with $\rho_{g}$. Similar to our previous approach, we multiplied this factorization by a random matrix of uncorrelated random variables, which yielded $\gamma_{m}$ and $\gamma_{f}$. Finally, we calculated the number of males in the population at time $t+1$ as $N_{m,t+1} = N_{m} + \gamma_{m,t}$. We calculated the value of $N_{f,t+1}$  analogously. We bounded the values population sizes could take so there were no negative population sizes, since that would not be biologically plausible. We did not impose an upper bound to the values population sizes could take. \ACL{We did not impose any bounds to sex ration, nor total population sizes, I don't know if that is worth mentioning}
 
 Finally, we performed simulations where our population dynamics model (Eqns.~\ref{first_pop} to \ref{full}) iterated over 500 timesteps while allowing selection values and population sizes to fluctuate in each timestep. We started each simulation with the initial values of $N_{m}$ and $N_{f}$ described before and equal frequencies of allele $j$ and allele $k$ in each sex. For each timestep $t$ in our simulations, the values of $w_{jm}$ $w_{kf}$, $N_{m}$ and $N_{f}$ used to calculate allele´s frequencies in in timestep $t$ (e.g., Eqn.~\ref{next_gen}), corresponded to the $t$ values calculated in each timeseries, as described previously. This approach yielded a final timeseries that captured the dynamics of sexually antagonistic alleles, with fluctuating values of selection and population sizes.
 
 \vspace{5mm}
 \noindent\textbf{Invasion simulations}
 
- Modern coexistence theory has shown that coexistence is promoted by mechanisms that give species a population growth rate advantage over other species when they become rare \citep{chesson_stabilizing_1982, chesson2003quantifying, barabas_chessons_2018}. Typically, one species is held at its \textit{resident} state, as given by its steady-state abundances while the rare species is called the \textit{invader}. In the context of alleles in a population, an allele is an \textit{invader} when a mutation occurs that introduces that allele into a population in which it is absent (e.g., if in a population with only $k$ alleles, a random mutation made one individual carry the $j$ allele). Within sexually antagonistic selection, each allele has two pathways of invasion, depending on whether the mutation arises in a female or in a male. If an alleles' \textit{invasion growth rate} (or the average instantaneous population growth rate when rare) is positive, it buffers it against extinction, maintaining its persistence in the population.  Coexistence, and hence polymorphism, occurs when all of the alleles in a population have positive invasion growth rates.
+ Modern coexistence theory has shown that coexistence is promoted by mechanisms that give species a population growth rate advantage over other species when they become rare \citep{chesson_stabilizing_1982, chesson2003quantifying, barabas_chessons_2018}. Typically, one species is held at its \textit{resident} state, as given by its steady-state abundances while the rare species is called the \textit{invader}. In the context of alleles in a population, an allele is an \textit{invader} when a mutation occurs that introduces that allele into a population in which it is absent (e.g., if in a population with only $k$ alleles, a random mutation made one individual carry the $j$ allele). Within sexually antagonistic selection, each allele has two pathways of invasion, depending on whether the mutation arises in a female or in a male. If an alleles' \textit{invasion growth rate} (or the average instantaneous population growth rate when rare) is positive, it buffers it against extinction, maintaining its persistence in the population.  Coexistence, and hence polymorphism, occurs when both alleles have positive invasion growth rates.
 
-To study the dynamics of sexually antagonistic alleles through this framework, we used the timeseries that captured the dynamics of our population model as a template to perform invasion simulations of both alleles. We allowed each allele to invade via two different pathways males and females, and we explored all potential combinations of each allele invading through a different pathway (e.g., allele $j$ invading through males, and allele $k$ invading through females, and so on). For every point in the parameter space of sexually antagonistic selection, therefore, we explored four different types of invasion.
+To study the dynamics of sexually antagonistic alleles through this framework, we used the timeseries that captured the dynamics of our population model as a template to perform invasion simulations of both alleles. We allowed each allele to invade via two different pathways: males and females. We explored all potential combinations of each allele invading through a different pathway (e.g., allele $j$ invading through males, and allele $k$ invading through females, and so on). This yielded four types of invasion.
 
-For each timestep in the timeseries, we performed simulations of the two alleles invading separately via their respective pathway. To simulate invasion, we set the density of the invading allele to one individual, while the resident allele was set to the corresponding value of the timeseries, and iterated our model one timestep. Note that this iteration of our model was independent of the previous iteration that we used to generate the timeseries, therefore we denoted a timestep in an invasion simulation with the subscript $i$. For example, if allele $j$ was invading via males, then we would set $n_{jm,i} = 1$ and $n_{jf,i}= 0$, while the allele $k$ would be the resident. The abundance of the resident before the invasion was determined by its abundance at timestep $t$ of the timeseries. Then, we iterated our model one timestep and calculated the logarithmic growth rate of \textit{j} allele invading as:
+For each timestep in the timeseries, we performed simulations of the two alleles invading separately via their respective pathway. To simulate invasion, we set the density of the invading allele to one individual. For example, if allele $j$ was invading via males, then we would set $n_{jm,i} = 1$ and $n_{jf,i}= 0$. Note that each invasion simulation was independent of the iteration that we used to generate the timeseries, therefore we denoted the initial timestep in an invasion simulation with the subscript $i$. We also set the resident allele, in this case $k$, to the corresponding value of the timeseries minus one individual, $n_{km,i} = N_{m,t} -1$ and $n_{kf,i} = N_{f,t}$. Then, we iterated our model one timestep, $i+1$, and calculated the logarithmic growth rate of \textit{j} allele invading as:
 
 \begin{equation}
 r_{j} =	\ln \left ( \frac{n_{jm,i+1 } + n_{jf,i+1}}{1} \right )
@@ -249,23 +252,25 @@ r_{j} =	\ln \left ( \frac{n_{jm,i+1 } + n_{jf,i+1}}{1} \right )
 
 Correspondingly, the logarithmic growth rate of the \textit{k} allele as a resident would be given by:
 \begin{equation}
-r_{k} =	\ln \left ( \frac{ n_{km,i+1} + n_{kf,i+1} }{ N_{m,t} + N_{f,t}  } \right )
+r_{k} =	\ln \left ( \frac{ n_{km,i+1} + n_{kf,i+1} }{ n_{km,i} + n_{kf,i}  } \right )
 \label{resident}
 \end{equation}
 
-We treated each timestep of the timeseries independently, and hence we performed 500 invasion simulations. We then calculated, for each allele invading via a different pathway, its mean invasion growth rate as the average of the 500 invasion growth rates. We also calculated the mean growth rate of the resident allele as the average of the 500 resident growth rates. We determined alleles to be coexisting if both of them, invading via their respective pathway, had positive mean invasion growth rates, which is often referred to as the mutual invasibility criterion \citep{barabas_chessons_2018}.
+We treated each timestep of the timeseries independently, and hence we performed 500 invasion simulations. We then calculated, for each allele invading via a different pathway, its mean invasion growth rate as the average of the 500 invasion growth rates. We also calculated the mean growth rate of the resident allele as the average of the 500 resident growth rates. We determined alleles to be coexisting if both of alleles had positive mean invasion growth rates, which is often referred to as the mutual invasibility criterion \citep{barabas_chessons_2018}.
 
 \vspace{5mm}
 \noindent\textbf{Functional decompostion}
 
-Our invasion simulations tell us whether or not sexually antagonistic alleles can coexist in a determined point of the selection parameter space. However, we also wanted to quantify the relative contributions of fluctuating selection and population sizes into the predicted coexistence outcome. Therefore, we turned towards an extension of modern coexistence theory \citep{ellner_expanded_2019} that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition}. This approach applies to any collection of two or more processes, mechanisms, or species differences affecting population growth rate \citep{ ellner2016quantify, ellner_expanded_2019}, and has been used to show the relative contribution of variable temperature and silicate to the coexistence of algal species \citep{ellner2016quantify} and to quantify the relative importance of environmental fluctuations and variation in predator abundances to the coexistence of intertidal species \citep{shoemaker2020}.
+Our invasion simulations tell us whether or not sexually antagonistic alleles can coexist in a determined point of the selection parameter space. However, we also quantified the relative contributions of fluctuating selection and population sizes into the predicted coexistence outcome. Therefore, we used an extension of MCT that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition} \citep{ellner2016quantify,ellner_expanded_2019, shoemaker2020}.
+
+%also wanted to quantify the relative contributions of fluctuating selection and population sizes into the predicted coexistence outcome. Therefore, we turned towards an extension of modern coexistence theory \citep{ellner_expanded_2019} that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition}. This approach applies to any collection of two or more processes, mechanisms, or species differences affecting population growth rate \citep{ ellner2016quantify, ellner_expanded_2019}, and has been used to show the relative contribution of variable temperature and silicate to the coexistence of algal species \citep{ellner2016quantify} and to quantify the relative importance of environmental fluctuations and variation in predator abundances to the coexistence of intertidal species \citep{shoemaker2020}.
 
 
 %Modern coexistence theory provides an analytical framework to decompose each allele´s, invasion growth rates into a sum of terms for the effects of different factors, such as abiotic and biotic fluctuations, and then compare invader and residents term by term \citep{ellner_expanded_2019}. Mechanisms that promote coexistence can help whichever allele is rare, or it can hurt whichever allele is common. Therefore, to understand the role of each mechanism, it is necessary to compare how it affects invader \textit{and} resident growth rates.
 
 %MCT uses Taylor series expansion to do this decomposition and comparison (a detailed review can be found in \citet{barabas_chessons_2018}). We present an analytical approach, using classic MCT, to understand the relative contributions of fluctuation in population sizes and fitness values to each alleles' growth rate as an invader in the Supporting Information.
 
-The functional decomposition approach focuses on any biotic or abiotic fluctuations affecting a population´s growth rate. In our case, it consists of breaking up the average growth rate of each allele into a null growth rate in the absences of fluctuations in all selected variables, a set of main effect terms that represent the effect of only one variable fluctuating, and a set of two-way interaction terms representing the effect of variables fluctuating simultaneously \citep{ellner_expanded_2019}. This is a function of four variables: the number of males in the population ($N_{m}$), the number of females in the population ($N_{f}$), the fitness of allele $j$ in males ($w_{jm}$), and the fitness of allele $k$ in females ($w_{kf}$). As an example, if only $N_{m}$ and $N_{f}$ were fluctuating, the growth rate of allele $j$ when it is the invader at timestep $t$ could be decomposed into:
+We applied the functional decomposition approach by breaking up the average growth rate of each allele into a null growth rate in the absences of fluctuations in all selected variables, a set of main effect terms that represent the effect of only one variable fluctuating, and a set of two-way interaction terms representing the effect of variables fluctuating simultaneously \citep{ellner_expanded_2019}. In our simulations, this is a function of four variables: the number of males in the population ($N_{m}$), the number of females in the population ($N_{f}$), the fitness of allele $j$ in males ($w_{jm}$), and the fitness of allele $k$ in females ($w_{kf}$). As an example, if only $N_{m}$ and $N_{f}$ were fluctuating, the growth rate of allele $j$ when it is the invader at timestep $t$ could be decomposed into:
 
 \begin{equation}
    r_{j,t}(N_{m},N_{f}) = \mathcal{E}_{j}^{0} + \mathcal{E}_{j}^{N_{m}}+ \mathcal{E}_{j}^{N_{f}}+ \mathcal{E}_{j}^{N_{m}N_{f}}
@@ -296,33 +301,42 @@ The functional decomposition approach further requires the \textit{comparison} o
 \label{delta}
 \end{equation}
 
-If $\Delta^{N_{m}}_{j}$ is positive, then fluctuations in the male population benefit allele $j$ when it is rare more than what they benefit $k$ as a resident. If $\Delta^{N_{m}}_{j}$ is negative, then fluctuations benefit $k$ as a resident more than $j$ as an invader, and if it is minimal, then fluctuations have an equal effect in $j$ and $k$. Therefore, for each allele invading via a different pathway, we calculated 16 $\Delta$ values, one for each one of the $\mathcal{E}$ terms in Table \ref{tab:EllnerRs}. However, since the magnitude of each one of these values could vary considerably across the parameter space of selection, to make them comparable, we normalized each $\Delta$ value by dividing it by the length of the $\boldsymbol{\Delta}$ vector. For example, the normalized value of Eqn.~\ref{delta} would be given by:
+If $\Delta^{N_{m}}_{j}$ is positive, then fluctuations in the male population benefit allele $j$ when it is rare more than what they benefit $k$ as a resident. If $\Delta^{N_{m}}_{j}$ is negative, then fluctuations benefit $k$ as a resident more than $j$ as an invader, and if it is minimal, then fluctuations have an equal effect in $j$ and $k$. Therefore, for each allele invading via a different pathway, we calculated 16 $\Delta$ values, one for each one of the $\mathcal{E}$ terms in Table \ref{tab:EllnerRs}. However, since the magnitude of each one of these values could vary considerably across the parameter space of selection, to make them comparable, we normalized each $\Delta$ value by dividing it by the square root of the sum of the squares of the 16 $\Delta$ values. For example, the normalized value of Eqn.~\ref{delta} would be given by:
 
 
 
 \begin{equation}
-  \Delta^{N_{m,n}}_{j}= \frac{\Delta^{N_{m}}_{j}}{\sqrt{
-    \sum\limits_{i=1}^{16} (\boldsymbol{\Delta_{i}})^{2} }}
+  \delta^{N_{m}}_{j}= \frac{\Delta^{N_{m}}_{j}}{\sqrt{
+    \sum\limits_{d=1}^{16} (\boldsymbol{\Delta_{d}})^{2} }}
 \end{equation}
 
-This normalization bounded $\Delta$ values from $-1$ to $1$.
+This normalization bounded $\delta$ values from $-1$ to $1$.
 
-\subsection*{The parameter space of sexually antagonist selection}
+\section{Results}
 
-To evaluate if fluctuations in fitness values and population sizes allow sexually antagonistic alleles to coexist when selection would typically not allow them to, we applied the approach presented so far to the whole parameter space of selection  ($ 0 < S_{m}, S_{f} < 1$). To do so, we partitioned the parameter space in 2500 parts, each one a combination of different $w_{jm}$ and $w_{kf}$ values. For each parameter combination, we separately calculated each allele's mean invasion growth rate when invading through males and females, as well as its functional decomposition. Then, we determined coexistence outcomes using the mutual invasibility criterion. Finally, we calculated the proportion of the parameter space that allowed alleles to coexist, for each allele invading via a different sex.
+Our simulations showed that fluctuations in selection and population sizes could both increase the proportion of allelic coexistence in the parameter space compared to classic theoretical expectations (Fig.~\ref{fig:prop}A and B). As a baseline, we show in Fig.~\ref{fig:prop}C the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. Importantly, we also found that the extent and relative contribution of each type of fluctuation, differed from each other.
 
-We explored all of  the combinations of low , intermediate  and high fluctuations  in fitness values and population sizes, with different extents of correlations between fluctuations (Table \ref{tab:fluctuations}).  As a control simulation, we set $\sigma_{w}= 0.001$ and  $\sigma_{g}=0.001$, with no correlation between fluctuations. For each one of the factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$ (Table \ref{tab:fluctuations}), we performed invasion simulations across the parameter space of selection. We did three replicates per parameter combination, which resulted in 432 simulations.
-
-
-%\clearpage
-%\subsection*{Results}
-
+When \textit{only} population sizes fluctuated,
 
 
 \clearpage
 \section*{Figures and tables }
 
 
+\begin{table}[h]
+\fontsize{10}{18}\selectfont
+\centering
+\caption{Parameters used in our simulations to control the effect size of fluctuations in population sizes ($\sigma_{g}$) and selection values $\sigma_{w}$, as well as their respecitve correlations ($\rho_{g}$ and $\rho_{w}$). }
+\begin{tabular}{@{}llll@{}}
+\toprule
+Parameter                    & Values                    & Description                                   &  \\ \midrule
+$\sigma_{w}$ & 0.001, 0.1, 0.3, 0.5, 0.7, 0.9 & Effect size of fluctuations in fitness values &  \\
+$\sigma_{g}$ & 0.001, 1, 10, 20, 30, 50 & Effect size of fluctuations in population sizes                                              &  \\
+$\rho_{w}$  &  -0.75, 0, 0.75                         &   Correlation between fluctuations in fitness values                                            &  \\
+$\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between fluctuation in population sizes                                             &  \\ \bottomrule
+\end{tabular}
+\label{tab:fluctuations}
+\end{table}
 
 
 \begin{table}[h]
@@ -382,20 +396,6 @@ $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}
 
 
 
-\begin{table}[h]
-\fontsize{10}{18}\selectfont
-\centering
-\caption{Parameters used in our simulations to control the effect size of fluctuations in population sizes ($\sigma_{g}$) and selection values $\sigma_{w}$, as well as their respecitve correlations ($\rho_{g}$ and $\rho_{w}$). }
-\begin{tabular}{@{}llll@{}}
-\toprule
-Parameter                    & Values                    & Description                                   &  \\ \midrule
-$\sigma_{w}$ & 0.001, 0.1, 0.3, 0.5, 0.7, 0.9 & Effect size of fluctuations in fitness values &  \\
-$\sigma_{g}$ & 0.001, 1, 10, 20, 30, 50 & Effect size of fluctuations in population sizes                                              &  \\
-$\rho_{w}$  &  -0.75, 0, 0.75                         &   Correlation between fluctuations in fitness values                                            &  \\
-$\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between fluctuation in population sizes                                             &  \\ \bottomrule
-\end{tabular}
-\label{tab:fluctuations}
-\end{table}
 
 
 \clearpage
