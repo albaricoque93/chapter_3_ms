@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1630644612 "main.aux" "main.bbl" "main" 1630644981
+["bibtex main"] 1630905330 "main.aux" "main.bbl" "main" 1630907345
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
   "coexistence.bib" 1629776848 33977 9de9cac8ece008365203e22139d6c3d4 ""
-  "main.aux" 1630644980 4968 6e3423ec66fb80406309a22f29e2b5d3 "pdflatex"
+  "main.aux" 1630907325 4968 eaaba56833b7cbc0f666f1bf882f54ca "pdflatex"
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1630644979 "main.tex" "main.pdf" "main" 1630644981
+  "main.bbl"
+["pdflatex"] 1630907323 "main.tex" "main.pdf" "main" 1630907345
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -186,13 +186,13 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "box_plots.pdf" 1630545620 46128 a6f0e399d919ee8a798c75c8cff843ed ""
-  "heat_map.pdf" 1630549708 13567 e1c1deec9553e50ba54488ed390138b2 ""
-  "main.aux" 1630644980 4968 6e3423ec66fb80406309a22f29e2b5d3 "pdflatex"
-  "main.bbl" 1630644613 6654 f25d777deba299da47a475eaa4684b6e "bibtex main"
-  "main.tex" 1630644979 36793 e32eb195c3b4a595d374af011f742c43 ""
+  "heat_map.png" 1630894159 63710 9e3f60096bc8503604860a9638823378 ""
+  "main.aux" 1630907325 4968 eaaba56833b7cbc0f666f1bf882f54ca "pdflatex"
+  "main.bbl" 1630905330 6654 f25d777deba299da47a475eaa4684b6e "bibtex main"
+  "main.tex" 1630907345 40061 416928537c16824bc9597c33a2053993 ""
   "outcomes.pdf" 1630546012 43243 a94d08f0e1045cb0954d9c8d46b57ad2 ""
   "proportions.pdf" 1630453709 14488 1eaa680bba00782367377debcd736b22 ""
   (generated)
-  "main.log"
   "main.pdf"
+  "main.log"
   "main.aux"

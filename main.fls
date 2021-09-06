@@ -377,9 +377,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT proportions.pdf
 INPUT ./proportions.pdf
 INPUT ./proportions.pdf
-INPUT heat_map.pdf
-INPUT ./heat_map.pdf
-INPUT ./heat_map.pdf
+INPUT heat_map.png
+INPUT ./heat_map.png
+INPUT ./heat_map.png
 INPUT outcomes.pdf
 INPUT ./outcomes.pdf
 INPUT ./outcomes.pdf

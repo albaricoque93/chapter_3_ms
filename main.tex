@@ -313,10 +313,22 @@ If $\Delta^{N_{m}}_{j}$ is positive, then fluctuations in the male population be
 This normalization bounded $\delta$ values from $-1$ to $1$.
 
 \section{Results}
+Our simulations showed that fluctuations in selection and population sizes could dramatically change the proportion of allelic coexistence in the parameter space compared to classic theoretical expectations (Fig.~\ref{fig:prop}A and B). Our results show that both types of fluctuations can allow alleles to coexist where selection would typically not allow them to. As a baseline, we show in Fig.~\ref{fig:prop}C the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. Importantly, we also found that the extent and relative contribution of each type of fluctuation differed from each other.
 
-Our simulations showed that fluctuations in selection and population sizes could both increase the proportion of allelic coexistence in the parameter space compared to classic theoretical expectations (Fig.~\ref{fig:prop}A and B). As a baseline, we show in Fig.~\ref{fig:prop}C the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. Importantly, we also found that the extent and relative contribution of each type of fluctuation, differed from each other.
+\subsection*{The effect of fluctuations in allelic coexistence}
+When only population sizes fluctuated, the average proportion of the parameter space where alleles could coexist increased with the effect size of fluctuations after the threshold of $\sigma_{g}= 20$ (Fig.~\ref{fig:prop}A). Fluctuations with effect sizes smaller than this threshold either decreased or matched the average proportion of the parameter space of allelic coexistence compared to the control expectation. Above this threshold, as the effect size of fluctuations increased so did the average proportion of the parameter space where alleles could coexist, up to $\approx 0.50$ (Fig.~\ref{fig:prop}A). Importantly, the effect of fluctuations in population sizes was highest when fluctuations were negatively correlated ($\rho_{g}= -0.75$) (Fig.~\ref{fig:prop}A).
 
-When \textit{only} population sizes fluctuated,
+%When only selection fluctuated, the average proportion of the parameter space where alleles could coexist increased nonlinearly as the effect size of fluctuations increased (Fig.~\ref{fig:prop}B).
+
+ Similar to the previous case,  when only selection fluctuated, fluctuations only had an effect after a threshold, which was $\sigma_{w}= 0.3$. Fluctuations with effect sizes smaller than this threshold yielded identical results as the control simulation (Fig.~\ref{fig:prop}B). Increases in the effect size of fluctuations after this threshold dramatically increased the average proportion of the parameter space where alleles could coexist, reaching up to $\approx 0.90$ (Fig.~\ref{fig:prop}B). In contrast to fluctuations in population sizes, the effect of fluctuations in selection was the highest when fluctuations were positively correlated ($\rho_{w}= 0.75$) (Fig.~\ref{fig:prop}B).
+
+When \textit{both} population sizes and selection fluctuated,  the required thresholds for each type of fluctuation to increase the proportion of allelic coexistence in the selection parameter space remained. That is, in simulations in which $\sigma_{g} < 20$ or $\sigma_{w} < 0.3$ the average proportion of coexistence was less than or equal to the control simulation (Fig.~\ref{fig:heat}). Any simulation with a combination of  $\sigma_{g}$ and $\sigma_{w}$ above these thresholds increased the average proportion of coexistence as the effect size of fluctuations increased (Fig.~\ref{fig:heat}). These increments were greater in magnitude when $\rho_{g}= -0.75$ and $\rho_{w}= 0.75$ (Fig.~\ref{fig:heat}). Importantly, the effects of fluctuations in selection and in population sizes were not synergic. Indeed, as the effect size of both fluctuations increased, the average proportion of coexistence was higher when only selection was fluctuating compared to when both selection and population sizes were simultaneously fluctuating (Fig.~\ref{fig:heat}).
+
+\subsection*{The relative contribution of fluctuations}
+
+Notably, increases in the proportion of the parameter space where alleles can coexist do not necessarily mean that there are no losses in parts of the parameter space where we would typically expect alleles to coexist. To illustrate this point we show the results of one of our simulations. 
+
+% that all fluctuations contribute possitively
 
 
 \clearpage
@@ -409,7 +421,7 @@ $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}
 \clearpage
 
 \begin{figure}[H]
-  \centerline{\includegraphics[width=1\textwidth]{heat_map.pdf}}
+  \centerline{\includegraphics[width=1\textwidth]{heat_map.png}}
   \caption{}
     \label{fig:heat}
 \end{figure}
