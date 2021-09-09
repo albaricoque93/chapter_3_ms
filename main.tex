@@ -18,6 +18,7 @@
 \usepackage{tabularx}
 \usepackage{rotating}
 \usepackage{pdflscape}
+
 \captionsetup[figure]{font=small}
 \captionsetup[table]{font=small}
 
@@ -232,7 +233,8 @@ C_{w} = \begin{bmatrix}
 
 We multiplyed Eqn.~\ref{covmat} by a ($2 \times 500$) matrix of random numbers from a normal distribution with mean 0 and unit variance, which yielded $\gamma_{j}$ and $\gamma_{k}$. Then, we calculated the value of $w_{jm}$ at time $t+1$ as $w_{jm,t+1} = w_{jm}^{\gamma_{j,t}}$. We calculated the value of $w_{kf,t+1}$  analogously.
 
-Similarly, we generated a timeseries of 500 timesteps made up of correlated fluctuations in population sizes. We chose values of $N_{m}$ and $N_{f}$ of 200 individuals each as the initial value of population sizes throughout our simulations. We performed a Cholesky factorization of the variance-covariance matrix, controlling the effect size of fluctuations in population sizes with $\sigma_{g}$ and their correlation with $\rho_{g}$. Similar to our previous approach, we multiplied this factorization by a random matrix of uncorrelated random variables, which yielded $\gamma_{m}$ and $\gamma_{f}$. Finally, we calculated the number of males in the population at time $t+1$ as $N_{m,t+1} = N_{m} + \gamma_{m,t}$. We calculated the value of $N_{f,t+1}$  analogously. We bounded the values population sizes could take so there were no negative population sizes, since that would not be biologically plausible. We did not impose an upper bound to the values population sizes could take. \ACL{We did not impose any bounds to sex ration, nor total population sizes, I don't know if that is worth mentioning}
+Similarly, we generated a timeseries of 500 timesteps made up of correlated fluctuations in population sizes. We chose values of $N_{m}$ and $N_{f}$ of 200 individuals each as the initial value of population sizes throughout our simulations. We performed a Cholesky factorization of the variance-covariance matrix, controlling the effect size of fluctuations in population sizes with $\sigma_{g}$ and their correlation with $\rho_{g}$. Similar to our previous approach, we multiplied this factorization by a random matrix of uncorrelated random variables, which yielded $\gamma_{m}$ and $\gamma_{f}$. Finally, we calculated the number of males in the population at time $t+1$ as $N_{m,t+1} = N_{m} + \gamma_{m,t}$. We calculated the value of $N_{f,t+1}$  analogously. Note that the scales of $\sigma_{g}$ and  $\sigma_{w}$ are different from each other. While $\sigma_{w}$ controls the exponential change in fitness values in each timestep, $\sigma_{g}$ controls the number of individuals added to a population in each timestep. We bounded the values population sizes could take so there were no negative population sizes, since that would not be biologically plausible. We did not impose an upper bound to the values population sizes could take.
+
 
 Finally, we performed simulations where our population dynamics model (Eqns.~\ref{first_pop} to \ref{full}) iterated over 500 timesteps while allowing selection values and population sizes to fluctuate in each timestep. We started each simulation with the initial values of $N_{m}$ and $N_{f}$ described before and equal frequencies of allele $j$ and allele $k$ in each sex. For each timestep $t$ in our simulations, the values of $w_{jm}$ $w_{kf}$, $N_{m}$ and $N_{f}$ used to calculate allele´s frequencies in in timestep $t$ (e.g., Eqn.~\ref{next_gen}), corresponded to the $t$ values calculated in each timeseries, as described previously. This approach yielded a final timeseries that captured the dynamics of sexually antagonistic alleles, with fluctuating values of selection and population sizes.
 
@@ -261,7 +263,7 @@ We treated each timestep of the timeseries independently, and hence we performed
 \vspace{5mm}
 \noindent\textbf{Functional decompostion}
 
-Our invasion simulations tell us whether or not sexually antagonistic alleles can coexist in a determined point of the selection parameter space. However, we also quantified the relative contributions of fluctuating selection and population sizes into the predicted coexistence outcome. Therefore, we used an extension of MCT that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition} \citep{ellner2016quantify,ellner_expanded_2019, shoemaker2020}.
+Our invasion simulations tell us whether or not sexually antagonistic alleles can coexist in a determined point of the selection parameter space. However, we also quantified the relative contributions of fluctuating selection and population sizes into the predicted coexistence outcome. We did so by using an extension of MCT that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition} \citep{ellner2016quantify,ellner_expanded_2019, shoemaker2020}.
 
 %also wanted to quantify the relative contributions of fluctuating selection and population sizes into the predicted coexistence outcome. Therefore, we turned towards an extension of modern coexistence theory \citep{ellner_expanded_2019} that provides the flexibility to analyze the contributions of different processes to coexistence using \textit{functional decomposition}. This approach applies to any collection of two or more processes, mechanisms, or species differences affecting population growth rate \citep{ ellner2016quantify, ellner_expanded_2019}, and has been used to show the relative contribution of variable temperature and silicate to the coexistence of algal species \citep{ellner2016quantify} and to quantify the relative importance of environmental fluctuations and variation in predator abundances to the coexistence of intertidal species \citep{shoemaker2020}.
 
@@ -290,7 +292,7 @@ If we average Eqn.~\ref{functional_decomp} across the timesteps in our simulatio
    \label{functional_decomp_2}
 \end{equation}
 
- However, in our simulations $w_{jm}$ and $w_{kf}$ also fluctuated, therefore the full functional decomposition of the growth rate of allele $j$ as an invader is found in Table \ref{tab:EllnerRs}, as well as a brief description of the meaning of each term. The implementation and interpretation of the functional decomposition of the invasion growth rates of each allele are identical to each other. We calculated the value of each of the terms in Table \ref{tab:EllnerRs} by performing another set of invasion simulations as described previously, but instead of allowing all variables to fluctuate, systematically setting the required variables to their means and subtracting the corresponding $\mathcal{E}$ values.
+ However, in our simulations $w_{jm}$ and $w_{kf}$ also fluctuated, therefore the full functional decomposition of the growth rate of allele $j$ as an invader is found in Table \ref{tab:EllnerRs}, as well as a brief description of the meaning of each term. The implementation and interpretation of the functional decomposition of the invasion growth rates of each allele are identical to each other. Note that Table \ref{tab:EllnerRs} does not include three of four--way interactions (e.g., $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$). This is because in our simulations, we did not allow fluctuations in selection and population sizes to be correlated, therefore their effects are solely captured by the terms in Table \ref{tab:EllnerRs}. We calculated the value of each of the terms in Table \ref{tab:EllnerRs} by performing another set of invasion simulations as described previously, but instead of allowing all variables to fluctuate, systematically setting the required variables to their means and subtracting the corresponding $\mathcal{E}$ values.
 
 
 The functional decomposition approach further requires the \textit{comparison} of each term, to understand if how it affects invaders and residents. This is because fluctuations can promote coexistence by helping whichever allele is rare, or they can hurt whichever allele is common. Therefore, to understand the role of each type of fluctuation, it is necessary to compare how it affects invader \textit{and} resident growth rates. In the example presented in Eqn.~\ref{functional_decomp_2}, if allele $j$ is invading, then allele $k$ is at it's resident state and there exists an analogue decomposition of $\overline{r}_{k}$ with the exact same terms. Therefore we can express the difference between contributions of fluctuations in $N_{m}$ as:
@@ -301,34 +303,41 @@ The functional decomposition approach further requires the \textit{comparison} o
 \label{delta}
 \end{equation}
 
-If $\Delta^{N_{m}}_{j}$ is positive, then fluctuations in the male population benefit allele $j$ when it is rare more than what they benefit $k$ as a resident. If $\Delta^{N_{m}}_{j}$ is negative, then fluctuations benefit $k$ as a resident more than $j$ as an invader, and if it is minimal, then fluctuations have an equal effect in $j$ and $k$. Therefore, for each allele invading via a different pathway, we calculated 16 $\Delta$ values, one for each one of the $\mathcal{E}$ terms in Table \ref{tab:EllnerRs}. However, since the magnitude of each one of these values could vary considerably across the parameter space of selection, to make them comparable, we normalized each $\Delta$ value by dividing it by the square root of the sum of the squares of the 16 $\Delta$ values. For example, the normalized value of Eqn.~\ref{delta} would be given by:
+If $\Delta^{N_{m}}_{j}$ is positive, then fluctuations in the male population benefit allele $j$ when it is rare more than what they benefit $k$ as a resident. If $\Delta^{N_{m}}_{j}$ is negative, then fluctuations benefit $k$ as a resident more than $j$ as an invader, and if it is minimal, then fluctuations have an equal effect in $j$ and $k$. Therefore, for each allele invading via a different pathway, we calculated 11 $\Delta$ values, one for each one of the $\mathcal{E}$ terms in Table \ref{tab:EllnerRs}. However, since the magnitude of each one of these values could vary considerably across the parameter space of selection, to make them comparable, we normalized each $\Delta$ value by dividing it by the square root of the sum of the squares of the 16 $\Delta$ values. For example, the normalized value of Eqn.~\ref{delta} would be given by:
 
 
 
 \begin{equation}
   \delta^{N_{m}}_{j}= \frac{\Delta^{N_{m}}_{j}}{\sqrt{
-    \sum\limits_{d=1}^{16} (\boldsymbol{\Delta_{d}})^{2} }}
+    \sum\limits_{d=1}^{11} (\boldsymbol{\Delta_{d}})^{2} }}
 \end{equation}
 
 This normalization bounded $\delta$ values from $-1$ to $1$.
 
 \section{Results}
-Our simulations showed that fluctuations in selection and population sizes could dramatically change the proportion of allelic coexistence in the parameter space compared to classic theoretical expectations (Fig.~\ref{fig:prop}A and B). Our results show that both types of fluctuations can allow alleles to coexist where selection would typically not allow them to. As a baseline, we show in Fig.~\ref{fig:prop}C the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. Importantly, we also found that the extent and relative contribution of each type of fluctuation differed from each other.
+
+Our results showed that both fluctuations in selection and population sizes can substantially increase the expected genetic variability of sexually antagonistic alleles in a population. First, our results showed an increase in the proportion of allelic coexistence in the parameter space compared to classic theoretical expectations. As a baseline, we show in Fig.~\ref{fig:prop}C the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. Second, our results showed that each type of fluctuation contributed differently to the coexistence of alleles, and their contribution depended on the allele and sex in which invasion occurred.
+.
 
 \subsection*{The effect of fluctuations in allelic coexistence}
-When only population sizes fluctuated, the average proportion of the parameter space where alleles could coexist increased with the effect size of fluctuations after the threshold of $\sigma_{g}= 20$ (Fig.~\ref{fig:prop}A). Fluctuations with effect sizes smaller than this threshold either decreased or matched the average proportion of the parameter space of allelic coexistence compared to the control expectation. Above this threshold, as the effect size of fluctuations increased so did the average proportion of the parameter space where alleles could coexist, up to $\approx 0.50$ (Fig.~\ref{fig:prop}A). Importantly, the effect of fluctuations in population sizes was highest when fluctuations were negatively correlated ($\rho_{g}= -0.75$) (Fig.~\ref{fig:prop}A).
+
+When only population sizes fluctuated, the average proportion of the parameter space where alleles could coexist increased with the effect size of fluctuations when fluctuations were large enough (Fig.~\ref{fig:prop}A). Fluctuations with effect sizes  $\sigma_{g} < 20$ either decreased or matched the average proportion of the parameter space of allelic coexistence compared to the control simulation. Note that an effect size of $\sigma_{g}= 20$ means that fluctuations increased or decreased population sizes approximately 10\% in each timestep. Above this value, as the effect size of fluctuations increased so did the average proportion of the parameter space where alleles could coexist, reaching up to $\approx 0.50$ (Fig.~\ref{fig:prop}A). Importantly, the average proportion of alleleic coexistence was highest when fluctuations were negatively correlated (Fig.~\ref{fig:prop}A).
 
 %When only selection fluctuated, the average proportion of the parameter space where alleles could coexist increased nonlinearly as the effect size of fluctuations increased (Fig.~\ref{fig:prop}B).
 
- Similar to the previous case,  when only selection fluctuated, fluctuations only had an effect after a threshold, which was $\sigma_{w}= 0.3$. Fluctuations with effect sizes smaller than this threshold yielded identical results as the control simulation (Fig.~\ref{fig:prop}B). Increases in the effect size of fluctuations after this threshold dramatically increased the average proportion of the parameter space where alleles could coexist, reaching up to $\approx 0.90$ (Fig.~\ref{fig:prop}B). In contrast to fluctuations in population sizes, the effect of fluctuations in selection was the highest when fluctuations were positively correlated ($\rho_{w}= 0.75$) (Fig.~\ref{fig:prop}B).
+When only selection fluctuated, the average proportion of the parameter space where alleles could coexist increased nonlinearly as the effect size of fluctuations increased (Fig.~\ref{fig:prop}B). Note, however, that simulations with small effect sizes ($\sigma_{w} < 0.2$) yielded identical results as the control simulation (Fig.~\ref{fig:prop}B). Increases in the effect size of fluctuations after this value dramatically increased the average proportion of the parameter space where alleles could coexist, reaching up to $\approx 0.90$ (Fig.~\ref{fig:prop}B). In contrast to fluctuations in population sizes, the effect of fluctuations in selection was the highest when fluctuations were positively correlated (Fig.~\ref{fig:prop}B).
 
-When \textit{both} population sizes and selection fluctuated,  the required thresholds for each type of fluctuation to increase the proportion of allelic coexistence in the selection parameter space remained. That is, in simulations in which $\sigma_{g} < 20$ or $\sigma_{w} < 0.3$ the average proportion of coexistence was less than or equal to the control simulation (Fig.~\ref{fig:heat}). Any simulation with a combination of  $\sigma_{g}$ and $\sigma_{w}$ above these thresholds increased the average proportion of coexistence as the effect size of fluctuations increased (Fig.~\ref{fig:heat}). These increments were greater in magnitude when $\rho_{g}= -0.75$ and $\rho_{w}= 0.75$ (Fig.~\ref{fig:heat}). Importantly, the effects of fluctuations in selection and in population sizes were not synergic. Indeed, as the effect size of both fluctuations increased, the average proportion of coexistence was higher when only selection was fluctuating compared to when both selection and population sizes were simultaneously fluctuating (Fig.~\ref{fig:heat}).
+When \textit{both} population sizes and selection fluctuated,  the required values for each type of fluctuation to increase the proportion of allelic coexistence in the selection parameter space remained. That is, in simulations in which $\sigma_{g} < 20$ or $\sigma_{w} < 0.3$ the average proportion of coexistence was less than or equal to the control simulation (Fig.~\ref{fig:heat}). Any simulation with a combination of  $\sigma_{g}$ and $\sigma_{w}$ above these values increased the average proportion of coexistence as the effect size of fluctuations increased (Fig.~\ref{fig:heat}). These increments were greater in magnitude when $\rho_{g}= -0.75$ and $\rho_{w}= 0.75$ (Fig.~\ref{fig:heat}). Notably, the effects of fluctuations in selection and population sizes were not synergic. Indeed, at high fluctuations ($\sigma_{g} = 70$ or $\sigma_{w} = 0.9$), the average proportion of coexistence was higher when only selection fluctuated compared to when both selection and population sizes were simultaneously fluctuating ( square and circle in Fig.~\ref{fig:heat}).
+
 
 \subsection*{The relative contribution of fluctuations}
+Increases in the proportion of the parameter space where alleles can coexist do not necessarily meant that all fluctuations only contributed positively to allelic coexistence, which was the main reason why the maximum proportion of coexistence was not achieved when both types of fluctuations were opperating simultaneously. To illustrate this point we show in Fig.~\ref{fig:outcomes}A the results of one of our simulations where allele $j$ invaded through females and allele $k$ invaded through males. In this simulation, the parameter space where alleles can coexist was 0.8, more than double the parameter space compared to the control simulation (Fig.~\ref{fig:prop}C). This increase in the proportion of coexistence is because in parts of the parameter space where selection would typically favor the fixation of one of the alleles, fluctuations in population sizes and fitness values allow their coexistence (grey area in Fig.~\ref{fig:prop}C compared to the grey area in Fig.~\ref{fig:outcomes}A). However, note that there is also parts of the parameter space where coexistence is lost compared to the control simulation (white areas in Fig.~\ref{fig:prop}C compared to the white area in Fig.~\ref{fig:outcomes}A).
 
-Notably, increases in the proportion of the parameter space where alleles can coexist do not necessarily mean that there are no losses in parts of the parameter space where we would typically expect alleles to coexist. To illustrate this point we show the results of one of our simulations. 
+Coexistence gains and losses in the parameter space can be explained by the relative contribution of each type of fluctuation.  We show in Fig.~\ref{fig:outcomes}B the $\delta$ values that contributed to the coexistence outcomes shown in Fig.~\ref{fig:outcomes}A.  It is important to note that the same type of fluctuation can benefit one allele when it is rare while also creating a disadvantage for the invasion of the other allele. For example, $\delta^{N_{m}}$ benefited allele $j$ as an invader but contributed negatively when allele $k$ was the invader, while $\delta^ {N_{f}}$ had the opposite effect (Fig.~\ref{fig:outcomes}B).$\delta$ values had a consistent effect in the selection parameter space: either positive and neutral, or negative and neutral, except for $\delta^0$ which could have both negative and positive contributions for both alleles (Fig.~\ref{fig:outcomes}B). Ultimately, allelic coexistence only happened in parts of the parameter space where alleles had a positive invasion growth rate, which was achieved as long as positive contributions of $\delta$ outweighed the negative contributions.
 
-% that all fluctuations contribute possitively
+Importantly, the patterns shown in Fig.~\ref{fig:outcomes}B remained when we examined the relative contributions of fluctuations in different invasion scenarios and across replicates (Fig.~\ref{fig:boxes}). Our results showed that the effect of fluctuations in population sizes depended on the sex where invasion occurred. The relative contribution of fluctuations in the male population, $\delta^{N_{m}}$,  was positive for both $j$ and $k$ alleles when the mutation that introduced them to the population happened in males (Fig.~\ref{fig:boxes}A). If an allele invaded via females, then $\delta^{N_{m}}$ contributed negatively to its growth rate. The opposite pattern was exhibited by  $\delta^{N_{m}}$ (Fig.~\ref{fig:boxes}A). The correlation between fluctuations $\rho_{g}$ determined the effect of  $\delta^{N_{m}N_{f}}$: it contributed positively to both alleles invading via both pathways when fluctuations were negatively correlated ($\rho_{g}=-0.75$) , it had a negligible effect when fluctuations were not correlated ($\rho_{g}=0$), and it had a negative effect when fluctuations were positively correlated ($\rho_{g}= 0.75$)(Fig.~\ref{fig:boxes}A).
+
+In contrast, the effect of fluctuations in selection was independent on the sex where invasion occured. The values of $\delta^{w_{jm}}$ were positive for the $k$ allele, regardless of the via of invasion (Fig.~\ref{fig:boxes}B). In contrast, the values of $\delta^{w_{jm}}$ were negative  for the $j$ allele, regardless of the via of invasion. The opposite pattern was exhibited by $\delta^{w_{kf}}$ (Fig.~\ref{fig:boxes}B). Thus, fluctuations in selection always benefited the allele that selection did not affect. Note that the magnitude of positive contributions of $\delta^{w_{jm}}$ and $\delta^{w_{kf}}$ was much greater than the magnitude of negative contributions (Fig.~\ref{fig:boxes}B). Finally, the correlation between fluctuations determined the effect of $\delta^{w_{jm}w_{kf}}$. In this case, a negative correlation between fluctuations ($\rho_{w}=-0.75$), caused $\delta^{w_{jm}w_{kf}}$ to contribute negatively to the growth rates of both alleles. No correlation between fluctuations ($\rho_{w}=0$) caused $\delta^{w_{jm}w_{kf}}$ to have a negligible effect and a positive correlation between fluctuations ($\rho_{w}=0.75$) made $\delta^{w_{jm}w_{kf}}$ to contribute positively to the growth rates of both alleles (Fig.~\ref{fig:boxes}B).
 
 
 \clearpage
@@ -338,7 +347,7 @@ Notably, increases in the proportion of the parameter space where alleles can co
 \begin{table}[h]
 \fontsize{10}{18}\selectfont
 \centering
-\caption{Parameters used in our simulations to control the effect size of fluctuations in population sizes ($\sigma_{g}$) and selection values $\sigma_{w}$, as well as their respecitve correlations ($\rho_{g}$ and $\rho_{w}$). }
+\caption{Parameters used in our simulations to control the effect size of fluctuations in population sizes ($\sigma_{g}$) and selection values ($\sigma_{w}$), as well as their respecitve correlations ($\rho_{g}$ and $\rho_{w}$). We ran ten replicates for each one  of the factorial combinations of the following parameters. }
 \begin{tabular}{@{}llll@{}}
 \toprule
 Parameter                    & Values                    & Description                                   &  \\ \midrule
@@ -386,18 +395,18 @@ $\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between flu
 
  %%%%%%%%%triplicate terms
 
-        $\overline{\mathcal{E}}^{N_{m}w_{jm}w_{fk}}_{j}$& $ \overline{r_{j}}(N_{m}, \overline{N_{f}}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$  & Interaction of fluctuations in $N_{m}$, $w_{jm}$, and $w_{kf}$ \\
+    %    $\overline{\mathcal{E}}^{N_{m}w_{jm}w_{fk}}_{j}$& $ \overline{r_{j}}(N_{m}, \overline{N_{f}}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$  & Interaction of fluctuations in $N_{m}$, $w_{jm}$, and $w_{kf}$ \\
 
-      $\overline{\mathcal{E}}^{N_{f}w_{jm}w_{fk}}_{j}$& $ \overline{r_{j}}(\overline{N_{m}}, N_{f}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of fluctuations in $N_{f}$, $w_{jm}$, and $w_{kf}$ \\
+  %    $\overline{\mathcal{E}}^{N_{f}w_{jm}w_{fk}}_{j}$& $ \overline{r_{j}}(\overline{N_{m}}, N_{f}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_{j}]$ & Interaction of fluctuations in $N_{f}$, $w_{jm}$, and $w_{kf}$ \\
 
-      $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}}_{j}$& $ \overline{r_{j}}(N_{m}, N_{f}, w_{jm}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j]$ & Interaction of variation in $N_{m}$, $N_{f}$, and $w_{jm}$ \\
+    %  $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}}_{j}$& $ \overline{r_{j}}(N_{m}, N_{f}, w_{jm}, \overline{w_{kf}})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j]$ & Interaction of variation in $N_{m}$, $N_{f}$, and $w_{jm}$ \\
 
 
 
-      $\overline{\mathcal{E}}^{N_{m}N_{f}w_{fk}}_{j}$& $ \overline{r_{j}}(N_{m}, N_{f}, \overline{w_{jm}}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{kf}}_j]$ & Interaction of fluctuations in $N_{m}$, $N_{f}$, and $w_{kf}$ \\
+    %  $\overline{\mathcal{E}}^{N_{m}N_{f}w_{fk}}_{j}$& $ \overline{r_{j}}(N_{m}, N_{f}, \overline{w_{jm}}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{kf}}_j]$ & Interaction of fluctuations in $N_{m}$, $N_{f}$, and $w_{kf}$ \\
 
 %%%%%%%last part
-$\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}, N_{f}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_j$] & Interaction of variation in $N_f$, $N_m$, $w_{jm}$, and $w_{kf}$ \\
+%$\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}, N_{f}, w_{jm}, w_{kf})- [\mathcal{E}^{0}_{j} +\overline{\mathcal{E}}^{N_{m}}_{j}+\overline{\mathcal{E}}^{N_{f}}_{j}+\overline{\mathcal{E}}^{w_{jm}}_j+\overline{\mathcal{E}}^{w_{kf}}_j$] & Interaction of variation in $N_f$, $N_m$, $w_{jm}$, and $w_{kf}$ \\
 
 
 
@@ -411,9 +420,9 @@ $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}
 
 
 \clearpage
-\begin{figure}[b]
+\begin{figure}[t]
   \centerline{\includegraphics[width=1\textwidth]{proportions.pdf}}
-  \caption{}
+  \caption{ Changes in the proportion of coexistence in the parameter space. In A) we show the results of  simulations in which only population sizes fluctuated (i.e., simulations in which $\sigma_{w}=0.001$ and $\rho_{w}= 0$). We show how the average proportion of coexistence, for all of the different invasion scenarios and replicates, changed as a function of the effect size of fluctuations in population sizes. We denoted the correlation between fluctuations in our simulations with different line types and displayed confident intervals around the average with shaded areas. The solid red line corresponds to the proportion of coexistence in the control simulation.  In B) we show the same results for simulations where only selection fluctuated  (i.e., simulations in which $\sigma_{g}=0.001$ and $\rho_{g}= 0$). Finally, in C) we show the results of the control simulation in the selection parameter space. Grey areas denote points in the parameter space where selection maintains both alleles in a population, which amount to $\approx 0.38$ of the selection parameter space, while white areas show competitive exclusion.}
     \label{fig:prop}
 \end{figure}
 
@@ -421,8 +430,8 @@ $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}
 \clearpage
 
 \begin{figure}[H]
-  \centerline{\includegraphics[width=1\textwidth]{heat_map.png}}
-  \caption{}
+  \centerline{\includegraphics[width=1\textwidth]{heat_map.pdf}}
+  \caption{Average proportion of coexistence in our simulations. We show, for all factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$, the average proportion of coexistence of  in our simulations. Each panel corresponds to a different combination of correlations between fluctuations. Labels on top indicate the correlation between fluctuations in selection $\rho_{w}$, while labels on the right show the correlation in fluctuations between fluctuations in population sizes $\rho_{g}$.  As a basis of comparison, we show the expected proportion of coexistence ($ 0.38$) as the midpoint in our color scheme. Finally, the white square and circle at the bottom left panel are references to simulation we show in detail in later figures.   }
     \label{fig:heat}
 \end{figure}
 
@@ -430,18 +439,23 @@ $\overline{\mathcal{E}}^{N_{m}N_{f}w_{jm}w_{fk}}_{j}$&  $ \overline{r_{j}}(N_{m}
 \clearpage
 
 \begin{figure}[H]
-  \centerline{\includegraphics[width=1\textwidth]{outcomes.pdf}}
+  \centerline{\includegraphics[height=0.9\textheight]{outcomes.pdf}}
   \caption{}
     \label{fig:outcomes}
 \end{figure}
 
 
+\begin{figure}[H]
+  \centerline{\includegraphics[height=0.9\textheight]{outcomes_two.pdf}}
+  \caption{This figure will go in the Supporting Information. }
+    \label{fig:outcomes}
+\end{figure}
 
 
 \begin{figure}[H]
   \centerline{\includegraphics[width=1\textwidth]{box_plots.pdf}}
   \caption{}
-    \label{fig:outcomes}
+    \label{fig:boxes}
 \end{figure}
 
 

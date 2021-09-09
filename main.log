@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 SEP 2021 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 SEP 2021 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -712,22 +712,22 @@ LaTeX Warning: Label `fig:outcomes' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 9
-5.
+6.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
@@ -798,8 +798,8 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 9
-9.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+00.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 
@@ -825,24 +825,24 @@ LaTeX Warning: Font shape declaration has incorrect series value `mc'.
 
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-99.
+100.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-99.
+100.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-99.
+100.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-99.
+100.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -851,62 +851,75 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3] [4]
-[5] [6] [7] [8]
+[5] [6] [7] [8] [9]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ppl in TS1 encoding.
-            Default family used instead on input line 237.
- [9] [10] [11]
-Overfull \hbox (0.8168pt too wide) in paragraph at lines 273--274
+            Default family used instead on input line 239.
+ [10] [11]
+Overfull \hbox (0.8168pt too wide) in paragraph at lines 275--276
 []\OT1/ppl/m/n/12 We ap-plied the func-tional de-com-po-si-tion ap-proach by br
 eak-ing up the av-er-age growth
  []
 
-[12] [13] [14] [15] [16] [17] [18
+[12] [13] [14] [15]
+Overfull \hbox (15.13567pt too wide) in paragraph at lines 328--329
+\OT1/ppl/m/n/12 al-le-les could co-ex-ist in-creased non-lin-early as the ef-fe
+ct size of fluc-tu-a-tions in-creased (Fig. 1[]B).
+ []
+
+[16] [17] [18] [19] [20
 
 ]
-<proportions.pdf, id=75, 722.7pt x 722.7pt>
+<proportions.pdf, id=82, 722.7pt x 722.7pt>
 File: proportions.pdf Graphic file (type pdf)
 <use proportions.pdf>
-Package pdftex.def Info: proportions.pdf  used on input line 415.
+Package pdftex.def Info: proportions.pdf  used on input line 424.
 (pdftex.def)             Requested size: 469.75502pt x 469.76045pt.
- [19 <./proportions.pdf>]
-<heat_map.png, id=90, 803.0pt x 803.0pt>
-File: heat_map.png Graphic file (type png)
-<use heat_map.png>
-Package pdftex.def Info: heat_map.png  used on input line 424.
-(pdftex.def)             Requested size: 469.75502pt x 469.7715pt.
- [20
+ [21 <./proportions.pdf>]
+<heat_map.pdf, id=96, 578.16pt x 578.16pt>
+File: heat_map.pdf Graphic file (type pdf)
+<use heat_map.pdf>
+Package pdftex.def Info: heat_map.pdf  used on input line 433.
+(pdftex.def)             Requested size: 469.75502pt x 469.75385pt.
+ [22
 
 
- <./heat_map.png>]
-<outcomes.pdf, id=96, 939.51pt x 722.7pt>
+ <./heat_map.pdf>]
+<outcomes.pdf, id=108, 578.16pt x 939.51pt>
 File: outcomes.pdf Graphic file (type pdf)
 <use outcomes.pdf>
-Package pdftex.def Info: outcomes.pdf  used on input line 433.
-(pdftex.def)             Requested size: 469.75502pt x 361.3491pt.
-<box_plots.pdf, id=97, 722.7pt x 578.16pt>
+Package pdftex.def Info: outcomes.pdf  used on input line 442.
+(pdftex.def)             Requested size: 360.23753pt x 585.38303pt.
+<outcomes_two.pdf, id=109, 578.16pt x 939.51pt>
+File: outcomes_two.pdf Graphic file (type pdf)
+<use outcomes_two.pdf>
+Package pdftex.def Info: outcomes_two.pdf  used on input line 449.
+(pdftex.def)             Requested size: 360.23753pt x 585.38303pt.
+
+[23
+
+ <./outcomes.pdf>]
+<box_plots.pdf, id=121, 722.7pt x 578.16pt>
 File: box_plots.pdf Graphic file (type pdf)
 <use box_plots.pdf>
-Package pdftex.def Info: box_plots.pdf  used on input line 442.
+Package pdftex.def Info: box_plots.pdf  used on input line 456.
 (pdftex.def)             Requested size: 469.75502pt x 375.80836pt.
- [21
+ [24 <./outcomes_two.pdf>] [25 <./box_plots.pdf>]
+(./main.bbl [26
 
- <./outcomes.pdf>] [22 <./box_plots.pdf>] (./main.bbl [23
-
-] [24]) [25]
-(./main.aux)
+] [27]) [28] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17935 strings out of 480608
- 358060 string characters out of 5903631
- 594937 words of memory out of 5000000
- 33441 multiletter control sequences out of 15000+600000
- 586042 words of font info for 153 fonts, out of 8000000 for 9000
+ 17944 strings out of 480608
+ 358246 string characters out of 5903631
+ 586699 words of memory out of 5000000
+ 33447 multiletter control sequences out of 15000+600000
+ 586840 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,75p,1179b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,75p,1276b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -922,10 +935,10 @@ type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/u
 rw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (25 pages, 301176 bytes).
+Output written on main.pdf (28 pages, 311219 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 202 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
