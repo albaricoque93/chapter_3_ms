@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1631247369 "main.aux" "main.bbl" "main" 1631247777
+["bibtex main"] 1631769678 "main.aux" "main.bbl" "main" 1631770233
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
-  "coexistence.bib" 1629776848 33977 9de9cac8ece008365203e22139d6c3d4 ""
-  "main.aux" 1631247371 10780 af83eefd9b6a4d9af8c0a7a157fbbe37 "pdflatex"
+  "coexistence.bib" 1631749489 34435 b1af1a0886d2b6f388fd5362b0219f8c ""
+  "main.aux" 1631770128 10984 0d19283d346d294f6d92607e5a36bab9 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1631247369 "main.tex" "main.pdf" "main" 1631247777
+  "main.blg"
+["pdflatex"] 1631770127 "main.tex" "main.pdf" "main" 1631770233
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -187,14 +187,14 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "box_plots.pdf" 1631236598 45889 414f444487d4c2bf988674f5b130eae1 ""
   "heat_map.pdf" 1631159312 13930 7afa6b67a4477c0d99d13742cbeead93 ""
-  "main.aux" 1631247371 10780 af83eefd9b6a4d9af8c0a7a157fbbe37 "pdflatex"
-  "main.bbl" 1631247369 6654 f25d777deba299da47a475eaa4684b6e "bibtex main"
-  "main.tex" 1631247776 51513 511f57fda118095a1b9808b87ccb758c ""
+  "main.aux" 1631770128 10984 0d19283d346d294f6d92607e5a36bab9 "pdflatex"
+  "main.bbl" 1631769678 6927 f523cf2ee7b05a58e7a49845bce08638 "bibtex main"
+  "main.tex" 1631770233 44484 82c87210330a5bbf620ad965cb41dd91 ""
   "outcomes.pdf" 1631163640 46235 9fb42d4bae63b702fb0c2b0bc6815721 ""
   "outcomes_two.pdf" 1631236772 5735 18767e11fc42d1032797f12a1a13edc1 ""
   "proportions.pdf" 1631144371 14523 bdbf8e88a5453a6a50a8618f948d942d ""
   "ratios.pdf" 1631236002 28114 9d62d8e8d52f52cf61b1acec4c3f89f1 ""
   (generated)
   "main.log"
-  "main.pdf"
   "main.aux"
+  "main.pdf"

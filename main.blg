@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ecology_letters.bst
 Database file #1: coexistence.bib
-You've used 25 entries,
+You've used 26 entries,
             2997 wiz_defined-function locations,
-            795 strings with 8964 characters,
-and the built_in function-call counts, 13644 in all, are:
-= -- 1172
-> -- 498
-< -- 17
-+ -- 202
-- -- 168
-* -- 1000
-:= -- 2245
-add.period$ -- 75
-call.type$ -- 25
-change.case$ -- 180
-chr.to.int$ -- 24
-cite$ -- 25
-duplicate$ -- 946
-empty$ -- 1004
-format.name$ -- 227
-if$ -- 2613
+            797 strings with 9120 characters,
+and the built_in function-call counts, 14250 in all, are:
+= -- 1220
+> -- 532
+< -- 18
++ -- 215
+- -- 180
+* -- 1048
+:= -- 2342
+add.period$ -- 78
+call.type$ -- 26
+change.case$ -- 188
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 990
+empty$ -- 1042
+format.name$ -- 246
+if$ -- 2734
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 204
-newline$ -- 129
-num.names$ -- 100
-pop$ -- 318
+missing$ -- 212
+newline$ -- 134
+num.names$ -- 104
+pop$ -- 342
 preamble$ -- 1
-purify$ -- 156
+purify$ -- 164
 quote$ -- 0
-skip$ -- 294
+skip$ -- 313
 stack$ -- 0
-substring$ -- 849
-swap$ -- 496
-text.length$ -- 1
+substring$ -- 851
+swap$ -- 520
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 222
+type$ -- 228
 warning$ -- 0
-while$ -- 123
+while$ -- 127
 width$ -- 0
-write$ -- 327
+write$ -- 339

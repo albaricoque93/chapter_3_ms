@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 SEP 2021 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 SEP 2021 17:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -854,75 +854,75 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 [5] [6] [7] [8] [9]
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ppl in TS1 encoding.
-            Default family used instead on input line 239.
+            Default family used instead on input line 248.
  [10] [11]
-Overfull \hbox (0.8168pt too wide) in paragraph at lines 275--276
+Overfull \hbox (0.8168pt too wide) in paragraph at lines 285--286
 []\OT1/ppl/m/n/12 We ap-plied the func-tional de-com-po-si-tion ap-proach by br
 eak-ing up the av-er-age growth
  []
 
-[12] [13] [14] [15] [16] [17] [18] [19] [20] [21
+[12] [13] [14] [15] [16] [17
 
 ]
-<proportions.pdf, id=85, 722.7pt x 722.7pt>
+<proportions.pdf, id=72, 722.7pt x 722.7pt>
 File: proportions.pdf Graphic file (type pdf)
 <use proportions.pdf>
-Package pdftex.def Info: proportions.pdf  used on input line 431.
+Package pdftex.def Info: proportions.pdf  used on input line 418.
 (pdftex.def)             Requested size: 469.75502pt x 469.76045pt.
- [22 <./proportions.pdf>]
-<heat_map.pdf, id=99, 578.16pt x 578.16pt>
+ [18 <./proportions.pdf>]
+<heat_map.pdf, id=86, 578.16pt x 578.16pt>
 File: heat_map.pdf Graphic file (type pdf)
 <use heat_map.pdf>
-Package pdftex.def Info: heat_map.pdf  used on input line 440.
+Package pdftex.def Info: heat_map.pdf  used on input line 427.
 (pdftex.def)             Requested size: 469.75502pt x 469.75385pt.
-
-[23
+ [19
 
 
  <./heat_map.pdf>]
-<outcomes.pdf, id=111, 578.16pt x 939.51pt>
+<outcomes.pdf, id=99, 578.16pt x 939.51pt>
 File: outcomes.pdf Graphic file (type pdf)
 <use outcomes.pdf>
-Package pdftex.def Info: outcomes.pdf  used on input line 449.
+Package pdftex.def Info: outcomes.pdf  used on input line 436.
 (pdftex.def)             Requested size: 360.23753pt x 585.38303pt.
- [24
+
+[20
 
 ]
 Overfull \vbox (53.75305pt too high) has occurred while \output is active []
 
 
-[25 <./outcomes.pdf>]
-<outcomes_two.pdf, id=127, 361.35pt x 361.35pt>
+[21 <./outcomes.pdf>]
+<outcomes_two.pdf, id=114, 361.35pt x 361.35pt>
 File: outcomes_two.pdf Graphic file (type pdf)
 <use outcomes_two.pdf>
-Package pdftex.def Info: outcomes_two.pdf  used on input line 456.
+Package pdftex.def Info: outcomes_two.pdf  used on input line 443.
 (pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
-<box_plots.pdf, id=128, 722.7pt x 578.16pt>
+<box_plots.pdf, id=115, 722.7pt x 578.16pt>
 File: box_plots.pdf Graphic file (type pdf)
 <use box_plots.pdf>
-Package pdftex.def Info: box_plots.pdf  used on input line 463.
+Package pdftex.def Info: box_plots.pdf  used on input line 450.
 (pdftex.def)             Requested size: 469.75502pt x 375.80836pt.
- [26 <./outcomes_two.pdf>]
-<ratios.pdf, id=138, 867.24pt x 867.24pt>
+ [22 <./outcomes_two.pdf>]
+<ratios.pdf, id=125, 867.24pt x 867.24pt>
 File: ratios.pdf Graphic file (type pdf)
 <use ratios.pdf>
-Package pdftex.def Info: ratios.pdf  used on input line 470.
+Package pdftex.def Info: ratios.pdf  used on input line 457.
 (pdftex.def)             Requested size: 469.75502pt x 469.75827pt.
- [27 <./box_plots.pdf>] [28 <./ratios.pdf>] (./main.bbl [29
+ [23 <./box_plots.pdf>] [24 <./ratios.pdf>] (./main.bbl [25
 
-] [30]) [31] (./main.aux)
+] [26] [27]) [28] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17956 strings out of 480608
- 358389 string characters out of 5903631
- 590273 words of memory out of 5000000
- 33453 multiletter control sequences out of 15000+600000
- 588685 words of font info for 161 fonts, out of 8000000 for 9000
+ 17958 strings out of 480608
+ 358432 string characters out of 5903631
+ 590285 words of memory out of 5000000
+ 33455 multiletter control sequences out of 15000+600000
+ 588276 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,75p,1437b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,75p,1486b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -938,10 +938,10 @@ type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/u
 rw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (31 pages, 311524 bytes).
+Output written on main.pdf (28 pages, 305742 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 210 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

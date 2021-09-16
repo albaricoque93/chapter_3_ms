@@ -1,5 +1,10 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Arnqvist \& Rowe(2013)}]{arnqvist2013sexual}
+Arnqvist, G. \& Rowe, L. (2013).
+\newblock \emph{Sexual conflict}.
+\newblock Princeton University Press.
 
 \bibitem[{Barabás \emph{et~al.}(2018)Barabás, D'Andrea \&
   Stump}]{barabas_chessons_2018}
@@ -110,6 +115,12 @@ Mitchell-Olds, T., Willis, J.H. \& Goldstein, D.B. (2007).
   phenotypic traits?
 \newblock \emph{Nature Reviews Genetics}, 8, 845--856.
 
+\bibitem[{Mori \emph{et~al.}(2017)Mori, Mazza \& Lovari}]{mori2017sexual}
+Mori, E., Mazza, G. \& Lovari, S. (2017).
+\newblock Sexual dimorphism.
+\newblock \emph{Encyclopedia of Animal Cognition and Behavior (J. Vonk, and T.
+  Shakelford, Eds). Springer International Publishing, Switzerland}, pp. 1--7.
+
 \bibitem[{Nunney(2002)}]{nunney2002effective}
 Nunney, L. (2002).
 \newblock The effective size of annual plant populations: the interaction of a
@@ -148,10 +159,5 @@ Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 Walsh, B. \& Lynch, M. (2018).
 \newblock \emph{Evolution and {Selection} of {Quantitative} {Traits}}.
 \newblock OUP Oxford.
-
-\bibitem[{Wright(1942)}]{wright1942statistical}
-Wright, S. (1942).
-\newblock Statistical genetics and evolution.
-\newblock \emph{Bulletin of the American Mathematical Society}, 48, 223--246.
 
 \end{thebibliography}
