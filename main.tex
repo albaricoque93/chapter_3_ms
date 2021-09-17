@@ -326,11 +326,13 @@ This normalization bounded $\delta$ values from $-1$ to $1$.
 
 \section{Results}
 
-Our results showed that both fluctuations in selection and in population sizes can substantially increase the expected genetic variability under sexually antagonistic selection. The average proportion of coexistence in the selection parameter space increased with the effect size of fluctuations when fluctuations were large enough ($\sigma_{g} > 20$ and $\sigma_{w} > 0.2$). Fluctuations with small effect sizes either decreased or matched the average proportion of the parameter space of allelic coexistence compared to the control simulation.  Increments in allelic coexistence were more likely when fluctuations were large, and fluctuations in population sizes were negatively correlated, while fluctuations in selection were positively correlated.
+Our results showed that both fluctuations in selection and in population sizes can substantially increase the expected genetic variability under sexually antagonistic selection. The average proportion of coexistence in the selection parameter space increased with the effect size of fluctuations when fluctuations were large enough (Fig.~\ref{fig:heatmap}). Fluctuations with small effect sizes either decreased or matched the average proportion of the parameter space of allelic coexistence compared to the control simulation (Fig.~\ref{fig:heatmap}). Increments in allelic coexistence were more likely when fluctuations were large, and fluctuations in population sizes were negatively correlated, while fluctuations in selection were positively correlated (Fig.~\ref{fig:heatmap}).
 
-Fluctuations increased coexistence by allowing both alleles to have a positive invasion growth rate in instances where selection would typically not allow them to (i.e., they made parts of the parameter space ``flip'' into coexistence).  As a baseline, we show in Fig.~\ref{fig:prop}A the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. These ``flips'' were more common with larger fluctuations and strongly correlated effects. However, note that there are also parts of the parameter space where coexistence is lost compared to the control simulation, which was more likely when population sizes were fluctuating.  
+Fluctuations increased coexistence by allowing both alleles to have a positive invasion growth rate in instances where selection would typically not allow them to (i.e., they made parts of the parameter space ``flip'' into coexistence).  As a baseline, we show in Fig.~\ref{fig:outcomes}A the outcome of the control simulation, which matches previous findings that without fluctuations, alleles can coexist in only $\approx 0.38$ of the selection parameter space \citep{connallon2018environmental}. These ``flips'' occurred with both types of fluctuations and were more common with larger fluctuations and strongly correlated effects, for which we show examples in Fig.~\ref{fig:outcomes}A . However, note that there are also parts of the parameter space where coexistence is lost compared to the control simulation, which was more likely when population sizes were fluctuating (Fig.~\ref{fig:outcomes}A).
 
+Alleles had positive invasion growth rates when positive contributions of fluctuations outweighted the negative contributions of fluctuations. As an example in Fig.~\ref{fig:outcomes}B we show the functional decomposition of both alleles invading via their favoured pathway in parts of the parameter space that ``flipped'' into coexistence and competitive exclusion (which correspond to the square and triangle in Fig.~\ref{fig:outcomes}A). Note that each type of fluctation made similar contributions to each allele, both when they were coexisting or experiencing competitive exclusion (Fig.~\ref{fig:outcomes}B). However, $\delta_{0}$, which captures the effect of fluctuations set to their averages, captured both positve and negative contributions for both alleles (Fig.~\ref{fig:outcomes}B).
 
+The relative contribution of fluctuations in population sizes depended on the sex where invasion occurred (Fig.~\ref{fig:outcomes}B and Fig.~\ref{fig:boxes}). 
 
 
 
@@ -413,37 +415,32 @@ $\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between flu
 
 
 
-\clearpage
-\begin{figure}[t]
-  \centerline{\includegraphics[width=1\textwidth]{proportions.pdf}}
-  \caption{ Changes in the proportion of coexistence as a function of fluctuations. In A) we show the results of  simulations in which only population sizes fluctuated (i.e., simulations in which $\sigma_{w}=0.001$ and $\rho_{w}= 0$). We show how the average proportion of coexistence, for all of the different invasion scenarios and replicates, changed as a function of the effect size of fluctuations in population sizes with black lines. We denoted the correlation between fluctuations in our simulations with different line types and displayed confident intervals around the average with shaded areas. The solid red line corresponds to the proportion of coexistence in the control simulation.  In B) we show the same results for simulations where only selection fluctuated  (i.e., simulations in which $\sigma_{g}=0.001$ and $\rho_{g}= 0$). Finally, in C) we show the results of the control simulation in the selection parameter space. Grey areas denote points in the parameter space where selection maintains both alleles in a population, which amount to $\approx 0.38$ of the selection parameter space, while white areas show competitive exclusion.}
-    \label{fig:prop}
-\end{figure}
+%\clearpage
+%\begin{figure}[t]
+%  \centerline{\includegraphics[width=1\textwidth]{proportions.pdf}}
+%  \caption{ Changes in the proportion of coexistence as a function of fluctuations. In A) we show the results of  simulations in which only population sizes fluctuated (i.e., simulations in which $\sigma_{w}=0.001$ and $\rho_{w}= 0$). We show how the average proportion of coexistence, for all of the different invasion scenarios and replicates, changed as a function of the effect size of fluctuations in population sizes with black lines. We denoted the correlation between fluctuations in our simulations with different line types and displayed confident intervals around the average with shaded areas. The solid red line corresponds to the proportion of coexistence in the control simulation.  In B) we show the same results for simulations where only selection fluctuated  (i.e., simulations in which $\sigma_{g}=0.001$ and $\rho_{g}= 0$). Finally, in C) we show the results of the control simulation in the selection parameter space. Grey areas denote points in the parameter space where selection maintains both alleles in a population, which amount to $\approx 0.38$ of the selection parameter space, while white areas show competitive exclusion.}
+%    \label{fig:prop}
+%\end{figure}
 
 
 \clearpage
 
 \begin{figure}[H]
   \centerline{\includegraphics[width=1\textwidth]{heat_map.pdf}}
-  \caption{Average proportion of coexistence for different parameter combinations. We show, for all factorial combinations of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$, the average proportion of coexistence of  in our simulations. Each panel corresponds to a different combination of correlations between fluctuations. Labels on top indicate the correlation between fluctuations in selection $\rho_{w}$, while labels on the right show the correlation in fluctuations between fluctuations in population sizes $\rho_{g}$.  As a basis of comparison, we show the expected proportion of coexistence ($ 0.38$) as the midpoint in our color scheme. Finally, the white square and circle at the bottom left panel are references to simulations we show in detail in later figures.   }
-    \label{fig:heat}
+  \caption{Average proportion of coexistence for different parameter combinations. We show, for all factorial combinations of values of $\sigma_{g}$, $\sigma_{w}$, $\rho_{g}$ and $\rho_{w}$, the average proportion of coexistence of in our simulations. Each panel corresponds to a different combination of correlations between fluctuations. Labels on top indicate the correlation between fluctuations in selection $\rho_{w}$, while labels on the right show the correlation in fluctuations between fluctuations in population sizes $\rho_{g}$.  As a basis of comparison, we show the expected proportion of coexistence ($ 0.38$) as the midpoint in our color scheme.   }
+    \label{fig:heatmap}
 \end{figure}
 
 
 \clearpage
 
 \begin{figure}[H]
-  \centerline{\includegraphics[height=0.9\textheight]{outcomes.pdf}}
+  \centerline{\includegraphics[width=1\textwidth]{outcomes.pdf}}
   \caption{Coexistence outcomes and functional decomposition of one simulation. We show in A) for one of the replicates highlighted with a white square in Fig.~\ref{fig:heat} ( $\sigma_{g} = 70$, $\sigma_{w}= 0.9$, $\rho_{g}=-0.75$ and $\rho_{w= 0.75}$,) the coexistence outcomes when $j$ invades via females and $k$ invades via males. Grey areas denote points in the parameter space where alleles can coexist, while white areas are points where at least one allele does not have a positive invasion growth rate. We highlight in black a point in the parameter space where coexistence is lost compared to the control simulation. In B) we show for the same simulation, the functional decomposition of each allele across the parameter space of selection. The highlighted black points correspond to the same point shown in A).    }
     \label{fig:outcomes}
 \end{figure}
 
 
-\begin{figure}[H]
-  \centerline{\includegraphics[]{outcomes_two.pdf}}
-  \caption{This figure will go in the Supporting Information. We show the coexistence outcomes  for one of the replicates highlighted with a white circle in Fig.~\ref{fig:heat} ( $\sigma_{g} = 70$, $\sigma_{w}= 0.9$, $\rho_{g}=-0.75$ and $\rho_{w= 0.75}$,) when $j$ invades via females and $k$ invades via males.  Grey areas denote points in the parameter space where alleles can coexist, while white areas are points where at least one allele does not have a positive invasion growth rate.  }
-    \label{fig:outcomes}
-\end{figure}
 
 
 \begin{figure}[H]
@@ -451,6 +448,18 @@ $\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between flu
   \caption{ Boxplots of $\delta$ values. In A) we show the box plots of $\delta$ values that capture the relative contributions of fluctuations in population sizes, for all of the replicates in our simulation in which $\sigma_{g}=70$ and $\sigma_{w}=0.001$. Labels on top indicate the correlation between fluctuations in population sizes, $\rho_{g}$. Each color corresponds to a different allele and invasion pathway in our simulations. In B) we show the box plots of $\delta$ values that capture the contributions of fluctuations in selection, for all of the replicates in our simulation in which $\sigma_{w}=0.9$ and $\sigma_{g}=0.001$ . Labels on top indicate the correlation between fluctuations in selection, $\rho_{w}$, with the same color nomenclature as in A). Each box plot extends from the first to third quantiles of the corresponding posterior distribution of parameter values, and the line inside the the box indicates the median. The upper whisker extends to the largest value no further than 1.5 times the inter-quantile range (IQR, or the distance between the first and third quartiles); the lower whisker extends to the smallest value at most 1.5 times the IQR. Data beyond the end of the whiskers are determined to be outliers and are plotted individually with solid grey points.   }
     \label{fig:boxes}
 \end{figure}
+
+
+
+\begin{figure}[H]
+  \centerline{\includegraphics[width=1\textwidth]{box_plots_selection.pdf}}
+  \caption{ Boxplots of $\delta$ values. In A) we show the box plots of $\delta$ values that capture the relative contributions of fluctuations in population sizes, for all of the replicates in our simulation in which $\sigma_{g}=70$ and $\sigma_{w}=0.001$. Labels on top indicate the correlation between fluctuations in population sizes, $\rho_{g}$. Each color corresponds to a different allele and invasion pathway in our simulations. In B) we show the box plots of $\delta$ values that capture the contributions of fluctuations in selection, for all of the replicates in our simulation in which $\sigma_{w}=0.9$ and $\sigma_{g}=0.001$ . Labels on top indicate the correlation between fluctuations in selection, $\rho_{w}$, with the same color nomenclature as in A). Each box plot extends from the first to third quantiles of the corresponding posterior distribution of parameter values, and the line inside the the box indicates the median. The upper whisker extends to the largest value no further than 1.5 times the inter-quantile range (IQR, or the distance between the first and third quartiles); the lower whisker extends to the smallest value at most 1.5 times the IQR. Data beyond the end of the whiskers are determined to be outliers and are plotted individually with solid grey points.   }
+    \label{fig:boxes_selection}
+\end{figure}
+
+
+
+
 
 
 \begin{figure}[H]
