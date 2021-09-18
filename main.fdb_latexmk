@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1631858686 "main.aux" "main.bbl" "main" 1631859040
+["bibtex main"] 1631923741 "main.aux" "main.bbl" "main" 1631923858
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
   "coexistence.bib" 1631839368 34435 b1af1a0886d2b6f388fd5362b0219f8c ""
-  "main.aux" 1631858688 10535 4addce0d95cf59f27a7f59e49b4bef6d "pdflatex"
+  "main.aux" 1631923858 10535 081ea9473ca4a4dbf490c5a5a62383b0 "pdflatex"
   (generated)
-  "main.bbl"
   "main.blg"
-["pdflatex"] 1631858687 "main.tex" "main.pdf" "main" 1631859040
+  "main.bbl"
+["pdflatex"] 1631923856 "main.tex" "main.pdf" "main" 1631923858
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -185,12 +185,12 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "box_plots.pdf" 1631854571 419037 966eaf6b0bf7fd91f4aa2eed8790ad72 ""
-  "box_plots_selection.pdf" 1631856460 86743 833f60e24cb5c1dc758db8a15a84cd1e ""
+  "box_plots.pdf" 1631921318 418538 15048dc8869d954d7d2bda13aadca888 ""
+  "box_plots_selection.pdf" 1631920799 85991 44621dbc6a634399547d46aa37740fb0 ""
   "heat_map.pdf" 1631846464 58040 53bdc68495319a992768a0ba8bde3328 ""
-  "main.aux" 1631858688 10535 4addce0d95cf59f27a7f59e49b4bef6d "pdflatex"
-  "main.bbl" 1631858687 6927 f523cf2ee7b05a58e7a49845bce08638 "bibtex main"
-  "main.tex" 1631859039 46335 816f1b9b970691780ff5201fcde6b0e3 ""
+  "main.aux" 1631923858 10535 081ea9473ca4a4dbf490c5a5a62383b0 "pdflatex"
+  "main.bbl" 1631923741 6927 f523cf2ee7b05a58e7a49845bce08638 "bibtex main"
+  "main.tex" 1631923856 48831 564bd6dd9130776b9b08893cde3e0158 ""
   "outcomes.pdf" 1631849250 12052 d57f35bad6078910b1c913860b5a4fde ""
   "ratios.pdf" 1631236002 28114 9d62d8e8d52f52cf61b1acec4c3f89f1 ""
   (generated)

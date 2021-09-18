@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  17 SEP 2021 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  18 SEP 2021 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,52 +857,56 @@ Overfull \hbox (0.8168pt too wide) in paragraph at lines 285--286
 eak-ing up the av-er-age growth
  []
 
-[12] [13] [14] [15] [16] [17
+[12] [13] [14] [15] [16]
+LaTeX Info: Symbol \textasciiacute not provided by
+            font family ppl in TS1 encoding.
+            Default family used instead on input line 336.
+ [17] [18] [19
 
 ]
-<heat_map.pdf, id=72, 578.16pt x 578.16pt>
+<heat_map.pdf, id=79, 578.16pt x 578.16pt>
 File: heat_map.pdf Graphic file (type pdf)
 <use heat_map.pdf>
-Package pdftex.def Info: heat_map.pdf  used on input line 429.
+Package pdftex.def Info: heat_map.pdf  used on input line 433.
 (pdftex.def)             Requested size: 469.75502pt x 469.75385pt.
- [18
+ [20
 
  <./heat_map.pdf>]
-<outcomes.pdf, id=83, 939.51pt x 722.7pt>
+<outcomes.pdf, id=90, 939.51pt x 722.7pt>
 File: outcomes.pdf Graphic file (type pdf)
 <use outcomes.pdf>
-Package pdftex.def Info: outcomes.pdf  used on input line 438.
+Package pdftex.def Info: outcomes.pdf  used on input line 442.
 (pdftex.def)             Requested size: 469.75502pt x 361.3491pt.
 
 
-LaTeX Warning: Reference `fig:heat' on page 19 undefined on input line 439.
+LaTeX Warning: Reference `fig:heat' on page 21 undefined on input line 443.
 
 
-LaTeX Warning: Reference `fig:heat' on page 19 undefined on input line 439.
+LaTeX Warning: Reference `fig:heat' on page 21 undefined on input line 443.
 
-<box_plots.pdf, id=84, 867.24pt x 578.16pt>
+<box_plots.pdf, id=91, 867.24pt x 578.16pt>
 File: box_plots.pdf Graphic file (type pdf)
 <use box_plots.pdf>
-Package pdftex.def Info: box_plots.pdf  used on input line 447.
+Package pdftex.def Info: box_plots.pdf  used on input line 451.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-[19
+[21
 
  <./outcomes.pdf>]
-<box_plots_selection.pdf, id=95, 867.24pt x 578.16pt>
+<box_plots_selection.pdf, id=101, 867.24pt x 578.16pt>
 File: box_plots_selection.pdf Graphic file (type pdf)
 <use box_plots_selection.pdf>
-Package pdftex.def Info: box_plots_selection.pdf  used on input line 455.
+Package pdftex.def Info: box_plots_selection.pdf  used on input line 459.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
- [20 <./box_plots.pdf>]
-<ratios.pdf, id=109, 867.24pt x 867.24pt>
+ [22 <./box_plots.pdf>]
+<ratios.pdf, id=115, 867.24pt x 867.24pt>
 File: ratios.pdf Graphic file (type pdf)
 <use ratios.pdf>
-Package pdftex.def Info: ratios.pdf  used on input line 466.
+Package pdftex.def Info: ratios.pdf  used on input line 470.
 (pdftex.def)             Requested size: 469.75502pt x 469.75827pt.
- [21 <./box_plots_selection.pdf>]
-[22 <./ratios.pdf>] (./main.bbl [23
+ [23 <./box_plots_selection.pdf>]
+[24 <./ratios.pdf>] (./main.bbl [25
 
-] [24] [25]) [26] (./main.aux)
+] [26] [27]) [28] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -910,7 +914,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  17955 strings out of 480608
  358388 string characters out of 5903631
- 591701 words of memory out of 5000000
+ 591702 words of memory out of 5000000
  33452 multiletter control sequences out of 15000+600000
  589265 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -930,10 +934,10 @@ type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/u
 rw/palatino/uplbi8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on main.pdf (26 pages, 756874 bytes).
+Output written on main.pdf (28 pages, 758059 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
