@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{39}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Arnqvist \& Rowe(2013)}]{arnqvist2013sexual}
@@ -11,6 +11,11 @@ Arnqvist, G. \& Rowe, L. (2013).
 Barabás, G., D'Andrea, R. \& Stump, S.M. (2018).
 \newblock Chesson's coexistence theory.
 \newblock \emph{Ecological Monographs}, 88, 277--303.
+
+\bibitem[{Bonduriansky \& Chenoweth(2009)}]{bonduriansky2009intralocus}
+Bonduriansky, R. \& Chenoweth, S.F. (2009).
+\newblock Intralocus sexual conflict.
+\newblock \emph{Trends in ecology \& evolution}, 24, 280--288.
 
 \bibitem[{Chesson(1994)}]{chesson1994multispecies}
 Chesson, P. (1994).
@@ -39,6 +44,12 @@ Chesson, P.L. (1982).
 \newblock The stabilizing effect of a random environment.
 \newblock \emph{Journal of Mathematical Biology}, 15, 1--36.
 
+\bibitem[{Connallon \& Clark(2012)}]{connallon2012general}
+Connallon, T. \& Clark, A.G. (2012).
+\newblock A general population genetic framework for antagonistic selection
+  that accounts for demography and recurrent mutation.
+\newblock \emph{Genetics}, 190, 1477--1489.
+
 \bibitem[{Connallon \& Hall(2018)}]{connallon2018environmental}
 Connallon, T. \& Hall, M.D. (2018).
 \newblock Environmental changes and sexually antagonistic selection.
@@ -51,6 +62,21 @@ Connallon, T., Sharma, S. \& Olito, C. (2018).
   {Variable} {Environments}: {Four} {Simple} {Models} {Reveal} {Diverse}
   {Evolutionary} {Outcomes}.
 \newblock \emph{The American Naturalist}, 193, 93--105.
+
+\bibitem[{Curtsinger \emph{et~al.}(1994)Curtsinger, Service \&
+  Prout}]{curtsinger1994antagonistic}
+Curtsinger, J.W., Service, P.M. \& Prout, T. (1994).
+\newblock Antagonistic pleiotropy, reversal of dominance, and genetic
+  polymorphism.
+\newblock \emph{The American Naturalist}, 144, 210--228.
+
+\bibitem[{De~Lisle \emph{et~al.}(2018)De~Lisle, Goedert, Reedy \&
+  Svensson}]{de2018climatic}
+De~Lisle, S.P., Goedert, D., Reedy, A.M. \& Svensson, E.I. (2018).
+\newblock Climatic factors and species range position predict sexually
+  antagonistic selection across taxa.
+\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
+  Sciences}, 373, 20170415.
 
 \bibitem[{Ellner \& Hairston~Jr(1994)}]{ellner1994role}
 Ellner, S. \& Hairston~Jr, N.G. (1994).
@@ -77,6 +103,13 @@ Ellner, S.P., Snyder, R.E., Adler, P.B. \& Hooker, G. (2019).
 \newblock An expanded modern coexistence theory for empirical applications.
 \newblock \emph{Ecology Letters}, 22, 3--18.
 
+\bibitem[{Foerster \emph{et~al.}(2007)Foerster, Coulson, Sheldon, Pemberton,
+  Clutton-Brock \& Kruuk}]{foerster2007sexually}
+Foerster, K., Coulson, T., Sheldon, B.C., Pemberton, J.M., Clutton-Brock, T.H.
+  \& Kruuk, L.E. (2007).
+\newblock Sexually antagonistic genetic variation for fitness in red deer.
+\newblock \emph{Nature}, 447, 1107--1110.
+
 \bibitem[{Gavrilets(2014)}]{gavrilets2014sexual}
 Gavrilets, S. (2014).
 \newblock Is sexual conflict an “engine of speciation”?
@@ -93,6 +126,11 @@ Hedrick, P.W. (1986).
 \newblock Genetic polymorphism in heterogeneous environments: a decade later.
 \newblock \emph{Annual review of ecology and systematics}, 17, 535--566.
 
+\bibitem[{Hedrick(1999)}]{hedrick1999antagonistic}
+Hedrick, P.W. (1999).
+\newblock Antagonistic pleiotropy and genetic polymorphism: a perspective.
+\newblock \emph{Heredity}, 82, 126--133.
+
 \bibitem[{Immler \emph{et~al.}(2012)Immler, Arnqvist \&
   Otto}]{immler2012ploidally}
 Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
@@ -101,12 +139,23 @@ Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
 \newblock \emph{Evolution: International Journal of Organic Evolution}, 66,
   55--65.
 
+\bibitem[{Innocenti \& Morrow(2010)}]{innocenti2010sexually}
+Innocenti, P. \& Morrow, E.H. (2010).
+\newblock The sexually antagonistic genes of drosophila melanogaster.
+\newblock \emph{PLoS biology}, 8, e1000335.
+
 \bibitem[{Kidwell \emph{et~al.}(1977)Kidwell, Clegg, Stewart \&
   Prout}]{kidwell1977regions}
 Kidwell, J., Clegg, M., Stewart, F. \& Prout, T. (1977).
 \newblock Regions of stable equilibria for models of differential selection in
   the two sexes under random mating.
 \newblock \emph{Genetics}, 85, 171--183.
+
+\bibitem[{Lande(1980)}]{lande1980sexual}
+Lande, R. (1980).
+\newblock Sexual dimorphism, sexual selection, and adaptation in polygenic
+  characters.
+\newblock \emph{Evolution}, pp. 292--305.
 
 \bibitem[{Mitchell-Olds \emph{et~al.}(2007)Mitchell-Olds, Willis \&
   Goldstein}]{mitchell-olds_which_2007}
@@ -121,6 +170,12 @@ Mori, E., Mazza, G. \& Lovari, S. (2017).
 \newblock \emph{Encyclopedia of Animal Cognition and Behavior (J. Vonk, and T.
   Shakelford, Eds). Springer International Publishing, Switzerland}, pp. 1--7.
 
+\bibitem[{Morrissey(2016)}]{morrissey2016meta}
+Morrissey, M.B. (2016).
+\newblock Meta-analysis of magnitudes, differences and variation in
+  evolutionary parameters.
+\newblock \emph{Journal of Evolutionary Biology}, 29, 1882--1904.
+
 \bibitem[{Nunney(2002)}]{nunney2002effective}
 Nunney, L. (2002).
 \newblock The effective size of annual plant populations: the interaction of a
@@ -133,6 +188,13 @@ Pamilo, P. (1979).
   selection models.
 \newblock \emph{Hereditas}, 91, 129--133.
 
+\bibitem[{Patten \emph{et~al.}(2010)Patten, Haig \& Ubeda}]{patten2010fitness}
+Patten, M.M., Haig, D. \& Ubeda, F. (2010).
+\newblock Fitness variation due to sexual antagonism and linkage
+  disequilibrium.
+\newblock \emph{Evolution: International Journal of Organic Evolution}, 64,
+  3638--3642.
+
 \bibitem[{Pemberton \emph{et~al.}(1996)Pemberton, Smith, Coulson, Marshall,
   Slate, Paterson, Albon, Clutton-Brock \& Sneath}]{pemberton1996maintenance}
 Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
@@ -141,6 +203,12 @@ Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
   large mammals in the hebrides.
 \newblock \emph{Philosophical Transactions of the Royal Society of London.
   Series B: Biological Sciences}, 351, 745--752.
+
+\bibitem[{Radwan(2008)}]{radwan_maintenance_2008}
+Radwan, J. (2008).
+\newblock Maintenance of genetic variation in sexual ornaments: a review of the
+  mechanisms.
+\newblock \emph{Genetica}, 134, 113--127.
 
 \bibitem[{Reinhold(2000)}]{reinhold2000maintenance}
 Reinhold, K. (2000).
@@ -154,6 +222,20 @@ Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 \newblock Quantifying the relative importance of variation in predation and the
   environment for species coexistence.
 \newblock \emph{Ecology letters}, 23, 939--950.
+
+\bibitem[{Siepielski \emph{et~al.}(2017)Siepielski, Morrissey, Buoro, Carlson,
+  Caruso, Clegg, Coulson, DiBattista, Gotanda, Francis
+  \emph{et~al.}}]{siepielski2017precipitation}
+Siepielski, A.M., Morrissey, M.B., Buoro, M., Carlson, S.M., Caruso, C.M.,
+  Clegg, S.M., Coulson, T., DiBattista, J., Gotanda, K.M., Francis, C.D.
+  \emph{et~al.} (2017).
+\newblock Precipitation drives global variation in natural selection.
+\newblock \emph{Science}, 355, 959--962.
+
+\bibitem[{Van~Doorn(2009)}]{van2009intralocus}
+Van~Doorn, G.S. (2009).
+\newblock Intralocus sexual conflict.
+\newblock \emph{Annals of the New York Academy of Sciences}, 1168, 52--71.
 
 \bibitem[{Walsh \& Lynch(2018)}]{walsh_evolution_2018}
 Walsh, B. \& Lynch, M. (2018).
