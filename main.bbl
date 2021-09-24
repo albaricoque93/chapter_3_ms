@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{44}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Arnqvist \& Rowe(2013)}]{arnqvist2013sexual}
@@ -11,6 +11,13 @@ Arnqvist, G. \& Rowe, L. (2013).
 Barabás, G., D'Andrea, R. \& Stump, S.M. (2018).
 \newblock Chesson's coexistence theory.
 \newblock \emph{Ecological Monographs}, 88, 277--303.
+
+\bibitem[{Bildstein \emph{et~al.}(1989)Bildstein, McDowell \&
+  Brisbin}]{bildstein1989consequences}
+Bildstein, K.L., McDowell, S.G. \& Brisbin, I.L. (1989).
+\newblock Consequences of sexual dimorphism in sand fiddler crabs, uca
+  pugilator: differential vulnerability to avian predation.
+\newblock \emph{Animal Behaviour}, 37, 133--139.
 
 \bibitem[{Bonduriansky \& Chenoweth(2009)}]{bonduriansky2009intralocus}
 Bonduriansky, R. \& Chenoweth, S.F. (2009).
@@ -115,6 +122,13 @@ Gavrilets, S. (2014).
 \newblock Is sexual conflict an “engine of speciation”?
 \newblock \emph{Cold Spring Harbor perspectives in biology}, 6, a017723.
 
+\bibitem[{G{\"o}tmark \emph{et~al.}(1997)G{\"o}tmark, Post, Olsson \&
+  Himmelmann}]{gotmark1997natural}
+G{\"o}tmark, F., Post, P., Olsson, J. \& Himmelmann, D. (1997).
+\newblock Natural selection and sexual dimorphism: sex-biased sparrowhawk
+  predation favours crypsis in female chaffinches.
+\newblock \emph{Oikos}, pp. 540--548.
+
 \bibitem[{Hedrick(1974)}]{hedrick1974genetic}
 Hedrick, P.W. (1974).
 \newblock Genetic variation in a heterogeneous environment. i. temporal
@@ -204,6 +218,13 @@ Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
 \newblock \emph{Philosophical Transactions of the Royal Society of London.
   Series B: Biological Sciences}, 351, 745--752.
 
+\bibitem[{Promislow \emph{et~al.}(1992)Promislow, Montgomerie \&
+  Martin}]{promislow1992mortality}
+Promislow, D.E., Montgomerie, R. \& Martin, T.E. (1992).
+\newblock Mortality costs of sexual dimorphism in birds.
+\newblock \emph{Proceedings of the Royal Society of London. Series B:
+  Biological Sciences}, 250, 143--150.
+
 \bibitem[{Radwan(2008)}]{radwan_maintenance_2008}
 Radwan, J. (2008).
 \newblock Maintenance of genetic variation in sexual ornaments: a review of the
@@ -216,21 +237,18 @@ Reinhold, K. (2000).
   sex-limited traits.
 \newblock \emph{Journal of Evolutionary Biology}, 13, 1009--1014.
 
+\bibitem[{Sasaki \& Ellner(1995)}]{sasaki1995evolutionarily}
+Sasaki, A. \& Ellner, S. (1995).
+\newblock The evolutionarily stable phenotype distribution in a random
+  environment.
+\newblock \emph{Evolution}, 49, 337--350.
+
 \bibitem[{Shoemaker \emph{et~al.}(2020)Shoemaker, Barner, Bittleston \&
   Teufel}]{shoemaker2020}
 Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 \newblock Quantifying the relative importance of variation in predation and the
   environment for species coexistence.
 \newblock \emph{Ecology letters}, 23, 939--950.
-
-\bibitem[{Siepielski \emph{et~al.}(2017)Siepielski, Morrissey, Buoro, Carlson,
-  Caruso, Clegg, Coulson, DiBattista, Gotanda, Francis
-  \emph{et~al.}}]{siepielski2017precipitation}
-Siepielski, A.M., Morrissey, M.B., Buoro, M., Carlson, S.M., Caruso, C.M.,
-  Clegg, S.M., Coulson, T., DiBattista, J., Gotanda, K.M., Francis, C.D.
-  \emph{et~al.} (2017).
-\newblock Precipitation drives global variation in natural selection.
-\newblock \emph{Science}, 355, 959--962.
 
 \bibitem[{Van~Doorn(2009)}]{van2009intralocus}
 Van~Doorn, G.S. (2009).
@@ -241,5 +259,20 @@ Van~Doorn, G.S. (2009).
 Walsh, B. \& Lynch, M. (2018).
 \newblock \emph{Evolution and {Selection} of {Quantitative} {Traits}}.
 \newblock OUP Oxford.
+
+\bibitem[{Wittmann \emph{et~al.}(2017)Wittmann, Bergland, Feldman, Schmidt \&
+  Petrov}]{wittmann2017seasonally}
+Wittmann, M.J., Bergland, A.O., Feldman, M.W., Schmidt, P.S. \& Petrov, D.A.
+  (2017).
+\newblock Seasonally fluctuating selection can maintain polymorphism at many
+  loci via segregation lift.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 114,
+  E9932--E9941.
+
+\bibitem[{Zepeda \& Martorell(2019)}]{zepeda2019fluctuation}
+Zepeda, V. \& Martorell, C. (2019).
+\newblock Fluctuation-independent niche differentiation and relative
+  non-linearity drive coexistence in a species-rich grassland.
+\newblock \emph{Ecology}, 100, e02726.
 
 \end{thebibliography}
