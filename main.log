@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 SEP 2021 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  27 SEP 2021 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -863,61 +863,64 @@ eak-ing up the av-er-age growth
 LaTeX Info: Symbol \textasciiacute not provided by
             font family ppl in TS1 encoding.
             Default family used instead on input line 346.
- [18] [19] [20] [21]
-Overfull \hbox (7.39212pt too wide) in paragraph at lines 375--376
-[]\OT1/ppl/m/n/12 Many sex-limited traits in-volve in-ter-ac-tions be-tween in-
-di-vid-u-als, and such traits should
- []
-
-[22] [23] [24
+ [18] [19] [20] [21] [22] [23] [24] [25
 
 ]
-<heat_map.pdf, id=94, 578.16pt x 578.16pt>
+<heat_map.pdf, id=98, 578.16pt x 578.16pt>
 File: heat_map.pdf Graphic file (type pdf)
 <use heat_map.pdf>
-Package pdftex.def Info: heat_map.pdf  used on input line 479.
+Package pdftex.def Info: heat_map.pdf  used on input line 488.
 (pdftex.def)             Requested size: 469.75502pt x 469.75385pt.
- [25
-
- <./heat_map.pdf>]
-<outcomes.pdf, id=106, 939.51pt x 722.7pt>
-File: outcomes.pdf Graphic file (type pdf)
-<use outcomes.pdf>
-Package pdftex.def Info: outcomes.pdf  used on input line 488.
-(pdftex.def)             Requested size: 469.75502pt x 361.3491pt.
-<box_plots.pdf, id=107, 867.24pt x 578.16pt>
-File: box_plots.pdf Graphic file (type pdf)
-<use box_plots.pdf>
-Package pdftex.def Info: box_plots.pdf  used on input line 498.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
  [26
 
+ <./heat_map.pdf>]
+<outcomes.pdf, id=109, 939.51pt x 722.7pt>
+File: outcomes.pdf Graphic file (type pdf)
+<use outcomes.pdf>
+Package pdftex.def Info: outcomes.pdf  used on input line 497.
+(pdftex.def)             Requested size: 469.75502pt x 361.3491pt.
+<box_plots.pdf, id=110, 867.24pt x 578.16pt>
+File: box_plots.pdf Graphic file (type pdf)
+<use box_plots.pdf>
+Package pdftex.def Info: box_plots.pdf  used on input line 507.
+(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
+ [27
+
  <./outcomes.pdf>]
-<box_plots_selection.pdf, id=118, 867.24pt x 578.16pt>
+<box_plots_selection.pdf, id=121, 867.24pt x 578.16pt>
 File: box_plots_selection.pdf Graphic file (type pdf)
 <use box_plots_selection.pdf>
-Package pdftex.def Info: box_plots_selection.pdf  used on input line 506.
+Package pdftex.def Info: box_plots_selection.pdf  used on input line 515.
 (pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
- [27 <./box_plots.pdf>]
-<ratios.pdf, id=132, 1084.05pt x 1084.05pt>
+ [28 <./box_plots.pdf>]
+<ratios.pdf, id=135, 1084.05pt x 1084.05pt>
 File: ratios.pdf Graphic file (type pdf)
 <use ratios.pdf>
-Package pdftex.def Info: ratios.pdf  used on input line 517.
+Package pdftex.def Info: ratios.pdf  used on input line 526.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
- [28 <./box_plots_selection.pdf>]
-<box_plots_d0.pdf, id=146, 578.16pt x 867.24pt>
-File: box_plots_d0.pdf Graphic file (type pdf)
-<use box_plots_d0.pdf>
-Package pdftex.def Info: box_plots_d0.pdf  used on input line 527.
-(pdftex.def)             Requested size: 346.91632pt x 520.34598pt.
- [29 <./ratios.pdf>] [30 <./box_plots_d0.pdf>] (./main.bbl [31
+ [29 <./box_plots_selection.pdf>]
+<males.pdf, id=149, 867.24pt x 578.16pt>
+File: males.pdf Graphic file (type pdf)
+<use males.pdf>
+Package pdftex.def Info: males.pdf  used on input line 536.
+(pdftex.def)             Requested size: 375.80544pt x 250.53596pt.
+ [30 <./ratios.pdf>] [31 <./males.pdf>]
+<females.pdf, id=175, 867.24pt x 578.16pt>
+File: females.pdf Graphic file (type pdf)
+<use females.pdf>
+Package pdftex.def Info: females.pdf  used on input line 544.
+(pdftex.def)             Requested size: 375.80544pt x 250.53596pt.
+ [32
 
-] [32] [33] [34] [35]) [36] (./main.aux) ) 
+ <./females.pdf>] (./main.bbl
+[33
+
+] [34] [35] [36] [37]) [38] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 18008 strings out of 480608
- 360025 string characters out of 5903631
- 592945 words of memory out of 5000000
- 33511 multiletter control sequences out of 15000+600000
+ 18022 strings out of 480608
+ 360331 string characters out of 5903631
+ 593162 words of memory out of 5000000
+ 33524 multiletter control sequences out of 15000+600000
  585775 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,75p,1971b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -936,10 +939,10 @@ usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/loc
 al/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (36 pages, 795600 bytes).
+Output written on main.pdf (38 pages, 815097 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 254 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

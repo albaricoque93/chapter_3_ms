@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{47}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Arnqvist \& Rowe(2013)}]{arnqvist2013sexual}
@@ -51,6 +51,14 @@ Chesson, P.L. (1982).
 \newblock The stabilizing effect of a random environment.
 \newblock \emph{Journal of Mathematical Biology}, 15, 1--36.
 
+\bibitem[{Cockburn \emph{et~al.}(2008)Cockburn, Osmond \&
+  Double}]{cockburn2008swingin}
+Cockburn, A., Osmond, H.L. \& Double, M.C. (2008).
+\newblock Swingin'in the rain: condition dependence and sexual selection in a
+  capricious world.
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences}, 275,
+  605--612.
+
 \bibitem[{Connallon \& Clark(2012)}]{connallon2012general}
 Connallon, T. \& Clark, A.G. (2012).
 \newblock A general population genetic framework for antagonistic selection
@@ -77,13 +85,13 @@ Curtsinger, J.W., Service, P.M. \& Prout, T. (1994).
   polymorphism.
 \newblock \emph{The American Naturalist}, 144, 210--228.
 
-\bibitem[{De~Lisle \emph{et~al.}(2018)De~Lisle, Goedert, Reedy \&
-  Svensson}]{de2018climatic}
-De~Lisle, S.P., Goedert, D., Reedy, A.M. \& Svensson, E.I. (2018).
-\newblock Climatic factors and species range position predict sexually
-  antagonistic selection across taxa.
-\newblock \emph{Philosophical Transactions of the Royal Society B: Biological
-  Sciences}, 373, 20170415.
+\bibitem[{Elgar \emph{et~al.}(2003)Elgar, Bruce, De~Crespigny, Cutler, Cutler,
+  Gaskett, Herberstein, Ramamurthy \& Schneider}]{elgar2003male}
+Elgar, M.A., Bruce, M.J., De~Crespigny, F.E.C., Cutler, A.R., Cutler, C.L.,
+  Gaskett, A.C., Herberstein, M.E., Ramamurthy, S. \& Schneider, J.M. (2003).
+\newblock Male mate choice and patterns of paternity in the polyandrous,
+  sexually cannibalistic orb-web spider, nephila plumipes.
+\newblock \emph{Australian Journal of Zoology}, 51, 357--365.
 
 \bibitem[{Ellner \& Hairston~Jr(1994)}]{ellner1994role}
 Ellner, S. \& Hairston~Jr, N.G. (1994).
@@ -158,6 +166,14 @@ Innocenti, P. \& Morrow, E.H. (2010).
 \newblock The sexually antagonistic genes of drosophila melanogaster.
 \newblock \emph{PLoS biology}, 8, e1000335.
 
+\bibitem[{Kasumovic \emph{et~al.}(2008)Kasumovic, Bruce, Andrade \&
+  Herberstein}]{kasumovic2008spatial}
+Kasumovic, M.M., Bruce, M.J., Andrade, M.C. \& Herberstein, M.E. (2008).
+\newblock Spatial and temporal demographic variation drives within-season
+  fluctuations in sexual selection.
+\newblock \emph{Evolution: International Journal of Organic Evolution}, 62,
+  2316--2325.
+
 \bibitem[{Kidwell \emph{et~al.}(1977)Kidwell, Clegg, Stewart \&
   Prout}]{kidwell1977regions}
 Kidwell, J., Clegg, M., Stewart, F. \& Prout, T. (1977).
@@ -170,6 +186,12 @@ Lande, R. (1980).
 \newblock Sexual dimorphism, sexual selection, and adaptation in polygenic
   characters.
 \newblock \emph{Evolution}, pp. 292--305.
+
+\bibitem[{Matter \& Roland(2002)}]{matter2002experimental}
+Matter, S.F. \& Roland, J. (2002).
+\newblock An experimental examination of the effects of habitat quality on the
+  dispersal and local abundance of the butterfly parnassius smintheus.
+\newblock \emph{Ecological Entomology}, 27, 308--316.
 
 \bibitem[{Mitchell-Olds \emph{et~al.}(2007)Mitchell-Olds, Willis \&
   Goldstein}]{mitchell-olds_which_2007}

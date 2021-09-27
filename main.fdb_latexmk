@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1632455746 "main.aux" "main.bbl" "main" 1632464279
+["bibtex main"] 1632717203 "main.aux" "main.bbl" "main" 1632717542
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
-  "coexistence.bib" 1632454079 40425 135dc60d5ac23be5a2e795f5879edc18 ""
-  "main.aux" 1632464157 14174 838e8657b9dfad9794a75e0adc596a5a "pdflatex"
+  "coexistence.bib" 1632624417 42091 e819873ceb4ddf667ec945f33775cfeb ""
+  "main.aux" 1632717542 14719 f56ada1fe2891e5c77751088f9dc6661 "pdflatex"
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1632464155 "main.tex" "main.pdf" "main" 1632464279
+["pdflatex"] 1632717540 "main.tex" "main.pdf" "main" 1632717542
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -186,15 +186,16 @@
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "box_plots.pdf" 1631921318 418538 15048dc8869d954d7d2bda13aadca888 ""
-  "box_plots_d0.pdf" 1632361044 7208 6fe08be0719319d5fc90fd06dae2534d ""
   "box_plots_selection.pdf" 1631920799 85991 44621dbc6a634399547d46aa37740fb0 ""
+  "females.pdf" 1632717019 11038 23ce6c0d8ca090a841d4f2511f6d75ec ""
   "heat_map.pdf" 1631846464 58040 53bdc68495319a992768a0ba8bde3328 ""
-  "main.aux" 1632464157 14174 838e8657b9dfad9794a75e0adc596a5a "pdflatex"
-  "main.bbl" 1632455746 11839 27800b2afeba11dd7d1c9108473b99ec "bibtex main"
-  "main.tex" 1632464279 58657 71e759365bbfc7526a2b1e9a347b4052 ""
+  "main.aux" 1632717542 14719 f56ada1fe2891e5c77751088f9dc6661 "pdflatex"
+  "main.bbl" 1632717204 12964 469eb204c5c4a21387f5f90afa81ec20 "bibtex main"
+  "main.tex" 1632717540 62847 87d378771d774132e79c5e320a6f0632 ""
+  "males.pdf" 1632716818 11791 de494dd451cf4107b1e1ef8bf19fb9f5 ""
   "outcomes.pdf" 1632104092 12188 077006fe48803d929bd6665606b81659 ""
   "ratios.pdf" 1632101437 45175 3463d0531135ed07624cbe06ac7d0555 ""
   (generated)
-  "main.pdf"
   "main.aux"
   "main.log"
+  "main.pdf"

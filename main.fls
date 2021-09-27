@@ -391,9 +391,12 @@ INPUT ./box_plots_selection.pdf
 INPUT ratios.pdf
 INPUT ./ratios.pdf
 INPUT ./ratios.pdf
-INPUT box_plots_d0.pdf
-INPUT ./box_plots_d0.pdf
-INPUT ./box_plots_d0.pdf
+INPUT males.pdf
+INPUT ./males.pdf
+INPUT ./males.pdf
+INPUT females.pdf
+INPUT ./females.pdf
+INPUT ./females.pdf
 INPUT main.bbl
 INPUT main.bbl
 INPUT main.aux
