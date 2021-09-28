@@ -397,6 +397,9 @@ INPUT ./males.pdf
 INPUT females.pdf
 INPUT ./females.pdf
 INPUT ./females.pdf
+INPUT realized_average.pdf
+INPUT ./realized_average.pdf
+INPUT ./realized_average.pdf
 INPUT main.bbl
 INPUT main.bbl
 INPUT main.aux

@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1632717203 "main.aux" "main.bbl" "main" 1632717542
+["bibtex main"] 1632802636 "main.aux" "main.bbl" "main" 1632802639
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
-  "coexistence.bib" 1632624417 42091 e819873ceb4ddf667ec945f33775cfeb ""
-  "main.aux" 1632717542 14719 f56ada1fe2891e5c77751088f9dc6661 "pdflatex"
+  "coexistence.bib" 1632799073 43740 14dea0ff85c0417571d75207d1903d87 ""
+  "main.aux" 1632802638 15609 8aec77dbfe105542b69b7d2d6fbc6a5b "pdflatex"
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1632717540 "main.tex" "main.pdf" "main" 1632717542
+["pdflatex"] 1632802636 "main.tex" "main.pdf" "main" 1632802639
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -187,15 +187,16 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "box_plots.pdf" 1631921318 418538 15048dc8869d954d7d2bda13aadca888 ""
   "box_plots_selection.pdf" 1631920799 85991 44621dbc6a634399547d46aa37740fb0 ""
-  "females.pdf" 1632717019 11038 23ce6c0d8ca090a841d4f2511f6d75ec ""
+  "females.pdf" 1632776356 7533 ed087855d5584706a28dac3f4245712a ""
   "heat_map.pdf" 1631846464 58040 53bdc68495319a992768a0ba8bde3328 ""
-  "main.aux" 1632717542 14719 f56ada1fe2891e5c77751088f9dc6661 "pdflatex"
-  "main.bbl" 1632717204 12964 469eb204c5c4a21387f5f90afa81ec20 "bibtex main"
-  "main.tex" 1632717540 62847 87d378771d774132e79c5e320a6f0632 ""
-  "males.pdf" 1632716818 11791 de494dd451cf4107b1e1ef8bf19fb9f5 ""
+  "main.aux" 1632802638 15609 8aec77dbfe105542b69b7d2d6fbc6a5b "pdflatex"
+  "main.bbl" 1632802636 13996 e7e013534804b08b1ba0224ae9adaee2 "bibtex main"
+  "main.tex" 1632802633 66520 94cea731bcff027a5e4c0e1d0be7b565 ""
+  "males.pdf" 1632776355 7419 e1874bf84186b523126e597f28d1bf1f ""
   "outcomes.pdf" 1632104092 12188 077006fe48803d929bd6665606b81659 ""
   "ratios.pdf" 1632101437 45175 3463d0531135ed07624cbe06ac7d0555 ""
+  "realized_average.pdf" 1632778986 30510 00ac6792c8856586593c4b6589d76886 ""
   (generated)
+  "main.pdf"
   "main.aux"
   "main.log"
-  "main.pdf"
