@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{38}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong \& McGehee(1980)}]{armstrong1980competitive}
@@ -141,6 +141,14 @@ Jordan, C.Y. \& Charlesworth, D. (2012).
   genome regions.
 \newblock \emph{Evolution: International Journal of Organic Evolution}, 66,
   505--516.
+
+\bibitem[{Kasumovic \emph{et~al.}(2008)Kasumovic, Bruce, Andrade \&
+  Herberstein}]{kasumovic2008spatial}
+Kasumovic, M.M., Bruce, M.J., Andrade, M.C. \& Herberstein, M.E. (2008).
+\newblock Spatial and temporal demographic variation drives within-season
+  fluctuations in sexual selection.
+\newblock \emph{Evolution: International Journal of Organic Evolution}, 62,
+  2316--2325.
 
 \bibitem[{Kidwell \emph{et~al.}(1977)Kidwell, Clegg, Stewart \&
   Prout}]{kidwell1977regions}
