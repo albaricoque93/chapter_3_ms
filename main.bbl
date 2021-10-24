@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{39}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong \& McGehee(1980)}]{armstrong1980competitive}
@@ -17,11 +17,6 @@ Barabás, G., D'Andrea, R. \& Stump, S.M. (2018).
 \newblock Chesson's coexistence theory.
 \newblock \emph{Ecological Monographs}, 88, 277--303.
 
-\bibitem[{Chesson(1994)}]{chesson1994multispecies}
-Chesson, P. (1994).
-\newblock Multispecies competition in variable environments.
-\newblock \emph{Theoretical population biology}, 45, 227--276.
-
 \bibitem[{Chesson(2000{\natexlab{a}})}]{chesson2000general}
 Chesson, P. (2000{\natexlab{a}}).
 \newblock General theory of competitive coexistence in spatially-varying
@@ -32,6 +27,17 @@ Chesson, P. (2000{\natexlab{a}}).
 Chesson, P. (2000{\natexlab{b}}).
 \newblock Mechanisms of maintenance of species diversity.
 \newblock \emph{Annual review of Ecology and Systematics}, 31, 343--366.
+
+\bibitem[{Chesson(2003)}]{chesson2003quantifying}
+Chesson, P. (2003).
+\newblock Quantifying and testing coexistence mechanisms arising from
+  recruitment fluctuations.
+\newblock \emph{Theoretical Population Biology}, 64, 345--357.
+
+\bibitem[{Chesson(1982)}]{chesson_stabilizing_1982}
+Chesson, P.L. (1982).
+\newblock The stabilizing effect of a random environment.
+\newblock \emph{Journal of Mathematical Biology}, 15, 1--36.
 
 \bibitem[{Connallon \& Clark(2012)}]{connallon2012general}
 Connallon, T. \& Clark, A.G. (2012).

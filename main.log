@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 OCT 2021 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 OCT 2021 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,39 +847,39 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ] [3] [4]
-[5] [6] [7] [8] [9] (./main.bbl [10
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15
 
-] [11] [12] [13])
+] (./main.bbl [16
+
+] [17]
+[18] [19])
 
 Package caption Warning: Unused \captionsetup[figure] on input line 22.
 See the caption package documentation for explanation.
 
-
-Package caption Warning: Unused \captionsetup[table] on input line 23.
-See the caption package documentation for explanation.
-
-[14] (./main.aux) ) 
+[20] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 17874 strings out of 480608
- 357881 string characters out of 5903631
- 575288 words of memory out of 5000000
- 33420 multiletter control sequences out of 15000+600000
- 563550 words of font info for 99 fonts, out of 8000000 for 9000
+ 17909 strings out of 480608
+ 358290 string characters out of 5903631
+ 575354 words of memory out of 5000000
+ 33436 multiletter control sequences out of 15000+600000
+ 573713 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,75p,1450b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,10n,75p,1434b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.
 enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/tex
-live/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (14 pages, 115392 bytes).
+/usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (20 pages, 131904 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

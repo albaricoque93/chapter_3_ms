@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1634955351 "main.aux" "main.bbl" "main" 1634955551
+["bibtex main"] 1635035074 "main.aux" "main.bbl" "main" 1635035697
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
   "coexistence.bib" 1634949131 45696 18a1debd7a5c0f085414dcaec1a53e9b ""
-  "main.aux" 1634955362 4926 2e6278c6b2df0bc2c69cc6f1096c1a9d "pdflatex"
+  "main.aux" 1635035557 5748 f3b2f5768b277bebc6c6ccf0939b9746 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1634955361 "main.tex" "main.pdf" "main" 1634955551
+  "main.blg"
+["pdflatex"] 1635035556 "main.tex" "main.pdf" "main" 1635035697
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -32,6 +32,7 @@
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb" 1136849748 15213 d999bbe8bd9c8f231f3f66a737c76478 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb" 1136849748 44648 23115b2a545ebfe2c526c3ca99db8b95 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb" 1136849748 52406 dad2f72863a03727d5f536c64a69c452 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb" 1136849748 52665 661b1e6b26edb5f50dd491f8a701cb57 ""
@@ -168,10 +169,10 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "main.aux" 1634955362 4926 2e6278c6b2df0bc2c69cc6f1096c1a9d "pdflatex"
-  "main.bbl" 1634955351 9922 2ea5ad28cbaa91f67458391ea0fdf580 "bibtex main"
-  "main.tex" 1634955550 15768 fb59d096a838b7487f1d836128360017 ""
+  "main.aux" 1635035557 5748 f3b2f5768b277bebc6c6ccf0939b9746 "pdflatex"
+  "main.bbl" 1635035074 10152 e956a1d7083e20b906fc6e921c2c7bd3 "bibtex main"
+  "main.tex" 1635035696 26106 eb60b19e753f6497ba1b8965345f3c0c ""
   (generated)
-  "main.log"
-  "main.pdf"
   "main.aux"
+  "main.pdf"
+  "main.log"

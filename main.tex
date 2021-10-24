@@ -139,9 +139,9 @@ the extent to which sexually antagonistic selection can maintain polymorphism in
 
 The contribution of environmental fluctuations to genetic diversity remains a debated issue in evolutionary biology. Classic theoretical models predict that temporal fluctuations in environmental conditions are unlikely to maintain a genetic polymorphism in haploid populations \citep{dempster1955maintenance,hedrick1974genetic,hedrick1986genetic}. However, other studies have found that fluctuating selection can maintain genetic variance when populations experience density dependence \citep{dean2005protecting}, on sex-linked traits \citep{reinhold2000maintenance}, or in populations where generations overlap \citep{ellner1994role, ellner1996patterns}. Similarly, temporal changes in population sizes have been shown to mitigate the effect of genetic drift in small populations \citep{pemberton1996maintenance} and in annual plant systems \citep{nunney2002effective}. Importantly, progress requires more than just identifying if environmental fluctuations can maintain genetic diversity in a population, but to quantify how exactly they contribute to its maintenance \citep{ellner2016quantify}.
 
-Temporal variability in the environment has been shown to promote diversity maintenance in ecological contexts \citep{levins1979coexistence,armstrong1980competitive,chesson2000general,barabas_chessons_2018}. Note that from an ecological perspective, polymorphism of sexually antagonistic alleles is equivalent to the coexistence of species, and the fixation of either one of the alleles in a population is equivalent to competitive exclusion. Allelic polymorphism, thus, can be examined through the same lens as the coexistence of competing species. \citep{ellner1994role,ellner1996patterns,dean2005protecting,schreiber2010interactive}. The benefit of analyzing evolutionary dynamics through this lens is that the main theoretical framework used to examine how competing species coexist, often called Modern Coexistence Theory \citep{Chesson2000,chesson1994multispecies, barabas_chessons_2018}, allows the quantification of how environmental fluctuations contribute to coexistence. Despite that the use of Modern Coexistence Theory often requires complex mathematical analysis of the models describing the systems dynamics and restrictive assumptions to make them tractable \citep{barabas_chessons_2018}, recent computation approaches allow the quantification of the relative importance of environmental fluctuations to coexistence using simulations \citep{ellner2016quantify,ellner_expanded_2019,shoemaker2020}.
+Temporal variability in the environment has been shown to promote diversity maintenance in ecological contexts \citep{levins1979coexistence,armstrong1980competitive,chesson2000general,barabas_chessons_2018}. Note that from an ecological perspective, polymorphism of sexually antagonistic alleles is equivalent to the coexistence of species, and the fixation of either one of the alleles in a population is equivalent to competitive exclusion. Allelic polymorphism, thus, can be examined through the same lens as the coexistence of competing species. \citep{ellner1994role,ellner1996patterns,dean2005protecting,schreiber2010interactive}. The benefit of analyzing evolutionary dynamics through this lens is that the main theoretical framework used to examine how competing species coexist, often called Modern Coexistence Theory \citep{Chesson2000, barabas_chessons_2018}, allows the quantification of how environmental fluctuations contribute to coexistence. Despite that the use of Modern Coexistence Theory often requires complex mathematical analysis of the models describing the systems dynamics and restrictive assumptions to make them tractable \citep{barabas_chessons_2018}, recent computation approaches allow the quantification of the relative importance of environmental fluctuations to coexistence using simulations \citep{ellner2016quantify,ellner_expanded_2019,shoemaker2020}.
 
-Here, we seek to explicitly quantify how temporal environmental fluctuations contribute to the maintenance of polymorphism under sexually antagonistic selection by using simulations.  We examined how fluctuations in selection values, fluctuations in population sizes, and their interactions can further or hinder polymorphism. In particular, we examined i) Can fluctuations in population sizes and selection values allow sexually antagonistic alleles to coexist when differences in their fitness would typically not allow them to? and ii) What are the relative contributions of different types of fluctuations that allow two sexually antagonistic alleles to be maintained in a population? Our study provides the tools to analyze sexual antagonism from a novel perspective and contributes to answering long-lasting questions regarding the effect of non-constant environments on genetic diversity.
+Here, we seeked to explicitly quantify how temporal environmental fluctuations contribute to the maintenance of polymorphism under sexually antagonistic selection by applying recent advances in Modern Coexistence Theory.  We examined how fluctuations in selection values, fluctuations in population sizes, and their interactions can further or hinder polymorphism. In particular, we examined i) Can fluctuations in population sizes and selection values allow sexually antagonistic alleles to coexist when differences in their fitness would typically not allow them to? and ii) What are the relative contributions of different types of fluctuations that allow two sexually antagonistic alleles to be maintained in a population? Our study provides the tools to analyze sexual antagonism from a novel perspective and contributes to answering long-lasting questions regarding the effect of non-constant environments on genetic diversity.
 
 
 \section{Methods}
@@ -208,8 +208,82 @@ selection mantains both alleles in the population, under the condition that:
 \end{equation}
 \citep{kidwell1977regions,pamilo1979genic,patten2010fitness,connallon_evolutionary_2018}. Thus, the maintenance of polymorphism of sexually antagonistic alleles is solely determined by the values of $S_{m}$ and $S_{f}$. Note that in our model, the values $S_{m}$ and $S_{f}$ are bounded from $0$ to $1$. Therefore the parameter space of sexually antagonistic selection is within the range $ 0< S_{m}, S_{f} < 1$. Classic theoretical models predict that, in constant environments, polymorphism is maintained in $\approx 0.38$ of the parameter space \citep{kidwell1977regions,pamilo1979genic,connallon_evolutionary_2018}. Nonetheless it is unrealistic to assume population sizes and selection are constat through time. Temporal changes in population densities are ubiquitous in nature \citep{connallon2012general,reinhold2000maintenance}. Similarly, the effect of sexual selection has been show to vary through space and time \citep{kasumovic2008spatial}. If fluctuations in population sizes or selection values have an effect on the coexistence of sexually antagonistic alleles, it would be reflected in increases or decreases of the proportion of the parameter space of selection where polymorphism is maintained.
 
+\subsection*{Simulations}
+
+We examined the effect of fluctuations in population sizes and selection in the maintenance allelic polymorphism across the selection parameter space of sexually antagonistic selection ($0 < S_{m}, S_{f} < 1$). To do so, we partitioned the parameter space into a $50 \times 50$ element grid, which yielded 2500 pairwise combinations of different $w_{jm}$ and $w_{kf}$ values. For each pairwise combination of $w_{jm}$ and $w_{kf}$, as we detail in the next sections, our simulation approach consisted of three main parts. First, we incorporated fluctuations in population sizes and selection into our population dynamics model. Second, we performed simulations to evaluate if both alleles could stablish when the environment fluctuated. Finally, we determined the relative contribution of each type of fluctuation to the stablishment of each allele.
+
+For each grid we controlled the effect size of  fluctuations in selection ($\sigma_{w}$) and their correlation ($\rho_{w}$), as well as fluctuations in population sizes ($\sigma_{g}$) and their correlation ($\rho_{g}$). We explored all of  the combinations of low ($\sigma_{w}\in{(0.1, 0.3)}$, $\sigma_{g}\in{(1,10)}$), intermediate ($\sigma_{w}\in{(0.5, 0.7)}$, $\sigma_{g}\in{(20,30,50)}$), and high fluctuations ($\sigma_{w}= 0.9$, $\sigma_{g}=70$)  in selection values and population sizes, with different extents of correlations between fluctuations (Table \ref{tab:fluctuations}).  As a control simulation, we set $\sigma_{w}= 0$ and  $\sigma_{g}=0$, with no correlation between fluctuations. We ran ten replicates per parameter combination, which resulted in 3780 grids.
+
+\subsubsection*{Timeseries}
 
 
+To incorporate the effects of fluctuations into our population dynamics model, we generated independent timeseries of fluctuations in selection and population sizes. In the case of fluctuations in selection values, for a given value of $w_{jm}$ and $w_{kf}$ (i.e., a fixed point in the selection parameter space), we generated a timeseries of 500 generations made up of correlated fluctuations of $w_{jm}$ and $w_{kf}$. We controlled the size of  fluctuations in selection ($\sigma_{w}$) and correlation between sexes ($\rho_{w}$) by  using the variance-covariance matrix:
+
+\begin{equation}
+C_{w} = \begin{bmatrix}
+\sigma_{w}^{2} & \rho_{w} \sigma_{w}^{2} \\
+\rho_{w} \sigma_{w}^{2} & \sigma_{w}^{2}
+\end{bmatrix}
+\label{covmat}
+\end{equation}
+
+We then, performed a Cholesky decomposition of Eqn.~\ref{covmat} and multiplied it by a ($2 \times 500$) matrix of random numbers from a normal distribution, which yielded $\gamma_{j,t}$ and $\gamma_{k,t}$. Since fitness values are bounded from zero to one, we added noise in a logit space. Therefore we calculated $w'_{jm} = \ln\frac{w_{jm}}{1-w_{jm}}$ and $w'_{kf} = \ln\frac{w_{kf}}{1-w_{kf}}$. Finally, we calculated the fitness values at generation $t$ as:
+
+\begin{eqnarray}
+  w_{jm,t}= \frac{e^{-(w'_{jm}+ \gamma_{j,t})}}{(1+ e^{-(w'_{jm}+ \gamma_{j,t})})^2} \\
+    w_{kf,t}= \frac{e^{-(w'_{kf}+ \gamma_{k,t})}}{(1+ e^{-(w'_{kf}+ \gamma_{k,t})})^2}
+\end{eqnarray}
+
+This approach guaranteed that fluctuations in $w_{jm}$ and $w_{kf}$ were always bounded from zero to one.
+
+Similarly, we generated an independent timeseries of 500 generations made up of correlated fluctuations in population sizes.  We again used a Cholesky factorization of the variance-covariance matrix, to control the size of fluctuations in population sizes with $\sigma_{g}$ and their correlation with $\rho_{g}$. Similar to our previous approach, we multiplied this factorization by a random matrix of uncorrelated unit normal random variables, which yielded $\gamma_{m,t}$ and $\gamma_{f,t}$. Finally, we calculated the number of males and females in the population at generation $t$ as $N_{m,t} = N_{m,0} + \gamma_{m,t}$ and $N_{f,t} = N_{f,0}+ \gamma_{f,t} $. Therefore, the population sizes in each generation differed from the inital value on the order of $\sigma_{g}$. To avoid extinction due to fluctuations in population sizes, we imposed a lower bound on the population sizes of both sexes of one individual. Note that the scales of $\sigma_{g}$ and  $\sigma_{w}$ are different from each other. While $\sigma_{w}$ controls the change in fitness values in logit space, $\sigma_{g}$ controls the number of individuals added or removed to a population.
+
+%We bounded the values population sizes could take so there were no negative population sizes, since that would not be biologically plausible. We did not impose an upper bound to the values population sizes could take.
+
+%We chose values of $N_{m}= 200$ and $N_{f}=200$ as the initial value of population sizes throughout our simulations.
+
+Finally, we performed simulations where our population dynamics model (Eqns.~\ref{first_pop} to \ref{full}) was iterated over 500 generations while allowing selection values and population sizes to fluctuate in each generation. We started each simulation with the initial values of $N_{m,0}=200$ and $N_{f,0}=200$ and equal frequencies of allele $j$ and allele $k$ in each sex. For each generation $t$ in our simulations, the values of $w_{jm,t}$ $w_{kf,t}$, $N_{m,t}$ and $N_{f,t}$ used to calculate allele's frequencies in generation $t$ (e.g., Eqn.~\ref{next_gen}), corresponded to the $t$ values calculated in each timeseries, as described previously. This approach yielded a final timeseries that captured the dynamics of sexually antagonistic alleles with fluctuating values of selection and population sizes.
+
+\subsubsection*{Invasion simulations}
+
+ To evaluate if both alleles could establish when the environment fluctuates, we turned towards Modern Coexistence Theory criteria to evaluate coexistence. Modern coexistence theory has shown that coexistence is promoted by mechanisms that give species a population growth rate advantage over other species when they become rare \citep{chesson_stabilizing_1982, chesson2003quantifying, barabas_chessons_2018}. Typically, one species is held at its \textit{resident} state, as given by its steady-state abundance while the rare species is called the \textit{invader}. In the context of alleles in a population, an allele is an \textit{invader} when a mutation occurs that introduces that allele into a population in which it is absent (e.g., in a population with only $k$ alleles, if a random mutation leads to one individual carrying the $j$ allele). Within sexually antagonistic selection, each allele has two pathways of invasion, depending on whether the mutation arises in a female or in a male. If an allele's \textit{invasion growth rate} (or the average instantaneous population growth rate when rare) is positive, it buffers it against extinction, maintaining its persistence in the population.  Coexistence, and hence polymorphism, occurs when both alleles have positive invasion growth rates.
+
+We used the timeseries that captured the dynamics of our population model as a template to perform invasion simulations of both alleles. We performed 500 independent invasion simulations, one for each generation in our timeseries. We explored all four potential combinations of each allele invading through each pathway (e.g., allele $j$ invading through males, allele $k$ invading through females, and so on). To simulate invasion, we set the density of the invading allele to one individual. For example, if allele $j$ was invading via males, then we would set $n_{jm,i} = 1$ and $n_{jf,i}= 0$. Note that we treated each invasion simulation as independent, therefore we denoted the initial timestep in an invasion simulation with the subscript $i$. We also set the resident allele, in this case $k$, to the corresponding value of the timeseries minus one individual, $n_{km,i} = N_{m,t} -1$ and $n_{kf,i} = N_{f,t}$. Then, we iterated our model one timestep, $i+1$, and calculated the logarithmic growth rate of \textit{j} allele invading as:
+ %We allowed each allele to invade via two different pathways: males and females
+%For each timestep in the timeseries, we performed simulations of the two alleles invading separately via their respective pathway.
+
+
+\begin{equation}
+r_{j} =	\ln \left ( \frac{n_{jm,i+1 } + n_{jf,i+1}}{1} \right )
+\label{invader}
+\end{equation}
+
+Correspondingly, the logarithmic growth rate of the \textit{k} allele as a resident would be given by:
+\begin{equation}
+r_{k} =	\ln \left ( \frac{ n_{km,i+1} + n_{kf,i+1} }{ n_{km,i} + n_{kf,i}  } \right )
+\label{resident}
+\end{equation}
+
+Following the approach of \citet{shoemaker2020}, we treated each invasion simulation independently, and hence we performed 500 invasion simulations. We then calculated, for each allele invading via a different pathway, its mean invasion growth rate as the average of the 500 invasion growth rates. We also calculated the mean growth rate of the resident allele as the average of the 500 resident growth rates. We determined alleles to be coexisting if both of alleles had positive mean invasion growth rates, which is often referred to as the mutual invasibility criterion \citep{barabas_chessons_2018}.
+
+\clearpage
+\section*{Figures and tables }
+
+
+\begin{table}[h]
+\fontsize{10}{18}\selectfont
+\centering
+\caption{Parameters used in our simulations to control the effect sizes of fluctuations in population sizes ($\sigma_{g}$) and selection values ($\sigma_{w}$) and their respective correlations ($\rho_{g}$ and $\rho_{w}$). We ran ten replicates for each of the factorial combinations of the following parameters, which yielded a total of 3780 simulations. }
+\begin{tabular}{@{}llll@{}}
+\toprule
+Parameter                    & Values                    & Description                                   &  \\ \midrule
+$\sigma_{w}$ & 0.001, 0.1, 0.3, 0.5, 0.7, 0.9 & Effect size of fluctuations in fitness values &  \\
+$\sigma_{g}$ & 0.001, 1, 10, 20, 30, 50, 70 & Effect size of fluctuations in population sizes                                              &  \\
+$\rho_{w}$  &  -0.75, 0, 0.75                         &   Correlation between fluctuations in fitness values                                            &  \\
+$\rho_{g}$  &   -0.75, 0, 0.75                        &  Correlation between fluctuation in population sizes                                             &  \\ \bottomrule
+\end{tabular}
+\label{tab:fluctuations}
+\end{table}
 
 
 
