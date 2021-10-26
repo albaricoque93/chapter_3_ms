@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1635048506 "main.aux" "main.bbl" "main" 1635049287
+["bibtex main"] 1635225924 "main.aux" "main.bbl" "main" 1635226021
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
   "coexistence.bib" 1634949131 45696 18a1debd7a5c0f085414dcaec1a53e9b ""
-  "main.aux" 1635049287 6488 c005ea34f14ff757ec08cafd1c5303dd "pdflatex"
+  "main.aux" 1635226021 13691 6741e5d638a4628c3bfc24878b28ec27 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1635049285 "main.tex" "main.pdf" "main" 1635049287
+  "main.blg"
+["pdflatex"] 1635226018 "main.tex" "main.pdf" "main" 1635226021
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -182,10 +182,15 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "main.aux" 1635049287 6488 c005ea34f14ff757ec08cafd1c5303dd "pdflatex"
-  "main.bbl" 1635048506 10152 e956a1d7083e20b906fc6e921c2c7bd3 "bibtex main"
-  "main.tex" 1635049285 39756 bd632d07e7ee370c479fd3969f8f4485 ""
+  "box_plots.pdf" 1635217646 52766 b7909973bcf750f0455b17041b25f1a0 ""
+  "box_plots_selection.pdf" 1635223094 71740 a378710006ab55d325e737835b88651d ""
+  "heat_map.pdf" 1635128059 11910 6a826359dade0b987f5c35c602a4a825 ""
+  "main.aux" 1635226021 13691 6741e5d638a4628c3bfc24878b28ec27 "pdflatex"
+  "main.bbl" 1635225924 11350 8d37be22f061cc3bdf5271674f3b6f0b "bibtex main"
+  "main.tex" 1635226018 52711 e7d64b41c802794399dbf40258899056 ""
+  "outcomes.pdf" 1635204757 10101 4d237b292c5eb5207c8801146d3abbba ""
+  "param_space.pdf" 1635204601 71495 add63412165788cd4a0ee49cc9f21c02 ""
   (generated)
-  "main.aux"
-  "main.log"
   "main.pdf"
+  "main.log"
+  "main.aux"

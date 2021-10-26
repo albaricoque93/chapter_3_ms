@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{44}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong \& McGehee(1980)}]{armstrong1980competitive}
@@ -16,6 +16,11 @@ Arnqvist, G. \& Rowe, L. (2013).
 Barabás, G., D'Andrea, R. \& Stump, S.M. (2018).
 \newblock Chesson's coexistence theory.
 \newblock \emph{Ecological Monographs}, 88, 277--303.
+
+\bibitem[{Bonduriansky \& Chenoweth(2009)}]{bonduriansky2009intralocus}
+Bonduriansky, R. \& Chenoweth, S.F. (2009).
+\newblock Intralocus sexual conflict.
+\newblock \emph{Trends in ecology \& evolution}, 24, 280--288.
 
 \bibitem[{Chesson(2000{\natexlab{a}})}]{chesson2000general}
 Chesson, P. (2000{\natexlab{a}}).
@@ -107,6 +112,13 @@ Ellner, S.P., Snyder, R.E., Adler, P.B. \& Hooker, G. (2019).
 \newblock An expanded modern coexistence theory for empirical applications.
 \newblock \emph{Ecology Letters}, 22, 3--18.
 
+\bibitem[{Foerster \emph{et~al.}(2007)Foerster, Coulson, Sheldon, Pemberton,
+  Clutton-Brock \& Kruuk}]{foerster2007sexually}
+Foerster, K., Coulson, T., Sheldon, B.C., Pemberton, J.M., Clutton-Brock, T.H.
+  \& Kruuk, L.E. (2007).
+\newblock Sexually antagonistic genetic variation for fitness in red deer.
+\newblock \emph{Nature}, 447, 1107--1110.
+
 \bibitem[{Gavrilets(2014)}]{gavrilets2014sexual}
 Gavrilets, S. (2014).
 \newblock Is sexual conflict an “engine of speciation”?
@@ -140,6 +152,11 @@ Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
   polymorphism.
 \newblock \emph{Evolution: International Journal of Organic Evolution}, 66,
   55--65.
+
+\bibitem[{Innocenti \& Morrow(2010)}]{innocenti2010sexually}
+Innocenti, P. \& Morrow, E.H. (2010).
+\newblock The sexually antagonistic genes of drosophila melanogaster.
+\newblock \emph{PLoS biology}, 8, e1000335.
 
 \bibitem[{Jordan \& Charlesworth(2012)}]{jordan2012potential}
 Jordan, C.Y. \& Charlesworth, D. (2012).
@@ -186,6 +203,12 @@ Mori, E., Mazza, G. \& Lovari, S. (2017).
 \newblock Sexual dimorphism.
 \newblock \emph{Encyclopedia of Animal Cognition and Behavior (J. Vonk, and T.
   Shakelford, Eds). Springer International Publishing, Switzerland}, pp. 1--7.
+
+\bibitem[{Morrissey(2016)}]{morrissey2016meta}
+Morrissey, M.B. (2016).
+\newblock Meta-analysis of magnitudes, differences and variation in
+  evolutionary parameters.
+\newblock \emph{Journal of Evolutionary Biology}, 29, 1882--1904.
 
 \bibitem[{Nunney(2002)}]{nunney2002effective}
 Nunney, L. (2002).
@@ -234,6 +257,11 @@ Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 \newblock Quantifying the relative importance of variation in predation and the
   environment for species coexistence.
 \newblock \emph{Ecology letters}, 23, 939--950.
+
+\bibitem[{Van~Doorn(2009)}]{van2009intralocus}
+Van~Doorn, G.S. (2009).
+\newblock Intralocus sexual conflict.
+\newblock \emph{Annals of the New York Academy of Sciences}, 1168, 52--71.
 
 \bibitem[{Walsh \& Lynch(2018)}]{walsh_evolution_2018}
 Walsh, B. \& Lynch, M. (2018).
