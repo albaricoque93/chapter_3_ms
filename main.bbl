@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{61}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong \& McGehee(1980)}]{armstrong1980competitive}
@@ -17,10 +17,22 @@ Barabás, G., D'Andrea, R. \& Stump, S.M. (2018).
 \newblock Chesson's coexistence theory.
 \newblock \emph{Ecological Monographs}, 88, 277--303.
 
+\bibitem[{Bildstein \emph{et~al.}(1989)Bildstein, McDowell \&
+  Brisbin}]{bildstein1989consequences}
+Bildstein, K.L., McDowell, S.G. \& Brisbin, I.L. (1989).
+\newblock Consequences of sexual dimorphism in sand fiddler crabs, uca
+  pugilator: differential vulnerability to avian predation.
+\newblock \emph{Animal Behaviour}, 37, 133--139.
+
 \bibitem[{Bonduriansky \& Chenoweth(2009)}]{bonduriansky2009intralocus}
 Bonduriansky, R. \& Chenoweth, S.F. (2009).
 \newblock Intralocus sexual conflict.
 \newblock \emph{Trends in ecology \& evolution}, 24, 280--288.
+
+\bibitem[{Chesson(1994)}]{chesson1994multispecies}
+Chesson, P. (1994).
+\newblock Multispecies competition in variable environments.
+\newblock \emph{Theoretical population biology}, 45, 227--276.
 
 \bibitem[{Chesson(2000{\natexlab{a}})}]{chesson2000general}
 Chesson, P. (2000{\natexlab{a}}).
@@ -43,6 +55,22 @@ Chesson, P. (2003).
 Chesson, P.L. (1982).
 \newblock The stabilizing effect of a random environment.
 \newblock \emph{Journal of Mathematical Biology}, 15, 1--36.
+
+\bibitem[{Chippindale \emph{et~al.}(2001)Chippindale, Gibson \&
+  Rice}]{chippindale2001negative}
+Chippindale, A.K., Gibson, J.R. \& Rice, W.R. (2001).
+\newblock Negative genetic correlation for adult fitness between sexes reveals
+  ontogenetic conflict in drosophila.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 98,
+  1671--1675.
+
+\bibitem[{Cockburn \emph{et~al.}(2008)Cockburn, Osmond \&
+  Double}]{cockburn2008swingin}
+Cockburn, A., Osmond, H.L. \& Double, M.C. (2008).
+\newblock Swingin'in the rain: condition dependence and sexual selection in a
+  capricious world.
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences}, 275,
+  605--612.
 
 \bibitem[{Connallon \& Clark(2012)}]{connallon2012general}
 Connallon, T. \& Clark, A.G. (2012).
@@ -87,6 +115,14 @@ Dempster, E.R. (1955).
 \newblock In: \emph{Cold Spring Harbor Symposia on Quantitative Biology}. Cold
   Spring Harbor Laboratory Press, vol.~20, pp. 25--32.
 
+\bibitem[{Elgar \emph{et~al.}(2003)Elgar, Bruce, De~Crespigny, Cutler, Cutler,
+  Gaskett, Herberstein, Ramamurthy \& Schneider}]{elgar2003male}
+Elgar, M.A., Bruce, M.J., De~Crespigny, F.E.C., Cutler, A.R., Cutler, C.L.,
+  Gaskett, A.C., Herberstein, M.E., Ramamurthy, S. \& Schneider, J.M. (2003).
+\newblock Male mate choice and patterns of paternity in the polyandrous,
+  sexually cannibalistic orb-web spider, nephila plumipes.
+\newblock \emph{Australian Journal of Zoology}, 51, 357--365.
+
 \bibitem[{Ellner \& Hairston~Jr(1994)}]{ellner1994role}
 Ellner, S. \& Hairston~Jr, N.G. (1994).
 \newblock Role of overlapping generations in maintaining genetic variation in a
@@ -123,6 +159,13 @@ Foerster, K., Coulson, T., Sheldon, B.C., Pemberton, J.M., Clutton-Brock, T.H.
 Gavrilets, S. (2014).
 \newblock Is sexual conflict an “engine of speciation”?
 \newblock \emph{Cold Spring Harbor perspectives in biology}, 6, a017723.
+
+\bibitem[{G{\"o}tmark \emph{et~al.}(1997)G{\"o}tmark, Post, Olsson \&
+  Himmelmann}]{gotmark1997natural}
+G{\"o}tmark, F., Post, P., Olsson, J. \& Himmelmann, D. (1997).
+\newblock Natural selection and sexual dimorphism: sex-biased sparrowhawk
+  predation favours crypsis in female chaffinches.
+\newblock \emph{Oikos}, pp. 540--548.
 
 \bibitem[{Hedrick(1974)}]{hedrick1974genetic}
 Hedrick, P.W. (1974).
@@ -191,6 +234,12 @@ Levins, R. (1979).
 \newblock Coexistence in a variable environment.
 \newblock \emph{The American Naturalist}, 114, 765--783.
 
+\bibitem[{Matter \& Roland(2002)}]{matter2002experimental}
+Matter, S.F. \& Roland, J. (2002).
+\newblock An experimental examination of the effects of habitat quality on the
+  dispersal and local abundance of the butterfly parnassius smintheus.
+\newblock \emph{Ecological Entomology}, 27, 308--316.
+
 \bibitem[{Mitchell-Olds \emph{et~al.}(2007)Mitchell-Olds, Willis \&
   Goldstein}]{mitchell-olds_which_2007}
 Mitchell-Olds, T., Willis, J.H. \& Goldstein, D.B. (2007).
@@ -238,11 +287,30 @@ Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
 \newblock \emph{Philosophical Transactions of the Royal Society of London.
   Series B: Biological Sciences}, 351, 745--752.
 
+\bibitem[{Promislow \emph{et~al.}(1992)Promislow, Montgomerie \&
+  Martin}]{promislow1992mortality}
+Promislow, D.E., Montgomerie, R. \& Martin, T.E. (1992).
+\newblock Mortality costs of sexual dimorphism in birds.
+\newblock \emph{Proceedings of the Royal Society of London. Series B:
+  Biological Sciences}, 250, 143--150.
+
+\bibitem[{Radwan(2008)}]{radwan_maintenance_2008}
+Radwan, J. (2008).
+\newblock Maintenance of genetic variation in sexual ornaments: a review of the
+  mechanisms.
+\newblock \emph{Genetica}, 134, 113--127.
+
 \bibitem[{Reinhold(2000)}]{reinhold2000maintenance}
 Reinhold, K. (2000).
 \newblock Maintenance of a genetic polymorphism by fluctuating selection on
   sex-limited traits.
 \newblock \emph{Journal of Evolutionary Biology}, 13, 1009--1014.
+
+\bibitem[{Sasaki \& Ellner(1995)}]{sasaki1995evolutionarily}
+Sasaki, A. \& Ellner, S. (1995).
+\newblock The evolutionarily stable phenotype distribution in a random
+  environment.
+\newblock \emph{Evolution}, 49, 337--350.
 
 \bibitem[{Schreiber(2010)}]{schreiber2010interactive}
 Schreiber, S.J. (2010).
@@ -251,12 +319,35 @@ Schreiber, S.J. (2010).
 \newblock \emph{Proceedings of the Royal Society B: Biological Sciences}, 277,
   1907--1914.
 
+\bibitem[{Schreiber(2020)}]{schreiber2020factors}
+Schreiber, S.J. (2020).
+\newblock When do factors promoting genetic diversity also promote population
+  persistence? a demographic perspective on gillespie’s sas-cff model.
+\newblock \emph{Theoretical population biology}, 133, 141--149.
+
+\bibitem[{Schreiber(2021)}]{schreiber2021positively}
+Schreiber, S.J. (2021).
+\newblock Positively and negatively autocorrelated environmental fluctuations
+  have opposing effects on species coexistence.
+\newblock \emph{The American Naturalist}, 197, 405--414.
+
 \bibitem[{Shoemaker \emph{et~al.}(2020)Shoemaker, Barner, Bittleston \&
   Teufel}]{shoemaker2020}
 Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 \newblock Quantifying the relative importance of variation in predation and the
   environment for species coexistence.
 \newblock \emph{Ecology letters}, 23, 939--950.
+
+\bibitem[{Steele(1985)}]{steele1985comparison}
+Steele, J.H. (1985).
+\newblock A comparison of terrestrial and marine ecological systems.
+\newblock \emph{Nature}, 313, 355--358.
+
+\bibitem[{Tylianakis \emph{et~al.}(2008)Tylianakis, Didham, Bascompte \&
+  Wardle}]{tylianakis2008global}
+Tylianakis, J.M., Didham, R.K., Bascompte, J. \& Wardle, D.A. (2008).
+\newblock Global change and species interactions in terrestrial ecosystems.
+\newblock \emph{Ecology letters}, 11, 1351--1363.
 
 \bibitem[{Van~Doorn(2009)}]{van2009intralocus}
 Van~Doorn, G.S. (2009).
@@ -267,5 +358,26 @@ Van~Doorn, G.S. (2009).
 Walsh, B. \& Lynch, M. (2018).
 \newblock \emph{Evolution and {Selection} of {Quantitative} {Traits}}.
 \newblock OUP Oxford.
+
+\bibitem[{Whitlock(1992)}]{whitlock1992temporal}
+Whitlock, M.C. (1992).
+\newblock Temporal fluctuations in demographic parameters and the genetic
+  variance among populations.
+\newblock \emph{Evolution}, 46, 608--615.
+
+\bibitem[{Wittmann \emph{et~al.}(2017)Wittmann, Bergland, Feldman, Schmidt \&
+  Petrov}]{wittmann2017seasonally}
+Wittmann, M.J., Bergland, A.O., Feldman, M.W., Schmidt, P.S. \& Petrov, D.A.
+  (2017).
+\newblock Seasonally fluctuating selection can maintain polymorphism at many
+  loci via segregation lift.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 114,
+  E9932--E9941.
+
+\bibitem[{Zepeda \& Martorell(2019)}]{zepeda2019fluctuation}
+Zepeda, V. \& Martorell, C. (2019).
+\newblock Fluctuation-independent niche differentiation and relative
+  non-linearity drive coexistence in a species-rich grassland.
+\newblock \emph{Ecology}, 100, e02726.
 
 \end{thebibliography}
