@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 NOV 2021 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  12 NOV 2021 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -864,55 +864,52 @@ and re-stric-tive as-sump-tions (Barab[]as
 
 
 ]
-<heat_map.pdf, id=107, 578.16pt x 578.16pt>
+<heat_map.pdf, id=107, 505.89pt x 505.89pt>
 File: heat_map.pdf Graphic file (type pdf)
 <use heat_map.pdf>
-Package pdftex.def Info: heat_map.pdf  used on input line 451.
-(pdftex.def)             Requested size: 469.75502pt x 469.75385pt.
-<outcomes.pdf, id=108, 578.16pt x 578.16pt>
+Package pdftex.def Info: heat_map.pdf  used on input line 459.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+<outcomes.pdf, id=108, 433.62pt x 433.62pt>
 File: outcomes.pdf Graphic file (type pdf)
 <use outcomes.pdf>
-Package pdftex.def Info: outcomes.pdf  used on input line 458.
-(pdftex.def)             Requested size: 469.75502pt x 469.75385pt.
+Package pdftex.def Info: outcomes.pdf  used on input line 466.
+(pdftex.def)             Requested size: 433.61894pt x 433.61894pt.
  [30
 
  <./heat_map.pdf>]
-Overfull \vbox (6.1239pt too high) has occurred while \output is active []
-
-
-[31 <./outcomes.pdf>]
-<param_space.pdf, id=129, 939.51pt x 1445.4pt>
+<param_space.pdf, id=120, 483.8075pt x 743.77875pt>
 File: param_space.pdf Graphic file (type pdf)
 <use param_space.pdf>
-Package pdftex.def Info: param_space.pdf  used on input line 466.
-(pdftex.def)             Requested size: 422.77664pt x 650.424pt.
-
-Overfull \vbox (23.59398pt too high) has occurred while \output is active []
+Package pdftex.def Info: param_space.pdf  used on input line 474.
+(pdftex.def)             Requested size: 469.75502pt x 722.20222pt.
+ [31 <./outcomes.pdf>]
+Overfull \vbox (95.37221pt too high) has occurred while \output is active []
 
 
 [32 <./param_space.pdf>]
-<box_plots.pdf, id=141, 867.24pt x 578.16pt>
+<box_plots.pdf, id=142, 578.16pt x 361.35pt>
 File: box_plots.pdf Graphic file (type pdf)
 <use box_plots.pdf>
-Package pdftex.def Info: box_plots.pdf  used on input line 479.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
-<box_plots_selection.pdf, id=142, 867.24pt x 578.16pt>
+Package pdftex.def Info: box_plots.pdf  used on input line 487.
+(pdftex.def)             Requested size: 578.15858pt x 361.34912pt.
+ [33]
+<box_plots_selection.pdf, id=146, 578.16pt x 361.35pt>
 File: box_plots_selection.pdf Graphic file (type pdf)
 <use box_plots_selection.pdf>
-Package pdftex.def Info: box_plots_selection.pdf  used on input line 487.
-(pdftex.def)             Requested size: 469.75502pt x 313.17216pt.
- [33 <./box_plots.pdf>] [34 <./box_plots_selection.pdf>] (./main.bbl [35
+Package pdftex.def Info: box_plots_selection.pdf  used on input line 495.
+(pdftex.def)             Requested size: 578.15858pt x 361.34912pt.
+ [34 <./box_plots.pdf>] [35 <./box_plots_selection.pdf>] (./main.bbl [36
 
-] [36] [37] [38] [39] [40] [41]) [42] (./main.aux)
+] [37] [38] [39] [40] [41] [42]) [43] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18030 strings out of 480608
- 361134 string characters out of 5903631
- 590144 words of memory out of 5000000
- 33544 multiletter control sequences out of 15000+600000
+ 18034 strings out of 480608
+ 361230 string characters out of 5903631
+ 588933 words of memory out of 5000000
+ 33548 multiletter control sequences out of 15000+600000
  578661 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,75p,2293b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -927,10 +924,10 @@ xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dis
 t/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb>
-Output written on main.pdf (42 pages, 390577 bytes).
+Output written on main.pdf (43 pages, 384392 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
+ 238 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

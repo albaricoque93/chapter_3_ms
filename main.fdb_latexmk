@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1636335913 "main.aux" "main.bbl" "main" 1636340048
+["bibtex main"] 1636681141 "main.aux" "main.bbl" "main" 1636681537
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
-  "coexistence.bib" 1636157100 46377 aa509fdde582d769e6b68db4530f247a ""
-  "main.aux" 1636339654 16557 76cf0961347d2fa383e6aa61ea573666 "pdflatex"
+  "coexistence.bib" 1636680866 46793 dc46f06d2bf0640a23a7aa841995f25b ""
+  "main.aux" 1636681537 16911 141c45566837e380e11deaa5f63cd063 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1636339652 "main.tex" "main.pdf" "main" 1636340048
+["pdflatex"] 1636681535 "main.tex" "main.pdf" "main" 1636681537
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -170,15 +170,15 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1586288259 2432462 fd0fa20e9a3cb5f8169fd0ba1c955158 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "box_plots.pdf" 1635217646 52766 b7909973bcf750f0455b17041b25f1a0 ""
-  "box_plots_selection.pdf" 1635223094 71740 a378710006ab55d325e737835b88651d ""
-  "heat_map.pdf" 1635128059 11910 6a826359dade0b987f5c35c602a4a825 ""
-  "main.aux" 1636339654 16557 76cf0961347d2fa383e6aa61ea573666 "pdflatex"
-  "main.bbl" 1636335913 16362 4985c8505af8d26389fe51e6c52e482d "bibtex main"
-  "main.tex" 1636340048 65022 c79f9199945c88ac6b12927b841a8bd2 ""
-  "outcomes.pdf" 1635204757 10101 4d237b292c5eb5207c8801146d3abbba ""
-  "param_space.pdf" 1635204601 71495 add63412165788cd4a0ee49cc9f21c02 ""
+  "box_plots.pdf" 1636671656 51482 37a0ec402b6943fa085e3d4334d7fdc4 ""
+  "box_plots_selection.pdf" 1636672225 69391 5f43bbac1d0a1eb3f5f036cb022993b2 ""
+  "heat_map.pdf" 1636667245 11926 4ed470e7907b046426a2778ac0bcb90f ""
+  "main.aux" 1636681537 16911 141c45566837e380e11deaa5f63cd063 "pdflatex"
+  "main.bbl" 1636681141 16772 bf09b23a51152f16ec0c585d1dc6ad7d "bibtex main"
+  "main.tex" 1636681535 66401 d43f4f7b497d975f8f1df268ba3cb392 ""
+  "outcomes.pdf" 1636666928 10244 a12f7ea5699e10e98af2c85dae50c246 ""
+  "param_space.pdf" 1636672809 67340 2c3a7973ca10f9a9ec71cc35aef9a87f ""
   (generated)
   "main.log"
-  "main.pdf"
   "main.aux"
+  "main.pdf"
