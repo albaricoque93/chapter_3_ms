@@ -1,4 +1,4 @@
-\begin{thebibliography}{62}
+\begin{thebibliography}{58}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong \& McGehee(1980)}]{armstrong1980competitive}
@@ -27,7 +27,7 @@ Bildstein, K.L., McDowell, S.G. \& Brisbin, I.L. (1989).
 \bibitem[{Bonduriansky \& Chenoweth(2009)}]{bonduriansky2009intralocus}
 Bonduriansky, R. \& Chenoweth, S.F. (2009).
 \newblock Intralocus sexual conflict.
-\newblock \emph{Trends in ecology \& evolution}, 24, 280--288.
+\newblock \emph{Trends in Ecology \& Evolution}, 24, 280--288.
 
 \bibitem[{Chesson(1994)}]{chesson1994multispecies}
 Chesson, P. (1994).
@@ -43,7 +43,7 @@ Chesson, P. (2000{\natexlab{a}}).
 \bibitem[{Chesson(2000{\natexlab{b}})}]{Chesson2000}
 Chesson, P. (2000{\natexlab{b}}).
 \newblock Mechanisms of maintenance of species diversity.
-\newblock \emph{Annual review of Ecology and Systematics}, 31, 343--366.
+\newblock \emph{Annual Review of Ecology and Systematics}, 31, 343--366.
 
 \bibitem[{Chesson(2003)}]{chesson2003quantifying}
 Chesson, P. (2003).
@@ -87,7 +87,7 @@ Connallon, T. \& Clark, A.G. (2014).
 \bibitem[{Connallon \& Hall(2018)}]{connallon2018environmental}
 Connallon, T. \& Hall, M.D. (2018).
 \newblock Environmental changes and sexually antagonistic selection.
-\newblock \emph{eLS}, pp. 1--7.
+\newblock \emph{eLS}, 1--7.
 
 \bibitem[{Connallon \emph{et~al.}(2018)Connallon, Sharma \&
   Olito}]{connallon_evolutionary_2018}
@@ -133,14 +133,14 @@ Ellner, S. \& Hairston~Jr, N.G. (1994).
 Ellner, S. \& Sasaki, A. (1996).
 \newblock Patterns of genetic polymorphism maintained by fluctuating selection
   with overlapping generations.
-\newblock \emph{theoretical population biology}, 50, 31--65.
+\newblock \emph{Theoretical Population Biology}, 50, 31--65.
 
 \bibitem[{Ellner \emph{et~al.}(2016)Ellner, Snyder \&
   Adler}]{ellner2016quantify}
 Ellner, S.P., Snyder, R.E. \& Adler, P.B. (2016).
 \newblock How to quantify the temporal storage effect using simulations instead
   of math.
-\newblock \emph{Ecology letters}, 19, 1333--1342.
+\newblock \emph{Ecology Letters}, 19, 1333--1342.
 
 \bibitem[{Ellner \emph{et~al.}(2019)Ellner, Snyder, Adler \&
   Hooker}]{ellner_expanded_2019}
@@ -165,7 +165,7 @@ Gavrilets, S. (2014).
 G{\"o}tmark, F., Post, P., Olsson, J. \& Himmelmann, D. (1997).
 \newblock Natural selection and sexual dimorphism: sex-biased sparrowhawk
   predation favours crypsis in female chaffinches.
-\newblock \emph{Oikos}, pp. 540--548.
+\newblock \emph{Oikos}, 540--548.
 
 \bibitem[{Hedrick(1974)}]{hedrick1974genetic}
 Hedrick, P.W. (1974).
@@ -188,14 +188,6 @@ Hedrick, P.W. (2007).
 \newblock Balancing selection.
 \newblock \emph{Current Biology}, 17, R230--R231.
 
-\bibitem[{Hoekstra \emph{et~al.}(2001)Hoekstra, Hoekstra, Berrigan, Vignieri,
-  Hoang, Hill, Beerli \& Kingsolver}]{hoekstra2001strength}
-Hoekstra, H.E., Hoekstra, J.M., Berrigan, D., Vignieri, S., Hoang, A., Hill,
-  C., Beerli, P. \& Kingsolver, J. (2001).
-\newblock Strength and tempo of directional selection in the wild.
-\newblock \emph{Proceedings of the National Academy of Sciences}, 98,
-  9157--9160.
-
 \bibitem[{Immler \emph{et~al.}(2012)Immler, Arnqvist \&
   Otto}]{immler2012ploidally}
 Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
@@ -207,7 +199,7 @@ Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
 \bibitem[{Innocenti \& Morrow(2010)}]{innocenti2010sexually}
 Innocenti, P. \& Morrow, E.H. (2010).
 \newblock The sexually antagonistic genes of drosophila melanogaster.
-\newblock \emph{PLoS biology}, 8, e1000335.
+\newblock \emph{PLoS Biology}, 8, e1000335.
 
 \bibitem[{Jordan \& Charlesworth(2012)}]{jordan2012potential}
 Jordan, C.Y. \& Charlesworth, D. (2012).
@@ -235,7 +227,7 @@ Kidwell, J., Clegg, M., Stewart, F. \& Prout, T. (1977).
 Lande, R. (1980).
 \newblock Sexual dimorphism, sexual selection, and adaptation in polygenic
   characters.
-\newblock \emph{Evolution}, pp. 292--305.
+\newblock \emph{Evolution}, 292--305.
 
 \bibitem[{Levins(1979)}]{levins1979coexistence}
 Levins, R. (1979).
@@ -259,7 +251,7 @@ Mitchell-Olds, T., Willis, J.H. \& Goldstein, D.B. (2007).
 Mori, E., Mazza, G. \& Lovari, S. (2017).
 \newblock Sexual dimorphism.
 \newblock \emph{Encyclopedia of Animal Cognition and Behavior (J. Vonk, and T.
-  Shakelford, Eds). Springer International Publishing, Switzerland}, pp. 1--7.
+  Shakelford, Eds). Springer International Publishing, Switzerland}, 1--7.
 
 \bibitem[{Morrissey(2016)}]{morrissey2016meta}
 Morrissey, M.B. (2016).
@@ -299,8 +291,8 @@ Pemberton, J., Smith, J., Coulson, T.N., Marshall, T.C., Slate, J., Paterson,
   Martin}]{promislow1992mortality}
 Promislow, D.E., Montgomerie, R. \& Martin, T.E. (1992).
 \newblock Mortality costs of sexual dimorphism in birds.
-\newblock \emph{Proceedings of the Royal Society of London. Series B:
-  Biological Sciences}, 250, 143--150.
+\newblock \emph{Proceedings of the Royal Society B: Biological Sciences}, 250,
+  143--150.
 
 \bibitem[{Radwan(2008)}]{radwan_maintenance_2008}
 Radwan, J. (2008).
@@ -314,24 +306,12 @@ Reinhold, K. (2000).
   sex-limited traits.
 \newblock \emph{Journal of Evolutionary Biology}, 13, 1009--1014.
 
-\bibitem[{Sasaki \& Ellner(1995)}]{sasaki1995evolutionarily}
-Sasaki, A. \& Ellner, S. (1995).
-\newblock The evolutionarily stable phenotype distribution in a random
-  environment.
-\newblock \emph{Evolution}, 49, 337--350.
-
 \bibitem[{Schreiber(2010)}]{schreiber2010interactive}
 Schreiber, S.J. (2010).
 \newblock Interactive effects of temporal correlations, spatial heterogeneity
   and dispersal on population persistence.
 \newblock \emph{Proceedings of the Royal Society B: Biological Sciences}, 277,
   1907--1914.
-
-\bibitem[{Schreiber(2020)}]{schreiber2020factors}
-Schreiber, S.J. (2020).
-\newblock When do factors promoting genetic diversity also promote population
-  persistence? a demographic perspective on gillespie’s sas-cff model.
-\newblock \emph{Theoretical population biology}, 133, 141--149.
 
 \bibitem[{Schreiber(2021)}]{schreiber2021positively}
 Schreiber, S.J. (2021).
@@ -344,18 +324,12 @@ Schreiber, S.J. (2021).
 Shoemaker, L.G., Barner, A.K., Bittleston, L.S. \& Teufel, A.I. (2020).
 \newblock Quantifying the relative importance of variation in predation and the
   environment for species coexistence.
-\newblock \emph{Ecology letters}, 23, 939--950.
+\newblock \emph{Ecology Letters}, 23, 939--950.
 
 \bibitem[{Steele(1985)}]{steele1985comparison}
 Steele, J.H. (1985).
 \newblock A comparison of terrestrial and marine ecological systems.
 \newblock \emph{Nature}, 313, 355--358.
-
-\bibitem[{Tylianakis \emph{et~al.}(2008)Tylianakis, Didham, Bascompte \&
-  Wardle}]{tylianakis2008global}
-Tylianakis, J.M., Didham, R.K., Bascompte, J. \& Wardle, D.A. (2008).
-\newblock Global change and species interactions in terrestrial ecosystems.
-\newblock \emph{Ecology letters}, 11, 1351--1363.
 
 \bibitem[{Van~Doorn(2009)}]{van2009intralocus}
 Van~Doorn, G.S. (2009).

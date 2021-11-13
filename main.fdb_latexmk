@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1636681141 "main.aux" "main.bbl" "main" 1636681537
+["bibtex main"] 1636772661 "main.aux" "main.bbl" "main" 1636772839
   "./ecology_letters.bst" 1629326454 31217 3ef79fc581785a9c2307ecf5276f883a ""
-  "coexistence.bib" 1636680866 46793 dc46f06d2bf0640a23a7aa841995f25b ""
-  "main.aux" 1636681537 16911 141c45566837e380e11deaa5f63cd063 "pdflatex"
+  "coexistence.bib" 1636772652 46780 bb2a03d8534167f9cfd0efbac0703ea2 ""
+  "main.aux" 1636772839 16068 76018859ad22b26b552100eed672ed9f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1636681535 "main.tex" "main.pdf" "main" 1636681537
+["pdflatex"] 1636772838 "main.tex" "main.pdf" "main" 1636772839
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
@@ -173,12 +173,12 @@
   "box_plots.pdf" 1636671656 51482 37a0ec402b6943fa085e3d4334d7fdc4 ""
   "box_plots_selection.pdf" 1636672225 69391 5f43bbac1d0a1eb3f5f036cb022993b2 ""
   "heat_map.pdf" 1636667245 11926 4ed470e7907b046426a2778ac0bcb90f ""
-  "main.aux" 1636681537 16911 141c45566837e380e11deaa5f63cd063 "pdflatex"
-  "main.bbl" 1636681141 16772 bf09b23a51152f16ec0c585d1dc6ad7d "bibtex main"
-  "main.tex" 1636681535 66401 d43f4f7b497d975f8f1df268ba3cb392 ""
+  "main.aux" 1636772839 16068 76018859ad22b26b552100eed672ed9f "pdflatex"
+  "main.bbl" 1636772661 15512 ffa51d0991a0f5c45d1721770a05d60a "bibtex main"
+  "main.tex" 1636772837 67236 5cb8cdc9fdff84c2bfe41dd4e17ef618 ""
   "outcomes.pdf" 1636666928 10244 a12f7ea5699e10e98af2c85dae50c246 ""
   "param_space.pdf" 1636672809 67340 2c3a7973ca10f9a9ec71cc35aef9a87f ""
   (generated)
-  "main.log"
   "main.aux"
   "main.pdf"
+  "main.log"
