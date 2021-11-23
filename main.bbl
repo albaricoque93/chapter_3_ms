@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{57}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Armstrong \& McGehee(1980)}]{armstrong1980competitive}
@@ -200,13 +200,6 @@ Immler, S., Arnqvist, G. \& Otto, S.P. (2012).
 Innocenti, P. \& Morrow, E.H. (2010).
 \newblock The sexually antagonistic genes of drosophila melanogaster.
 \newblock \emph{PLoS Biology}, 8, e1000335.
-
-\bibitem[{Jordan \& Charlesworth(2012)}]{jordan2012potential}
-Jordan, C.Y. \& Charlesworth, D. (2012).
-\newblock The potential for sexually antagonistic polymorphism in different
-  genome regions.
-\newblock \emph{Evolution: International Journal of Organic Evolution}, 66,
-  505--516.
 
 \bibitem[{Kasumovic \emph{et~al.}(2008)Kasumovic, Bruce, Andrade \&
   Herberstein}]{kasumovic2008spatial}
